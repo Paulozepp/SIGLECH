@@ -1,0 +1,241 @@
+================================================================================
+                    SIGLECH - INSTALACIÓN RÁPIDA
+                    ✅ 4 MÉTODOS DISPONIBLES
+                            2026-07-16
+================================================================================
+
+ELIGE TU MÉTODO DE INSTALACIÓN:
+
+================================================================================
+ MÉTODO 1: INSTALL.PHP (RECOMENDADO - MÁS FÁCIL)
+================================================================================
+
+¿Qué es?
+  Script web que instala SIGLECH sin necesidad de terminal
+
+Cómo usar:
+  1. Abre en tu navegador: http://localhost/SIGLECH/install.php
+  2. Verás la página de instalación
+  3. Click en "🚀 Instalar SIGLECH Ahora"
+  4. ¡Listo! Te muestra el resultado
+
+Ventajas:
+  ✅ Más fácil (interfaz visual)
+  ✅ No requiere terminal
+  ✅ Funciona en Windows, Linux, Mac
+  ✅ Muy rápido
+
+Requiere:
+  • Servidor web corriendo (Apache)
+  • MySQL corriendo
+  • Navegador web
+
+
+================================================================================
+ MÉTODO 2: SETUP.PHP (RECOMENDADO - MÁS CONTROL)
+================================================================================
+
+¿Qué es?
+  Asistente interactivo paso a paso con verificaciones
+
+Cómo usar:
+  1. Abre en tu navegador: http://localhost/SIGLECH/setup.php
+  2. Sigue los 4 pasos:
+     • Paso 1: Verificar Requisitos
+     • Paso 2: Probar Conexión a BD
+     • Paso 3: Ejecutar Instalación
+     • Paso 4: Finalización
+  3. ¡Listo! Accede a SIGLECH
+
+Ventajas:
+  ✅ Más detallado
+  ✅ Verifica requisitos
+  ✅ Interfaz paso a paso
+  ✅ Mejor diagnóstico de errores
+  ✅ Funciona en Windows, Linux, Mac
+
+Requiere:
+  • Servidor web corriendo (Apache)
+  • MySQL corriendo
+  • Navegador web
+
+
+================================================================================
+ MÉTODO 3: INSTALL-SIGLECH.BAT (WINDOWS)
+================================================================================
+
+¿Qué es?
+  Script de Windows que instala sin necesidad de navegador
+
+Cómo usar:
+  Opción A (más fácil):
+    1. Abre Explorador de Archivos
+    2. Navega a: C:\xampp\htdocs\SIGLECH\
+    3. Double-click en: install-siglech.bat
+    4. Se abre terminal automáticamente
+    5. Verás el progreso
+    6. ¡Listo!
+
+  Opción B (desde CMD):
+    1. Abre CMD
+    2. Ejecuta:
+       cd C:\xampp\htdocs\SIGLECH
+       install-siglech.bat
+
+Ventajas:
+  ✅ No requiere navegador
+  ✅ Double-click directo
+  ✅ No requiere servidor web
+  ✅ Muy rápido
+  ✅ Muestra todo en terminal
+
+Requiere:
+  • Windows
+  • MySQL instalado (XAMPP)
+  • MySQL en el PATH (automático si usas XAMPP)
+
+
+================================================================================
+ MÉTODO 4: INSTALL-SIGLECH.SH (LINUX/MAC)
+================================================================================
+
+¿Qué es?
+  Script Bash que instala sin necesidad de navegador
+
+Cómo usar:
+  1. Abre Terminal
+  2. Navega a:
+     cd /path/to/SIGLECH
+  3. Dale permisos:
+     chmod +x install-siglech.sh
+  4. Ejecuta:
+     ./install-siglech.sh
+  5. Sigue las instrucciones
+  6. ¡Listo!
+
+Ventajas:
+  ✅ No requiere navegador
+  ✅ No requiere servidor web
+  ✅ Script nativo del SO
+  ✅ Muy rápido
+  ✅ Output en color
+
+Requiere:
+  • Linux o macOS
+  • MySQL instalado en el sistema
+  • Terminal/Bash
+
+
+================================================================================
+                    ¿CUÁL DEBO ELEGIR?
+================================================================================
+
+USUARIO NOVATO:
+  → Usa MÉTODO 1 (install.php)
+    Más simple, interfaz visual, menos confuso
+
+USUARIO AVANZADO:
+  → Usa MÉTODO 2 (setup.php)
+    Más control, verifica requisitos, mejor diagnóstico
+
+WINDOWS DEVELOPER:
+  → Usa MÉTODO 3 (install-siglech.bat)
+    Doble-click, rápido, sin necesidad de navegador
+
+LINUX/MAC DEVELOPER:
+  → Usa MÉTODO 4 (install-siglech.sh)
+    Script nativo, automático, profesional
+
+
+================================================================================
+                    DATOS DE ACCESO DESPUÉS DE INSTALAR
+================================================================================
+
+URL:        http://localhost/SIGLECH
+Usuario:    admin
+Contraseña: admin
+
+⚠️  IMPORTANTE: Cambia la contraseña en el primer login
+
+
+================================================================================
+                    VERIFICACIÓN POST-INSTALACIÓN
+================================================================================
+
+Después de instalar con cualquier método:
+
+1. ✓ Acceso a http://localhost/SIGLECH funciona
+2. ✓ Logo muestra "✓ Conectado a SICOCH"
+3. ✓ KPI cards muestran números (0 es normal)
+4. ✓ Puedes hacer login (admin/admin)
+5. ✓ Base de datos tiene 8 tablas
+6. ✓ Sin errores en logs/errors.log
+
+
+================================================================================
+                    SOLUCIÓN DE PROBLEMAS
+================================================================================
+
+"Error: No se pudo conectar a MySQL"
+  → Verifica que XAMPP está corriendo (Apache + MySQL)
+  → Verifica credenciales en config.php
+  → Intenta: mysql -u root
+
+"Archivo schema.sql no encontrado"
+  → Verifica que existe: C:\xampp\htdocs\SIGLECH\database\schema.sql
+
+"Permiso denegado" (Linux/Mac)
+  → chmod +x install-siglech.sh
+  → chmod -R 755 SIGLECH/
+
+"MySQL no en PATH" (Windows)
+  → Usa método 1 o 2 (no requieren PATH)
+  → O agrega C:\xampp\mysql\bin al PATH
+
+
+================================================================================
+                    PRÓXIMOS PASOS
+================================================================================
+
+1. Elige tu método de instalación arriba
+2. Ejecuta la instalación
+3. Accede a http://localhost/SIGLECH
+4. Login (admin/admin)
+5. Cambia la contraseña
+6. ¡Comienza a usar SIGLECH!
+
+
+================================================================================
+                    DOCUMENTACIÓN
+================================================================================
+
+Para más información:
+  • GUIA_INSTALACION_AUTOMATICA.md - Guía detallada
+  • INICIO_RAPIDO.md - Primeros 3 pasos
+  • ARQUITECTURA_SIGLECH_API.md - Arquitectura técnica
+  • README.md - Introducción
+
+
+================================================================================
+                    CONTACTO
+================================================================================
+
+Autor:        Paulo Rebolledo
+Email:        paulorebolledo@gmail.com
+Institución:  Servicio de Salud Chiloé
+Fecha:        2026-07-16
+
+
+================================================================================
+                    ¡LISTO PARA INSTALAR!
+================================================================================
+
+Elige tu método y comienza la instalación. Es muy fácil y rápido.
+
+No necesitas línea de comandos complicada. Solo:
+  • Método 1: Open URL → Click button
+  • Método 2: Open URL → Follow steps
+  • Método 3: Double-click .bat
+  • Método 4: chmod + ./install.sh
+
+¡Vamos! 🚀

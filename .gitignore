@@ -1,0 +1,42 @@
+# SIGLECH .gitignore
+
+# Configuración local
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Cache
+cache/
+.cache
+
+# Vendor
+vendor/
+composer.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Uploads
+uploads/
+temp/
+
+# System
+.phpunit.result.cache
+Thumbs.db
+
+# Database backups
+*.sql.bak
+*.sql.gz
+
+# Datos crudos de importación (PHI real de pacientes - NO subir a git)
+Importacion/Lista de espera*/
+Importacion/*.zip

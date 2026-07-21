@@ -1,0 +1,340 @@
+{
+ "CNE": {
+  "n": 245815,
+  "rel": [
+   {
+    "rel": "PRESTA_MIN → Prestaciones_CNE_IQ + Maestro_Prestacion",
+    "col": "PRESTA_MIN",
+    "con_dato": 245815,
+    "pct_dato": 100,
+    "match": 245815,
+    "pct_match": 100.0,
+    "huerfanos": 0,
+    "top": []
+   },
+   {
+    "rel": "PRESTA_MIN → Prestaciones_CNE_IQ (sola)",
+    "col": "PRESTA_MIN",
+    "con_dato": 245815,
+    "pct_dato": 100,
+    "match": 245815,
+    "pct_match": 100.0,
+    "huerfanos": 0,
+    "top": []
+   },
+   {
+    "rel": "ESTAB_ORIG → Mantenedor_Establecimiento",
+    "col": "ESTAB_ORIG",
+    "con_dato": 245815,
+    "pct_dato": 100,
+    "match": 245814,
+    "pct_match": 100.0,
+    "huerfanos": 1,
+    "top": [
+     [
+      "201396",
+      1
+     ]
+    ]
+   },
+   {
+    "rel": "ESTAB_DEST → Mantenedor_Establecimiento",
+    "col": "ESTAB_DEST",
+    "con_dato": 245815,
+    "pct_dato": 100,
+    "match": 245815,
+    "pct_match": 100.0,
+    "huerfanos": 0,
+    "top": []
+   },
+   {
+    "rel": "E_OTOR_AT → Mantenedor_Establecimiento",
+    "col": "E_OTOR_AT",
+    "con_dato": 208502,
+    "pct_dato": 85,
+    "match": 208379,
+    "pct_match": 99.94,
+    "huerfanos": 123,
+    "top": [
+     [
+      "133,375.00",
+      16
+     ],
+     [
+      "201435",
+      7
+     ],
+     [
+      "133,150.00",
+      6
+     ]
+    ]
+   },
+   {
+    "rel": "C_SALIDA → Causales_Salidas",
+    "col": "C_SALIDA",
+    "con_dato": 208499,
+    "pct_dato": 85,
+    "match": 208499,
+    "pct_match": 100.0,
+    "huerfanos": 0,
+    "top": []
+   },
+   {
+    "rel": "TIPO_PREST → Tipo_Lista",
+    "col": "TIPO_PREST",
+    "con_dato": 245815,
+    "pct_dato": 100,
+    "match": 245815,
+    "pct_match": 100.0,
+    "huerfanos": 0,
+    "top": []
+   },
+   {
+    "rel": "RUN → Maestro_Pacientes",
+    "col": "RUN",
+    "con_dato": 245815,
+    "pct_dato": 100,
+    "match": 245811,
+    "pct_match": 100.0,
+    "huerfanos": 4,
+    "top": [
+     [
+      "21104052",
+      1
+     ],
+     [
+      "29274332",
+      1
+     ],
+     [
+      "9461467",
+      1
+     ]
+    ]
+   }
+  ]
+ },
+ "IQ": {
+  "n": 31690,
+  "rel": [
+   {
+    "rel": "PRESTA_MIN → Prestaciones_CNE_IQ + Maestro_Prestacion",
+    "col": "PRESTA_MIN",
+    "con_dato": 31690,
+    "pct_dato": 100,
+    "match": 31690,
+    "pct_match": 100.0,
+    "huerfanos": 0,
+    "top": []
+   },
+   {
+    "rel": "PRESTA_MIN → Prestaciones_CNE_IQ (sola)",
+    "col": "PRESTA_MIN",
+    "con_dato": 31690,
+    "pct_dato": 100,
+    "match": 31690,
+    "pct_match": 100.0,
+    "huerfanos": 0,
+    "top": []
+   },
+   {
+    "rel": "ESTAB_ORIG → Mantenedor_Establecimiento",
+    "col": "ESTAB_ORIG",
+    "con_dato": 31690,
+    "pct_dato": 100,
+    "match": 31690,
+    "pct_match": 100.0,
+    "huerfanos": 0,
+    "top": []
+   },
+   {
+    "rel": "ESTAB_DEST → Mantenedor_Establecimiento",
+    "col": "ESTAB_DEST",
+    "con_dato": 31690,
+    "pct_dato": 100,
+    "match": 31690,
+    "pct_match": 100.0,
+    "huerfanos": 0,
+    "top": []
+   },
+   {
+    "rel": "E_OTOR_AT → Mantenedor_Establecimiento",
+    "col": "E_OTOR_AT",
+    "con_dato": 25505,
+    "pct_dato": 80,
+    "match": 25383,
+    "pct_match": 99.52,
+    "huerfanos": 122,
+    "top": [
+     [
+      "133155.0",
+      44
+     ],
+     [
+      "133-165",
+      28
+     ],
+     [
+      "124250",
+      23
+     ]
+    ]
+   },
+   {
+    "rel": "C_SALIDA → Causales_Salidas",
+    "col": "C_SALIDA",
+    "con_dato": 25505,
+    "pct_dato": 80,
+    "match": 25505,
+    "pct_match": 100.0,
+    "huerfanos": 0,
+    "top": []
+   },
+   {
+    "rel": "TIPO_PREST → Tipo_Lista",
+    "col": "TIPO_PREST",
+    "con_dato": 31690,
+    "pct_dato": 100,
+    "match": 31690,
+    "pct_match": 100.0,
+    "huerfanos": 0,
+    "top": []
+   },
+   {
+    "rel": "RUN → Maestro_Pacientes",
+    "col": "RUN",
+    "con_dato": 31690,
+    "pct_dato": 100,
+    "match": 31690,
+    "pct_match": 100.0,
+    "huerfanos": 0,
+    "top": []
+   }
+  ]
+ },
+ "PROC": {
+  "n": 170041,
+  "rel": [
+   {
+    "rel": "PRESTA_MIN → Prestaciones_CNE_IQ + Maestro_Prestacion",
+    "col": "PRESTA_MIN",
+    "con_dato": 170041,
+    "pct_dato": 100,
+    "match": 170041,
+    "pct_match": 100.0,
+    "huerfanos": 0,
+    "top": []
+   },
+   {
+    "rel": "PRESTA_MIN → Prestaciones_CNE_IQ (sola)",
+    "col": "PRESTA_MIN",
+    "con_dato": 170041,
+    "pct_dato": 100,
+    "match": 274,
+    "pct_match": 0.16,
+    "huerfanos": 169767,
+    "top": [
+     [
+      "04-01-010",
+      51184
+     ],
+     [
+      "04-04-003",
+      21135
+     ],
+     [
+      "18-01-001",
+      19787
+     ]
+    ]
+   },
+   {
+    "rel": "ESTAB_ORIG → Mantenedor_Establecimiento",
+    "col": "ESTAB_ORIG",
+    "con_dato": 170041,
+    "pct_dato": 100,
+    "match": 170041,
+    "pct_match": 100.0,
+    "huerfanos": 0,
+    "top": []
+   },
+   {
+    "rel": "ESTAB_DEST → Mantenedor_Establecimiento",
+    "col": "ESTAB_DEST",
+    "con_dato": 170041,
+    "pct_dato": 100,
+    "match": 170041,
+    "pct_match": 100.0,
+    "huerfanos": 0,
+    "top": []
+   },
+   {
+    "rel": "E_OTOR_AT → Mantenedor_Establecimiento",
+    "col": "E_OTOR_AT",
+    "con_dato": 140662,
+    "pct_dato": 83,
+    "match": 140547,
+    "pct_match": 99.92,
+    "huerfanos": 115,
+    "top": [
+     [
+      "13396",
+      7
+     ],
+     [
+      "1333969",
+      5
+     ],
+     [
+      "1333996",
+      4
+     ]
+    ]
+   },
+   {
+    "rel": "C_SALIDA → Causales_Salidas",
+    "col": "C_SALIDA",
+    "con_dato": 140658,
+    "pct_dato": 83,
+    "match": 140658,
+    "pct_match": 100.0,
+    "huerfanos": 0,
+    "top": []
+   },
+   {
+    "rel": "TIPO_PREST → Tipo_Lista",
+    "col": "TIPO_PREST",
+    "con_dato": 170041,
+    "pct_dato": 100,
+    "match": 170041,
+    "pct_match": 100.0,
+    "huerfanos": 0,
+    "top": []
+   },
+   {
+    "rel": "RUN → Maestro_Pacientes",
+    "col": "RUN",
+    "con_dato": 170041,
+    "pct_dato": 100,
+    "match": 170035,
+    "pct_match": 100.0,
+    "huerfanos": 6,
+    "top": [
+     [
+      "21799188",
+      1
+     ],
+     [
+      "15113847",
+      1
+     ],
+     [
+      "21684972",
+      1
+     ]
+    ]
+   }
+  ]
+ }
+}

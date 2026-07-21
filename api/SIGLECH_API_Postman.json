@@ -1,0 +1,308 @@
+{
+  "info": {
+    "name": "SIGLECH API v1.0",
+    "description": "Colección de endpoints para testing con Postman",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Listas de Espera",
+      "item": [
+        {
+          "name": "Vigentes - CNE",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer siglech_henry_moraga_b3811accb58744198920e10932be47a5",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost/SIGLECH/api/v1/listas_espera/vigentes?tipo=CNE&especialidad=Cardiología&pagina=1&por_pagina=50",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "path": [
+                "SIGLECH",
+                "api",
+                "v1",
+                "listas_espera",
+                "vigentes"
+              ],
+              "query": [
+                {
+                  "key": "tipo",
+                  "value": "CNE"
+                },
+                {
+                  "key": "especialidad",
+                  "value": "Cardiología",
+                  "disabled": true
+                },
+                {
+                  "key": "pagina",
+                  "value": "1"
+                },
+                {
+                  "key": "por_pagina",
+                  "value": "50"
+                }
+              ]
+            },
+            "description": "Obtiene listas vigentes de CNE"
+          }
+        },
+        {
+          "name": "Vigentes - IQ",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer siglech_henry_moraga_b3811accb58744198920e10932be47a5",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost/SIGLECH/api/v1/listas_espera/vigentes?tipo=IQ&pagina=1&por_pagina=50",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "path": [
+                "SIGLECH",
+                "api",
+                "v1",
+                "listas_espera",
+                "vigentes"
+              ],
+              "query": [
+                {
+                  "key": "tipo",
+                  "value": "IQ"
+                },
+                {
+                  "key": "pagina",
+                  "value": "1"
+                },
+                {
+                  "key": "por_pagina",
+                  "value": "50"
+                }
+              ]
+            },
+            "description": "Obtiene listas vigentes de IQ"
+          }
+        },
+        {
+          "name": "Vigentes - PROC",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer siglech_henry_moraga_b3811accb58744198920e10932be47a5",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost/SIGLECH/api/v1/listas_espera/vigentes?tipo=PROC&pagina=1&por_pagina=50",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "path": [
+                "SIGLECH",
+                "api",
+                "v1",
+                "listas_espera",
+                "vigentes"
+              ],
+              "query": [
+                {
+                  "key": "tipo",
+                  "value": "PROC"
+                },
+                {
+                  "key": "pagina",
+                  "value": "1"
+                },
+                {
+                  "key": "por_pagina",
+                  "value": "50"
+                }
+              ]
+            },
+            "description": "Obtiene listas vigentes de PROC"
+          }
+        },
+        {
+          "name": "Vigentes - Filtro por días de espera",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer siglech_henry_moraga_b3811accb58744198920e10932be47a5",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost/SIGLECH/api/v1/listas_espera/vigentes?tipo=CNE&dias_espera_min=180&pagina=1&por_pagina=50",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "path": [
+                "SIGLECH",
+                "api",
+                "v1",
+                "listas_espera",
+                "vigentes"
+              ],
+              "query": [
+                {
+                  "key": "tipo",
+                  "value": "CNE"
+                },
+                {
+                  "key": "dias_espera_min",
+                  "value": "180"
+                },
+                {
+                  "key": "pagina",
+                  "value": "1"
+                },
+                {
+                  "key": "por_pagina",
+                  "value": "50"
+                }
+              ]
+            },
+            "description": "Obtiene vigentes en espera crítica (>180 días)"
+          }
+        },
+        {
+          "name": "Estadísticas",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer siglech_henry_moraga_b3811accb58744198920e10932be47a5",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost/SIGLECH/api/v1/listas_espera/estadisticas?tipo=todos",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "path": [
+                "SIGLECH",
+                "api",
+                "v1",
+                "listas_espera",
+                "estadisticas"
+              ],
+              "query": [
+                {
+                  "key": "tipo",
+                  "value": "todos"
+                }
+              ]
+            },
+            "description": "Obtiene estadísticas generales de todas las listas"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Autenticación",
+      "item": [
+        {
+          "name": "Prueba sin Token (debe fallar)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost/SIGLECH/api/v1/listas_espera/vigentes?tipo=CNE&pagina=1&por_pagina=10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "path": [
+                "SIGLECH",
+                "api",
+                "v1",
+                "listas_espera",
+                "vigentes"
+              ],
+              "query": [
+                {
+                  "key": "tipo",
+                  "value": "CNE"
+                },
+                {
+                  "key": "pagina",
+                  "value": "1"
+                },
+                {
+                  "key": "por_pagina",
+                  "value": "10"
+                }
+              ]
+            },
+            "description": "Esta petición debe fallar con error 401 (no autorizado)"
+          }
+        },
+        {
+          "name": "Prueba con Token Inválido (debe fallar)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer token_invalido_123456",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost/SIGLECH/api/v1/listas_espera/vigentes?tipo=CNE&pagina=1&por_pagina=10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "path": [
+                "SIGLECH",
+                "api",
+                "v1",
+                "listas_espera",
+                "vigentes"
+              ],
+              "query": [
+                {
+                  "key": "tipo",
+                  "value": "CNE"
+                },
+                {
+                  "key": "pagina",
+                  "value": "1"
+                },
+                {
+                  "key": "por_pagina",
+                  "value": "10"
+                }
+              ]
+            },
+            "description": "Esta petición debe fallar con error 401 (token inválido)"
+          }
+        }
+      ]
+    }
+  ]
+}

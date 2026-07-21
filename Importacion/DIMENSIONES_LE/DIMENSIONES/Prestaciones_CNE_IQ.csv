@@ -1,0 +1,1227 @@
+﻿CODIGO;Base REM;Tipo de Prestación;Código SIGTE;NOMBRE;Especialidad;Complejidad Nueva;Temporabilidad;Vigencia Entrada;Vigencia Salida
+1103001;SI;4;11-03-001;Malformaciones vasculares del cuero cabelludo incluye aneurisma cirsoideo;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103002;SI;4;11-03-002;Sinus pericrani, trat. quir.;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103003;SI;4;11-03-003;Hundimiento simple, reparación de;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103004;SI;4;11-03-004;Craneoplastía con autoinjerto;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103005;SI;4;11-03-005;Craneoplastía con prótesis (no incluye el valor de la prótesis);Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103006;SI;4;11-03-006;Tumores de calota, extirp. de;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103007;SI;4;11-03-007;Osteomielitis, limpieza quirúrgica;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103008;SI;4;11-03-008;Craniectomías descompresivas;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103009;SI;4;11-03-009;Reparación de fractura crecedora;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103010;SI;4;11-03-010;Craneotomías lineales;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103011;SI;4;11-03-011;Craniectomías c/s remodelación ósea;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103014;SI;4;11-03-014;Hematoma o absceso extradural, vaciamiento de;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103015;SI;4;11-03-015;Reparación de fístula de LCR;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103016;SI;4;11-03-016;Hematoma, empiema o colección subdural, vaciamiento de;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103017;SI;4;11-03-017;Quistes aracnoidales encefálicos, trat. quir. (suprasellares, temporales, cerebelosos, etc.);Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103018;SI;4;11-03-018;Ventriculostomía o instalación de derivativa ventricular externa o instalación de captor para medición de pic o punción biopsia o reservorio para administración de medicamentos;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103019;SI;4;11-03-019;Absceso cerebral, trat. quir.;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103020;SI;4;11-03-020;Tratamiento quirúrgico del traumatismo craneoencefálico  abierto o penetrante (herida a bala u otro elemento penetrante);Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103021;SI;4;11-03-021;Hundimiento expuesto, repar. de;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103022;SI;4;11-03-022;Lobectomías por contusión cerebral;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103023;SI;4;11-03-023;Hematoma intracerebral, vaciamiento de;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103024;SI;4;11-03-024;De base de cráneo, resección de tumores y/o quistes y/o cavernoma;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103025;SI;4;11-03-025;Intraorbitarios, resección de tumores y/o quistes y/o cavernoma ;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103026;SI;4;11-03-026;Encefálicos y de hipófisis, resección de tumores y/o quistes y/o cavernoma;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103027;SI;4;11-03-027;Aneurismas, malformaciones arteriovenosas encefálicas u orbitarias, fístulas durales;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103028;SI;4;11-03-028;Fístula carótido cavernosa tratamiento endovascular;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103029;SI;4;11-03-029;Fístula carótido cavernosa, trat. quir.;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103030;SI;4;11-03-030;Revascularización intracraneana indirecta (endodurosinangiosis, multitrepanación, emás, etc);Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103031;SI;4;11-03-031;Anastomosis y revascularización cerebral extra-intracraneana (cirugía de carótida: ver Cirugía Vascular Periférica);Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103032;SI;4;11-03-032;Instalación de derivativas de LCR (no incluye valor de la válvula);Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103033;SI;4;11-03-033;Revisión o exteriorización de derivativa;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103034;SI;4;11-03-034;Ventriculocisternostomía;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103035;SI;4;11-03-035;Fenestración, septostomía o coagulación plexos coroídeos (trat. endoscópico);Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103036;SI;4;11-03-036;Cirugía descompresiva de fosa posterior u occipito-vertebral en Malformación de Chiari y/o siringomielia;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103037;SI;4;11-03-037;Meningo y meningoencefalocele occipital, repar. de;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103038;SI;4;11-03-038;Cirugía descompresiva neurovascular;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103039;SI;4;11-03-039;Neurotomías;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103040;SI;4;11-03-040;Neurolisis o microcompresión percutánea;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103041;SI;4;11-03-041;Cirugía de la epilepsia (cualquier técnica);Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103042;SI;4;11-03-042;Biopsia estereotáxica cerebral con marco de estereotaxia o neuronavegador;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103043;SI;4;11-03-043;Termocoagulación de zonas cerebrales con radiofrecuencia o ultrasonido focalizado con técnica estereotáxica para el tratamiento de enfermedad de parkinson, temblor esencial, psicocirugía y otros;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103045;SI;4;11-03-045;Implantación de estimuladores intracraneanos;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103046;SI;4;11-03-046;Instalación de estimuladores medulares;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103047;SI;4;11-03-047;Disrafias espinales: meningocele, mielomeningocele, diastematomielia, lipoma, lipomeningocele, médula anclada, etc.;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103048;SI;4;11-03-048;Infiltración facetaria columna y radicular;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103049;SI;4;11-03-049;Hernia núcleo pulposo, estenorraquis, aracnoiditis, fibrosis perirradicular cervical, dorsal o lumbar, trat. quir.;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103050;SI;4;11-03-050;Laminectomía descompresiva;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103051;SI;4;11-03-051;Heridas raquimedulares, trat. quir.;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103052;SI;4;11-03-052;Tratamiento quirúrgico de tumor espinal extradural;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103053;SI;4;11-03-053;Extirpación de tumor o quiste medular o intrarraquídeo;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103054;SI;4;11-03-054;Malformación arteriovenosa o fístula dural medular, trat. quir.;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103055;SI;4;11-03-055;Cordotomía percutánea;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103056;SI;4;11-03-056;Mielotomía, DREZtomía;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103057;SI;4;11-03-057;Rizotomía (cualquier técnica);Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103058;SI;4;11-03-058;Tumor de nervio periférico, extirp. de;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103059;SI;4;11-03-059;Reparación de plexos c/s neurotización con técnica microquirúrgica o injertos interfasciculares;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103060;SI;4;11-03-060;Sección de nervio, reparación con injerto;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103061;SI;4;11-03-061;Sección de nervio, reparación sin injerto;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103062;SI;4;11-03-062;Neurolisis con técnica microquirúrgica;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103063;SI;4;11-03-063;Neurolisis externa;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103064;SI;4;11-03-064;Síndrome del escaleno, trat. quir.;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103065;SI;4;11-03-065;Síndrome de costilla cervical, trat. quir.;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103066;SI;4;11-03-066;Liberación quirúrgica de nervio periférico extracraneano (trat. quir. del Síndrome del Túnel Carpiano, tarso u otro);Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103067;SI;4;11-03-067;Liberación de nervio cubital a nivel del codo, cualquier técnica;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103068;SI;4;11-03-068;Neurectomía, cualquier localización, cada zona quirúrgica;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103069;SI;4;11-03-069;Fijación de columna (cervical-dorsal-lumbar) cualquier vía abordaje, c/s osteosíntesis.;Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103132;SI;4;11-03-132;Instalación de derivativas de LCR (incluye valor de la válvula);Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202001;SI;4;12-02-001;Intubación vía lagrimal;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202002;SI;4;12-02-002;Puntos lagrimales, plastía de;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202003;SI;4;12-02-003;Reconstitución de canalículos;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202004;SI;4;12-02-004;Absceso, vaciamiento y/o drenaje de saco y/o glándula lagrimal;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202005;SI;4;12-02-005;Dacriocistorrinostomía;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202006;SI;4;12-02-006;Extirpación de saco y/o glándula lagrimal;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202007;SI;4;12-02-007;Reconstitución vía lagrimal en ausencia del saco;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202008;SI;4;12-02-008;Extirpación total o parcial de la glándula lagrimal ;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202009;SI;4;12-02-009;Tumor maligno  del saco, trat. quir. completo;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202010;SI;4;12-02-010;Absceso, trat. quir. párpado o ceja;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202011;SI;4;12-02-011;Biopsia de párpado y/o anexos (proc. aut.);Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202012;SI;4;12-02-012;Blefarochalasis, plastía de;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202013;SI;4;12-02-013;Blefarofimosis, plastía de;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202014;SI;4;12-02-014;Blefarorrafia con blefarotomía posterior;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202015;SI;4;12-02-015;Cantoplastía;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202016;SI;4;12-02-016;Chalazión y otros tumores benignos (uno o más, unilateral), trat. quir. completo;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202017;SI;4;12-02-017;Coloboma, plastía de;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202018;SI;4;12-02-018;Ectropión, plastía de;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202019;SI;4;12-02-019;Entropión, plastía de;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202020;SI;4;12-02-020;Epicanto, plastía de;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202021;SI;4;12-02-021;Ptosis, trat. quir.;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202022;SI;4;12-02-022;Quiste dermoide de la cola de la ceja, resec. plástica;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202023;SI;4;12-02-023;Tumor maligno de párpado o ceja, trat. quir. completo;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202024;SI;4;12-02-024;Xantelasma, trat. quir.;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202025;SI;4;12-02-025;Herida o dehiscencia de la conjuntiva, sutura de (proc. aut.);Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202026;SI;4;12-02-026;Pterigión y/o pseudopterigión o su recidiva, extirpación;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202027;SI;4;12-02-027;Simbléfaron, resección de adherencias y plastía de;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202028;SI;4;12-02-028;Extirpación de tumor benigno de la conjuntiva;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202029;SI;4;12-02-029;Absceso orbitario, trat. quir.;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202030;SI;4;12-02-030;Corrección de cavidad anoftálmica trat. completo;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202031;SI;4;12-02-031;Cuerpo extraño orbitario (con orbitotomía);Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202032;SI;4;12-02-032;Exanteración orbitaria o tumor orbitario, trat. quirúrgico completo;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202033;SI;4;12-02-033;Orbitotomía anterior;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202034;SI;4;12-02-034;Orbitotomía lateral descompresiva;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202035;SI;4;12-02-035;Biopsia de globo ocular (proc. aut.);Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202036;SI;4;12-02-036;Enucleación o implante de prótesis ocular (proc. aut.);Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202037;SI;4;12-02-037;Enucleación con implante;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202038;SI;4;12-02-038;Tratamiento quirúrgico completo del estrabismo unilateral o bilateral;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202039;SI;4;12-02-039;Exanteración ocular (proc. aut.);Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202040;SI;4;12-02-040;Sutura de lesión traumática de globo o musculos oculares (proc. aut.);Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202041;SI;4;12-02-041;Cirugía refractiva, queratotomía radial o similar con bisturí de diamante;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202042;SI;4;12-02-042;Crioterapia y recesión conjuntival;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202044;SI;4;12-02-044;Extracción quir. de cuerpo extraño en cornea y/o esclera;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202045;SI;4;12-02-045;Glaucoma, trat. quir. por cualquier técnica;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202046;SI;4;12-02-046;Herida corneal o corneo-escleral o dehiscencia de sutura;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202047;SI;4;12-02-047;Queratectomía laminar;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202048;SI;4;12-02-048;Queratoplastía. Injerto lamelar o penetrante trat. quir. Completo;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202049;SI;4;12-02-049;Queratoprótesis, implantación de (no incluye el valor de la prótesis);Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202050;SI;4;12-02-050;Recubrimiento conjuntival;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202051;SI;4;12-02-051;Rehabilitación superficie ocular (con injerto de mucosa);Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202053;SI;4;12-02-053;Iridectomía periférica y/u óptica, (proc. aut.);Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202054;SI;4;12-02-054;Tratamiento quirúrgico de lesión tumoral del iris o cuerpo ciliar;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202055;SI;4;12-02-055;Desgarro  con o sin desprendimiento, diatermo y/o crio y/o fotocoagulación (incluye endofotocoagulación intraquirúrgica );Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202056;SI;4;12-02-056;Desprendimiento retinal, cirugía convencional (exoimplantes);Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202057;SI;4;12-02-057;Retinopatía proliferativa, (diabética, hipertensiva, eales y otras) panfotocoagulación trat. completo   (incluye endofotocoagulación intraquirúrgica );Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202058;SI;4;12-02-058;Tumor retinal o coroidal, diatermo y/o crio y/o fotocoagulación de;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202059;SI;4;12-02-059;Vasculopatía retinal (excepto retinopatía proliferativa) diatermo y/o crio y/o fotocoagulación ( incluye endofotocoagulación intraquirùrgica);Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202060;SI;4;12-02-060;Vitrectomía c/retinotomía (c/s inyección de gas o silicona);Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202061;SI;4;12-02-061;Vitrectomía con inyección de gas o silicona;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202062;SI;4;12-02-062;Vitrectomía con vitreófago (proc. aut);Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202063;SI;4;12-02-063;Facoéresis intracapsular o catarata secundaria o discisión y aspiración de masas;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202064;SI;4;12-02-064;Facoéresis extracapsular con implante de lente intraocular (no incluye el valor de la prótesis);Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202065;SI;4;12-02-065;Implante secundario de lente intraocular;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202066;SI;4;12-02-066;Aspiración esferular c/s capsulotomía;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202067;SI;4;12-02-067;Discisión de cápsula posterior;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202068;SI;4;12-02-068;Iridotomía;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202069;SI;4;12-02-069;Trabeculoplastía o iridoplastía;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202070;SI;4;12-02-070;Sinequiotomía (proc. aut.);Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202071;SI;4;12-02-071;Herida o dehiscencia de sutura de párpado, reparación;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1202072;SI;4;12-02-072;Reconstrucción de paredes orbitarias;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202073;SI;4;12-02-073;Operación triple (injerto, facoéresis e implante de lente intraocular) (no incluye valor de la prótesis);Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202074;SI;4;12-02-074;Hernia de iris y/o fístulas, reparación de;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202075;SI;4;12-02-075;Retinopexia neumática;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202076;SI;4;12-02-076;Extracción o corrección de desplazamiento de lente intraocular;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202077;SI;4;12-02-077;Desprendimiento coroídeo o hemorragia coroídea, trat. quir.;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202078;SI;4;12-02-078;Cirugía fotorrefractiva o fototerapéutica de córnea, cualquier técnica;Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202164;SI;4;12-02-164;Facoéresis extracapsular con implante de lente intraocular (incluye el valor de la prótesis);Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1202173;SI;4;12-02-173;Operación triple (injerto, facoéresis e implante de lente intraocular) (incluye valor de la prótesis);Oftalmología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302002;SI;4;13-02-002;Extracción cuerpo extraño en conducto auditivo externo;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302003;SI;4;13-02-003;Fístula preauricular complicada, trat. quir.;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302004;SI;4;13-02-004;Extirpación de tumor de conducto auditivo externo;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302005;SI;4;13-02-005;Tumor maligno oído externo, trat. quir.;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302006;SI;4;13-02-006;Estapedectomía o estapedostomía ;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302007;SI;4;13-02-007;Mastoidectomía c/s sección cuerda del tímpano;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302008;SI;4;13-02-008;Tratamiento quirúrgico de Mucositis timpánica, otitis media con efusión uni o bilateral;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302009;SI;4;13-02-009;Operación radical de oído;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302011;SI;4;13-02-011;Reconstitución funcional de oído radicalizado;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302012;SI;4;13-02-012;Timpanoplastía funcional (cualquier tipo) c/s mastoidectomía;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302013;SI;4;13-02-013;Reconstitución plástica de conducto auditivo externo cartilaginoso;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302014;SI;4;13-02-014;Exostosis u osteoma oído medio o externo, resección por cualquier vía  ;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302015;SI;4;13-02-015;Neurectomía de Jacobson;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302016;SI;4;13-02-016;Reconstitución de conducto auditivo externo, c/s timpanoplastía (incluye revisión de cadena osicular);Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302017;SI;4;13-02-017;Tratamiento quirúrgico de tumor glómico timpánico;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302018;SI;4;13-02-018;Laberintectomía;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302019;SI;4;13-02-019;Neurinoma del acústico, trat. quir. vía translaberíntica y/o fosa media;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302020;SI;4;13-02-020;Descompresión intraósea nervio facial c/s plastía;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302021;SI;4;13-02-021;Lesiones a nivel del conducto auditivo interno, trat. quir.;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302022;SI;4;13-02-022;Biopsia buco-faríngea (proc. aut.);Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302023;SI;4;13-02-023;Sección y/o resección frenillos cavidad bucal;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302024;SI;4;13-02-024;Drenaje de absceso o flegmón de piso de boca;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302025;SI;4;13-02-025;Drenaje de absceso o flegmón periamigdaliano;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302026;SI;4;13-02-026;Drenaje de absceso o flegmón retrofaríngeo o faringolaríngeo;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302028;SI;4;13-02-028;Adenoidectomía (proc. aut.);Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302029;SI;4;13-02-029;Amigdalectomía c/s adenoidectomía, uni o bilateral;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302030;SI;4;13-02-030;Extracción de cálculos o tapones salivales;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302031;SI;4;13-02-031;Tumor benigno de la mucosa bucal,  extirp. c/s  biopsia bucofaríngea;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302032;SI;4;13-02-032;Tumor maligno de las amígdalas, trat. quir.;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302033;SI;4;13-02-033;Extirpación de  tumor benigno de la base de la lengua                                                                                      ;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302034;SI;4;13-02-034;Extirpación tumor maligno de base de lengua;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302035;SI;4;13-02-035;Faringoplastía (cualq. técn.), c/s desplazamiento de colgajos;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302036;SI;4;13-02-036;Fibroangioma del rinofarinx, trat. quir.;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302037;SI;4;13-02-037;Glosectomía total;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302038;SI;4;13-02-038;Abscesos y hematoma del tabique nasal, trat. quir.;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302039;SI;4;13-02-039;Arteria esfenopalatina, cauterización por vía nasal;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302040;SI;4;13-02-040;Arteria maxilar interna, ligadura de (por vía transmaxilar);Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302041;SI;4;13-02-041;Ligadura de arterias etmoidales anteriores;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302042;SI;4;13-02-042;Turbinectomía o cauterización de cornetes, cualquier técnica ;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302043;SI;4;13-02-043;Conducto y/o seno lagrimal, obstrucción del, trat. quir. por vía nasal;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302044;SI;4;13-02-044;Etmoidectomía endo o exonasal;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302045;SI;4;13-02-045;Tratamiento quirúrgico de las fistulas buco-sinusales o buco-nasales  y/o retiro cuerpos extraños del seno maxilar;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302046;SI;4;13-02-046;Fract. nasal reciente, cerrada o expuesta, reducción c/s inmovilización ;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302047;SI;4;13-02-047;Nervio vidiano, sección del (por cualquier vía);Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302048;SI;4;13-02-048;Perforación del tabique, trat. quir.;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302049;SI;4;13-02-049;Tratamiento quirúrgico pólipo nasal;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302050;SI;4;13-02-050;Rinitis atrófica, trat. por inclusión submucosa, con cualquier material, uni o bilateral;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302051;SI;4;13-02-051;Rinofima, trat. quir.;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302052;SI;4;13-02-052;Rinoplastía y/o septoplastía, cualquier técnica;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302053;SI;4;13-02-053;Seno esfenoidal, abertura por cualquier vía ;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302054;SI;4;13-02-054;Tratamiento quirúrgico de seno frontal, cualquier vía;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302055;SI;4;13-02-055;Antrostomía seno maxilar, cualquier vía;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302056;SI;4;13-02-056;Sinequia nasal, trat. quir.;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302057;SI;4;13-02-057;Tumor nasal, extirp. por rinotomía lateral;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302058;SI;4;13-02-058;Vaciamiento etmoidal por vía nasal c/s polipectomía;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302059;SI;4;13-02-059;Aritenoidectomía vía endoscópica;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302060;SI;4;13-02-060;Aritenoidectomía vía externa;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302061;SI;4;13-02-061;Decorticación de cuerdas vocales c/microscopio;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302062;SI;4;13-02-062;Tumor benigno de cuerdas vocales, trat. quirúrgico por vía abierta ;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302063;SI;4;13-02-063;Tumor benigno de cuerdas vocales, trat. quirúrgico por vía endoscópica;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302064;SI;4;13-02-064;Cordectomía, resección de sinequia y otras malformaciones, trat. quirúrgico por vía externa ;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302065;SI;4;13-02-065;Estenosis laringotraqueales y/o faríngeas, trat. quir. por vía abierta (incluye reconstrucción laringotraqueal) ;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302066;SI;4;13-02-066;Laringectomía parcial o subtotal (cualquier técnica);Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302067;SI;4;13-02-067;Laringectomía total más faringectomía parcial;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302068;SI;4;13-02-068;Laringectomía total más faringectomía total y/o esofagectomía cervical;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302069;SI;4;13-02-069;Laringocele, trat. quir.;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302070;SI;4;13-02-070;Papilomas laríngeos, trat. quir. (por sesión);Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1302071;SI;4;13-02-071;Parálisis de cuerdas vocales, trat. quir. cualquier técnica;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302072;SI;4;13-02-072;Traqueostomía (proc. aut.);Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1302073;SI;4;13-02-073;Estenosis laringotraqueales y faríngeas, trat. quir. por vía endoscópica (incluye laser) ;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1402001;SI;4;14-02-001;Tiroidectomía bilateral total;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402002;SI;4;14-02-002;Tiroidectomía bilateral subtotal;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402003;SI;4;14-02-003;Bocio intratorácico, trat. quir. por esternotomía;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402004;SI;4;14-02-004;Extirpación de Tiroides lingual;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402005;SI;4;14-02-005;Lobectomía con o sin istmectomía o resección parcial;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402006;SI;4;14-02-006;Tiroidectomía total ampliada (incluye extirpación de estructuras anatómicas vecinas);Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402007;SI;4;14-02-007;Autotransplante de paratiroides (operación asociada a algunas de las prestaciones de tiroides y paratiroides);Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402008;SI;4;14-02-008;Paratiroidectomía o exploración paratiroides con exploración de mediastino, abordaje transtorácico.;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402009;SI;4;14-02-009;Paratiroidectomía o exploración de paratiroides (abordaje cervical, clásico o mínimamente invasivo);Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402010;SI;4;14-02-010;Reexploración cervical paratiroides por persistencia o recidiva hiperparatiroidismo;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402011;SI;4;14-02-011;Parotidectomía suprafacial con disección y preservación del nervio facial;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402012;SI;4;14-02-012;Parotidectomía total, con disección y preservación del nervio facial.;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402013;SI;4;14-02-013;Parotidectomía total ampliada (incluye músculos, ganglios, articulaciones y rama vertical de la mandíbula);Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402014;SI;4;14-02-014;Totalización de parotidectomía previa o parotidectomía del lóbulo profundo;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402015;SI;4;14-02-015;Extirpación submandibular ampliada (incluye piso de boca, arco mandibular, músculos y articulaciones)  ;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402016;SI;4;14-02-016;Extirpación de glándula salival submandibular;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402017;SI;4;14-02-017;Extirpación glándula salival sublingual;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402018;SI;4;14-02-018;Extirpación sublingual ampliada (incluye piso de boca, arco mandibular, músculos, ganglios y articulaciones)   ;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402019;SI;4;14-02-019;Absceso parotídeo, sub-maxilar y/o cervical profundo, trat. quir.;Cirugía de Cabeza y Cuello;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1402020;SI;4;14-02-020;Conductos salivales de excreción, reimplantación oro-faríngea;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402021;SI;4;14-02-021;Cierre de fístula salival: reparación del conducto de excreción;Cirugía de Cabeza y Cuello;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1402022;SI;4;14-02-022;Extirpación de quiste o mucocele de glándula salival menor de labios;Cirugía de Cabeza y Cuello;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1402023;SI;4;14-02-023;Tratamiento quirúrgico Torticolis Congénita;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402024;SI;4;14-02-024;Quistes y/o fístulas del conducto tirogloso, y/o branquial, y/o higroma, y/o fístula preauricular complicada, y/u otros quistes y/o tumores benignos, trat. quir.;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402025;SI;4;14-02-025;Tumores del cuerpo carotídeo, trat. quir. (incl. proc. vascular);Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402026;SI;4;14-02-026;Biopsia quir., mucosa oronasofaríngea (proc. aut.);Cirugía de Cabeza y Cuello;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1402027;SI;4;14-02-027;Biopsia quir., piel  y mucosa cara (proc. aut.);Cirugía de Cabeza y Cuello;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1402028;SI;4;14-02-028;"Resección cutánea ampliada (incluye musculatura, ganglios y huesos subyacentes; desplazamiento de colgajos)";Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402029;SI;4;14-02-029;Resección cutánea simple (sutura primaria);Cirugía de Cabeza y Cuello;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1402030;SI;4;14-02-030;Tumor maligno de labio superior o inferior, resección total del labio y cirugía reparadora;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402031;SI;4;14-02-031;Tumor maligno de labio superior o inferior, resección parcial del labio y cirugía reparadora;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402032;SI;4;14-02-032;Resección parcial y cirugía reparadora nariz;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402033;SI;4;14-02-033;Resección total y cirugía reparadora nariz;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402034;SI;4;14-02-034;Extirpación ampliada de nariz incluyendo parte esqueleto facial (naso-etmoidiana);Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402035;SI;4;14-02-035;Exanteración orbitaria ampliada (incluye etmoides, hueso frontal, base de cráneo anterior y región máxilo-malar);Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402036;SI;4;14-02-036;Extirpación total ampliada del hueso temporal;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402037;SI;4;14-02-037;Maxilectomia parcial y reparación protésica;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402038;SI;4;14-02-038;"Maxilectomía parcial (incluye paladar óseo; reparación con colgajo)";Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402039;SI;4;14-02-039;Maxilectomía radical ampliada (incluye exanteración orbitaria y de fosa craneal anterior o media);Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402040;SI;4;14-02-040;Maxilectomía radical clásica (incluye exanteración orbitaria y reparación con colgajo);Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402041;SI;4;14-02-041;Maxilectomía radical clásica (incluye exanteración orbitaria y reparación protésica);Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402042;SI;4;14-02-042;Glosectomía parcial, reparación primaria;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402043;SI;4;14-02-043;Resección amplia de tumor maligno cavidad oral y orofaringea y disección ganglionar cervical;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402044;SI;4;14-02-044;Hemimandibulectomía;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402045;SI;4;14-02-045;Mandibulectomía total;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402046;SI;4;14-02-046;"Operación ""comando"" (incluye extirp. del tumor, hemimandibulectomía y disección ganglionar radical de cuello)";Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402047;SI;4;14-02-047;Resección parcial de mandíbula;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402048;SI;4;14-02-048;Extirpación de tumor intraoral amplia en tercio posterior cavidad oral (región faringea) ;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402050;SI;4;14-02-050;Faringectomía parcial;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402051;SI;4;14-02-051;Genioplastía;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402052;SI;4;14-02-052;Osteotomias segmentarias del maxilar o mandíbula;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402053;SI;4;14-02-053;Osteotomias totales del maxilar o mandibula (tipo Le Fort I o sagital de rama);Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402054;SI;4;14-02-054;Reducción cerrada de fracturas maxilofaciales;Cirugía de Cabeza y Cuello;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1402055;SI;4;14-02-055;Reducción abierta de fracturas maxilofaciales y estabilización con elementos de osteosíntesis;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402056;SI;4;14-02-056;Reducción abierta de fracturas maxilofaciales con osteosíntesis única;Cirugía de Cabeza y Cuello;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1402057;SI;4;14-02-057;Reconstrucciones complejas de la cara simultáneas con proc. neuroquirúrgico (craneotomías más abordajes y trat. facial), tiempo facial;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402058;SI;4;14-02-058;Reconstrucciones de partes duras y blandas de la cara, mediante abordajes múltiples y hemicoronal o coronal;Cirugía de Cabeza y Cuello;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1402059;SI;4;14-02-059;Remoción de arcos dentarios o ligaduras de alambre ;Cirugía de Cabeza y Cuello;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1402060;SI;4;14-02-060;Remoción simple (proc.aut.);Cirugía de Cabeza y Cuello;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1502001;SI;4;15-02-001;Heridas de la cara complicadas: 1 o varias de más de 5 cms. y/o ubicadas en bordes de párpados, labios o ala nasal y/o que comprometen músculos, conductos, vasos o nervios;Plástica y Reparadora;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1502002;SI;4;15-02-002;Heridas de la cara simples: 1 o varias de hasta 5 cms. que sólo comprometen piel;Plástica y Reparadora;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1502003;SI;4;15-02-003;Implante de silicona facial (cualquier zona o zonas);Plástica y Reparadora;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1502004;SI;4;15-02-004;Resección plástica de hasta 2 cicatrices (cualquier localización o tamaño);Plástica y Reparadora;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1502005;SI;4;15-02-005;Resección plástica de 3 o más cicatrices (cualquier localización o tamaño) ;Plástica y Reparadora;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1502006;SI;4;15-02-006;Injertos  hasta 1% superficie corporal receptora;Plástica y Reparadora;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1502007;SI;4;15-02-007;Injertos  hasta 5% superficie corporal receptora;Plástica y Reparadora;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1502008;SI;4;15-02-008;Injertos hasta 10% superficie corporal receptora;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502009;SI;4;15-02-009;Injertos por cada 10% (o su fracción) adicional hasta 50%;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502010;SI;4;15-02-010;Injertos 51% y más de superficie corporal receptora;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502011;SI;4;15-02-011;Piel total, cualquier tamaño (incluye tratamiento zona dadora y receptora);Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502012;SI;4;15-02-012;Toma de injertos cartílago (auricular, costal o similares) c/u;Plástica y Reparadora;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1502013;SI;4;15-02-013;Toma de injertos-óseo (costal, ilíaco, tibial o similares) c/u.;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502014;SI;4;15-02-014;Plastías en Z, hasta 3;Plástica y Reparadora;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1502015;SI;4;15-02-015;Plastías en Z, 4 y más;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502016;SI;4;15-02-016;Colgajos complejos (Abbe, Mustarda, Converse, Juri, Bakamjian o similar);Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502017;SI;4;15-02-017;Colgajos libres con microanastomosis (incluye toma del colgajo y las suturas neurovasculares);Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502018;SI;4;15-02-018;Colgajos musculares o musculocutáneos;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502019;SI;4;15-02-019;Colgajos osteomusculocutáneos;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502020;SI;4;15-02-020;Colgajos simples dos o más;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502021;SI;4;15-02-021;Colgajo simple único;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502022;SI;4;15-02-022;Parálisis facial, trasplantes musculares;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502023;SI;4;15-02-023;Ridectomía cérvico-facial, un lado;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502024;SI;4;15-02-024;Ridectomía frontal;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502025;SI;4;15-02-025;Orejas aladas o en asa, corrección plástica;Plástica y Reparadora;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1502026;SI;4;15-02-026;Lóbulo auricular partido, corrección plástica (proc. aut);Plástica y Reparadora;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1502027;SI;4;15-02-027;Malformación congénita compleja en orejas, cada plastía o plastías en tiempos diferentes;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502028;SI;4;15-02-028;Corrección nasal parcial (alares, alargamiento columela o similar);Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502029;SI;4;15-02-029;Blefaroplastia párpados inferiores, uni o bilateral;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502030;SI;4;15-02-030;Blefaroplastia párpados superiores, uni o bilateral;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502031;SI;4;15-02-031;Corrección quirúrgica secundaria de queiloplastía;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502032;SI;4;15-02-032;Queiloplastía primaria, un lado (proc. quir. completo por cualquier técnica);Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502033;SI;4;15-02-033;Cierre de paladar duro y/o cierre de comunicación oro-nasal;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502034;SI;4;15-02-034;Cierre mucoso vestíbulo oral o gingivo-periostio-plastía ;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502035;SI;4;15-02-035;Plastia de velo (cualquier técnica);Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502036;SI;4;15-02-036;Cierre de macrostomía, unilateral;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502037;SI;4;15-02-037;Tratamiento quirúrgico de anomalías cráneo faciales;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502038;SI;4;15-02-038;Reconstrucción osteoplástica reborde alveolar bilateral en un tiempo;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502039;SI;4;15-02-039;Reconstrucción osteoplástica reborde alveolar unilateral;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502040;SI;4;15-02-040;Distoplasias orbitarias: movilización unilateral o vertical tiempo facial;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502041;SI;4;15-02-041;Expansión o reconstrucción de un micro-orbitismo;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502042;SI;4;15-02-042;Síndrome de Apert Crouzon o similar: avance fronto-orbito-maxilar vía intracraneana, tiempo facial;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502043;SI;4;15-02-043;Síndrome de Apert Crouzon o similar: osteotomía tipo Le Fort III o similar;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502044;SI;4;15-02-044;Corrección telecanto;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502045;SI;4;15-02-045;Movilización orbitaria extracraneana;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502046;SI;4;15-02-046;Movilización orbitaria intracraneana, tiempo facial;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502047;SI;4;15-02-047;Ginecomastia, corrección plástica;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502048;SI;4;15-02-048;Mamoplastía de aumento (unilateral);Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502049;SI;4;15-02-049;Mamoplastía de reducción;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502050;SI;4;15-02-050;Mastopexia c/s implante de prótesis (no incluye valor de la prótesis);Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502051;SI;4;15-02-051;Reconstrucción areola y/o pezón c/s plastía (proc. aut.);Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502052;SI;4;15-02-052;Reconstrucción mamaria;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502053;SI;4;15-02-053;Abdominoplastia;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502054;SI;4;15-02-054;Escarectomía con resección ósea c/s colgajo de rotación;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502055;SI;4;15-02-055;Tratamiento de escaras de decubito, con resección ósea y colgajos musculares o musculocutáneos;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502056;SI;4;15-02-056;Sindactilia, trat. quir. cada espacio con injerto;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502057;SI;4;15-02-057;Sindactilia, trat. quir. cada espacio sin injerto;Plástica y Reparadora;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1502058;SI;4;15-02-058;Polidactilia, extirpación y plastía unilateral;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502059;SI;4;15-02-059;Lipectomía glútea, unilateral;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502060;SI;4;15-02-060;Lipectomía trocantérea, unilateral;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502061;SI;4;15-02-061;Escarotomía hasta 10 % superficie corporal;Plástica y Reparadora;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1502062;SI;4;15-02-062;Escarotomía por cada 10 % adicional (o su fracción);Plástica y Reparadora;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1502063;SI;4;15-02-063;Escarectomía hasta 1 % superficie corporal;Plástica y Reparadora;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1502064;SI;4;15-02-064;Escarectomía hasta 5 % superficie corporal;Plástica y Reparadora;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1502065;SI;4;15-02-065;Escarectomía  hasta 10% superficie corporal;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1502066;SI;4;15-02-066;Escarectomía por cada 10% adicional (o su fracción) (Se cobrará cód. ad. una sóla vez por superficie entre el 11% y 50%).;Plástica y Reparadora;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1602201;SI;4;16-02-201;Biopsia de piel y/o mucosa por curetaje o sección tangencial c/s electro por 1 lesión;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602202;SI;4;16-02-202;Extirpacion de, reparacion o biopsia total o parcial, de lesiones benignas cutáneas por excision cabeza, cuello, genitales, hasta 3 lesiones                                                                  ;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602203;SI;4;16-02-203;Extirpacion de, reparacion o biopsia total o parcial, de lesiones benignas cutáneas por excision resto de cuerpo hasta 3 lesiones                                                                              ;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602204;SI;4;16-02-204;Extirpacion de, reparacion o biopsia total o parcial, de lesiones benignas cutáneas por excision cabeza, cuello, genitales, desde 4 hasta 6 lesiones                                              ;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602205;SI;4;16-02-205;Extirpacion de, reparacion o biopsia total o parcial, de lesiones benignas cutáneas por excision resto de cuerpo desde 4 hasta 6 lesiones                                                             ;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602206;SI;4;16-02-206;Extirpacion de lesiones benignas por sec tangencial ,curetaje,y/o fulguracion hasta 15 lesiones   ;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602207;SI;4;16-02-207;Tratamiento por electro de hemangiomas o telangectasias hasta 15 lesiones;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602211;SI;4;16-02-211;Cabeza, cuello, genitales: tratamiento quirúrgico de tumor maligno por escisión total o parcial, con o sin sutura, por cada lesión o melanoma cualquier localización;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602212;SI;4;16-02-212;Resto del cuerpo: tratamiento quirúrgico de tumor maligno por escisión total o parcial, con o sin sutura, por cada lesión;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602213;SI;4;16-02-213;Cabeza, cuello, genitales o melanoma cualquier ubicación: ampliación de márgenes quirúrgicos de tumor maligno extirpado previamente ;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602214;SI;4;16-02-214;Resto del cuerpo: ampliación de márgenes quirúrgicos de tumor maligno extirpado previamente;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602215;SI;4;16-02-215;Tumores vasculares profundos cabeza, cuello, genitales;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602216;SI;4;16-02-216;Tumores Vasculares Profundos Resto del cuerpo;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602222;SI;4;16-02-222;Herida cortante o contusa no complicada, reparación y sutura (una o múltiple hasta 5 cms. de largo total que comprometa solo la piel);Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602223;SI;4;16-02-223;Cabeza, cuello, genitales: extirpación de lesión benigna subepidérmica, incluye tumor sólido, quiste epidérmico y lipoma por lesión ;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602224;SI;4;16-02-224;Resto del cuerpo: extirpación de lesión benigna subepidérmica, incluye tumor sólido, quiste epidérmico y lipoma por lesión ;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602225;SI;4;16-02-225;Vaciamiento y curetaje quirúrgico de lesiones quísticas o abscesos;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602231;SI;4;16-02-231;Onicectomía total o parcial simple;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602232;SI;4;16-02-232;Cirugía reparadora ungueal por proceso inflamatorio;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1602233;SI;4;16-02-233;Corrección quirúrgica de defecto congénito o por tumor ungueal;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1703001;SI;4;17-03-001;Embolectomía y/o trombectomía, unilateral, miembro superior o inferior (proc. aut.);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703002;SI;4;17-03-002;Fístula arteriovenosa congénita o traumática, repar. quir.;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703003;SI;4;17-03-003;Fístula arteriovenosa (de Brescia o similar);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703005;SI;4;17-03-005;Reparación quirúrgica de vasos arteriales y/o venosos intra-abdominales o intra-torácicos c/s injerto (biológicos o sintéticos);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703006;SI;4;17-03-006;Reparación quirúrgica de vasos arteriales y/o venosos periféricos c/s injerto (biológicos o sintéticos);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703007;SI;4;17-03-007;Reparación quirúrgica de vasos arteriales y/o venosos periféricos c/s injerto (biológicos o sintéticos) aórtico-abdominal;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703008;SI;4;17-03-008;Reparación quirúrgica de vasos arteriales y/o venosos periféricos c/s injerto (biológicos o sintéticos) periféricos;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703009;SI;4;17-03-009;Reparación quirúrgica de vasos arteriales y/o venosos periféricos c/s injerto (biológicos o sintéticos) tóraco-abdominal;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703010;SI;4;17-03-010;"Puente aorto-bifemoral; puentes de troncos supra-aórticos";Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703011;SI;4;17-03-011;Puente aorto-unifemoral;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703012;SI;4;17-03-012;"Puente aorto-visceral (renal, mesentérico o similar); c/u";Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703013;SI;4;17-03-013;Puente aorto-ilíaco;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703014;SI;4;17-03-014;Endarterectomía carotídea, subclavia, vertebral, femoral, o similar  c/s injerto (proc. aut.);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703015;SI;4;17-03-015;Endarterectomía femoral común, superficial o profunda, poplítea u otras c/s injerto (proc. aut.);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703016;SI;4;17-03-016;Endarterectomía renal, c/s injerto (proc. aut.);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703017;SI;4;17-03-017;Puente fémoro-tibial o distales;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703018;SI;4;17-03-018;Puente fémoro-poplíteo;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703019;SI;4;17-03-019;Ligadura troncos arteriales, (proc. aut.);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703020;SI;4;17-03-020;"Otras derivaciones: fémoro–femoral, axilo-humeral, axilo-femoral, carótidosubclavio, axilo-axilar o similares; c/u";Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703021;SI;4;17-03-021;Anastomosis portocava u otras portosistémicas;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703022;SI;4;17-03-022;Anastomosis venosas intraabdominales;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703024;SI;4;17-03-024;Derivaciones venosas de extremidades puentes venosos;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703025;SI;4;17-03-025;Implante filtros venosos;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703026;SI;4;17-03-026;Ligadura cayado safena interna, unilateral;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703027;SI;4;17-03-027;"Ligadura otros troncos venosos (poplíteo, femoral, ilíacas, humeral, axilar, otros); ligadura de venas comunicantes y/o perforantes, y/o resección de paquetes varicosos, cualquier técnica (una extremidad); c/u";Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703028;SI;4;17-03-028;Ligadura vena cava inferior;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703029;SI;4;17-03-029;Resección cutáneo-aponeurótica unilateral (incluye fasciotomía interna o posterior);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703030;SI;4;17-03-030;Safenectomía interna y/o externa, unilateral, o endoablación por cualquier técnica (láser, radiofrecuencia o similar).;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703031;SI;4;17-03-031;Trombectomía de venas profundas;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703032;SI;4;17-03-032;Anastomosis linfovenosas;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703033;SI;4;17-03-033;Linfedema, trat. quir. una extremidad;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703034;SI;4;17-03-034;Drenaje quirúrgico adenitis;Cirugía Cardiovascular;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1703035;SI;4;17-03-035;Biopsia quir. ganglionar (cualquier región periférica superficial o profunda) (proc. aut.);Cirugía Cardiovascular;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1703036;SI;4;17-03-036;Disección y extirpación ganglionar regional: axilo-supraclavicular ;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703037;SI;4;17-03-037;Disección y extirpación ganglionar regional: cérvico-torácica;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703038;SI;4;17-03-038;Disección y extirpación ganglionar regional: ileoinguinal;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703039;SI;4;17-03-039;Disección y extirpación ganglionar regional: inguinoescrotales;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703040;SI;4;17-03-040;Disección y extirpación ganglionar regional: lumbo-aórticos;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703041;SI;4;17-03-041;Disección y extirpación  ganglionar regional (proc. aut.): mediastínicos;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703042;SI;4;17-03-042;Disección y extirpación ganglionar regional: poplíteos;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703043;SI;4;17-03-043;Vaciamiento (disección) radical cuello (v.r.c.) clásico ipsilateral;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703044;SI;4;17-03-044;Disección y extirpación ganglionar regional: yugular simple;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703045;SI;4;17-03-045;Simpatectomía cérvico-torácica;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703046;SI;4;17-03-046;Simpatectomía lumbar;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703047;SI;4;17-03-047;Anastomosis vasculares sistémicopulmonares (Blalock-Pott-Glenn o similares);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703048;SI;4;17-03-048;Cambio de generador de marcapaso, sin cambio de electrodo (no incluye el valor de la prótesis);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703049;SI;4;17-03-049;Coartación aórtica infantil (preductal) trat. quir.;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703050;SI;4;17-03-050;Coartación aórtica, trat. quir.;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703051;SI;4;17-03-051;Conducto arterioso persistente, trat. quir.;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703052;SI;4;17-03-052;Fístula coronaria, trat. quir.;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703053;SI;4;17-03-053;Implantación de marcapaso c/electrod. intraven. o epicárdico (no incluye el valor de la prótesis);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703054;SI;4;17-03-054;Operación sobre anillos valvulares o vasculares;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703055;SI;4;17-03-055;Operaciones sobre arteria pulmonar, constricción por cinta;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703056;SI;4;17-03-056;Pericardiectomía y/o extirp. de quistes y/o tumores;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703057;SI;4;17-03-057;Pericardiorrafia o miopericardiorrafia en heridas penetrantes;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703058;SI;4;17-03-058;Pericardiotomía;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703060;SI;4;17-03-060;Operaciones cardíacas sin circulación extracorpórea;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703061;SI;4;17-03-061;"De complejidad mayor: incluye reemplazo valvular múltiple, tres o más puentes aortocoronarios y/o anastomosis con arteria mamaria, corrección de cardiopatías congénitas complejas (por ejemplo: Fallot; atresia tricuspídea; doble salida del ventrículo derecho; transposición grandes vasos; ventrículo único o similares), aneurisma aórtico torácico, trasplante cardíaco y cualquier operación cardíaca en lactantes";Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703062;SI;4;17-03-062;"De complejidad mediana: incluye comunicación interventricular, reemplazo univalvular, uno o dos puentes aortocoronarios; aneurisma ventricular, corrección de Wolf-Parkinson White y otras arritmias";Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703063;SI;4;17-03-063;De complejidad Menor: incluye comunicación interauricular simple, estenosis pulmonar valvular, estenosis mitral o similar;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703148;SI;4;17-03-148;Cambio de generador de marcapaso (incluye el valor de la prótesis);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1703153;SI;4;17-03-153;Implantación de marcapaso c/electrod. intraven. o epicárdico (incluye el valor de la prótesis);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704001;SI;4;17-04-001;"Cirugía del opérculo torácico (resección de primera costilla, cualquier abordaje); unilateral";Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704002;SI;4;17-04-002;Cirugía tórax abierto traumático y/o fijación tórax volante, osteosíntesis costales múltiples y de esternón (no incluye el valor de la prótesis);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704003;SI;4;17-04-003;Fenestración o toracoplastía;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704004;SI;4;17-04-004;Reparación pectum excavatum o carinatum, (proc. aut.);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704005;SI;4;17-04-005;Resección de costillas y/o pared costal y/o cartílago y/o esternón s/plastía (proc. aut.);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704006;SI;4;17-04-006;Resección de pared costal c/plastía (toracoplastía osteoplástica de York o similar);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704007;SI;4;17-04-007;Toracofrenolaparatomía exploradora c/s reparación vísceras torácicas y abdominales;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704008;SI;4;17-04-008;Toracofrenotomía exploradora;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704009;SI;4;17-04-009;Toracotomía exploradora, c/s biopsia, c/s debridación, c/s drenaje;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704010;SI;4;17-04-010;Toracotomía mínima c/s resección costal, c/s biopsia, c/s drenaje;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704011;SI;4;17-04-011;Mediastinotomía exploradora ant. o post. c/s biopsia proc. aut;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704012;SI;4;17-04-012;Drenaje quir. de mediastino, vía cervical;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704013;SI;4;17-04-013;Drenaje quir. de mediastino, vía torácica;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704014;SI;4;17-04-014;Timectomía vía cervical;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704015;SI;4;17-04-015;Timectomía  vía torácica medioesternal;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704016;SI;4;17-04-016;Conducto torácico, ligadura quirúrgica;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704017;SI;4;17-04-017;Tumores o quistes de mediastino (anterior o posterior) trat. quir. c/s disección ganglionar;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704018;SI;4;17-04-018;Cirugía del diafragma con cirugía de vísceras abdominales o torácicas;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704019;SI;4;17-04-019;Heridas traumáticas del diafragma, trat. quir.;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704020;SI;4;17-04-020;Hernioplastía diafragmática por vía torácica c/ prótesis (no incluye valor de la prótesis);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704021;SI;4;17-04-021;Hernioplastía diafragmática por vía torácica, sin prótesis;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704022;SI;4;17-04-022;Tumores, malformaciones o quistes del diafragma (no incluye valor de la prótesis) trat. quir.;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704023;SI;4;17-04-023;Cuerpo extraño pleural, extrac. quir.;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704024;SI;4;17-04-024;Decorticación pleuropulmonar (pleurectomía parcial o total);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704025;SI;4;17-04-025;Pleurodesis por pleurotomía;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704026;SI;4;17-04-026;Pleurodesis por toracotomía;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704027;SI;4;17-04-027;Pleurotomía única o doble ;Cirugía Cardiovascular;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1704028;SI;4;17-04-028;Tratamiento resectivo de tumores pleurales;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704029;SI;4;17-04-029;Broncotomía o traqueobroncotomía exploradora o terapéutica por toracotomía (proc. aut.);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704030;SI;4;17-04-030;Cirugía ruptura traqueobronquial o tratamiento quirúrgico fístula bronquial por esternotomía media;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704031;SI;4;17-04-031;Plastía de tráquea y/o bronquios c/s resección, c/s prótesis (no incluye el valor de la prótesis);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704032;SI;4;17-04-032;Tratamiento quirúrgico fístula bronquial por toracotomía;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704033;SI;4;17-04-033;Tumores traqueales, extirpación;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704034;SI;4;17-04-034;Absceso pulmonar, drenaje por toracotomía;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704035;SI;4;17-04-035;Biopsia pulmonar por toracotomía;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704036;SI;4;17-04-036;Bulas, trat. quir.;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704037;SI;4;17-04-037;Cirugía de quiste hidatídico sin resección pulmonar;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704038;SI;4;17-04-038;Cuerpo extraño intrapulmonar, extirp. quir.;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704039;SI;4;17-04-039;Heridas de pulmón, trat. quir. (proc. aut.);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704040;SI;4;17-04-040;Lobectomía o bilobectomía;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704041;SI;4;17-04-041;Metástasis bilateral pulmón, trat. quir. por esternotomía;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704042;SI;4;17-04-042;Metástasis unilateral pulmón;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704043;SI;4;17-04-043;Neumonectomía c/s resección de pared costal;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704045;SI;4;17-04-045;Quistectomía simple de pulmón;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704046;SI;4;17-04-046;Resecciones segmentarias anatómicas de pulmón ;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704047;SI;4;17-04-047;Extracción cuerpo extraño esofágico por vía cervical;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704048;SI;4;17-04-048;Cuerpo extraño esofágico, extracción por esofagotomía, vía torácica;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704049;SI;4;17-04-049;Esofagostomía cervical (proc. aut.);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704050;SI;4;17-04-050;Tumores benignos y/o quistes esofágicos,  trat. quir., vía cervical;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704051;SI;4;17-04-051;Tratamiento quirúrgico de tumores esofagicos benignos y/o quistes vía torácica;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704052;SI;4;17-04-052;Divertículos esofágicos, trat. quir., vía cervical;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704053;SI;4;17-04-053;Divertículos esofágicos, trat. quir., vía torácica;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704054;SI;4;17-04-054;Achalasia, trat. quir.;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704055;SI;4;17-04-055;Atresia esofágica, trat. quir.;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704056;SI;4;17-04-056;"Esofagectomía con restitución del tránsito mediante estómago o intestino; parcial o total";Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704057;SI;4;17-04-057;Esofagectomía total con esofagostomía, gastrostomía y yeyunostomía;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704058;SI;4;17-04-058;Esofagogastrectomía proximal;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704059;SI;4;17-04-059;Prótesis o tubo endoesofágico, colocación de (proc. aut.);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704060;SI;4;17-04-060;Reconstitución de tránsito en segundo tiempo (estómago o intestino) de operación cód. 17-04-057;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704061;SI;4;17-04-061;Sutura herida o perforación esófago cervical;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704062;SI;4;17-04-062;Sutura herida o perforación esófago torácico;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704063;SI;4;17-04-063;Várices esofágicos, ligadura directa;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1704064;SI;4;17-04-064;Frenoparálisis trat. quir.;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1707021;SI;4;17-07-021;Laringotraqueobroncoscopia con fibroscopio;Cirugía de Tórax;Proc;Antigua;31-12-2008;31-12-2024
+1707024;SI;4;17-07-024;Pleuroscopia (toracoscopia) c/s biopsia;Cirugía de Tórax;Proc;Antigua;31-12-2008;31-12-2024
+1707027;SI;4;17-07-027;Broncoaspiración, c/s lavado y/o colocación de medicamentos por sonda traqueobronquial (proc. aut.);Cirugía de Tórax;Proc;Antigua;31-12-2008;31-12-2024
+1802001;SI;4;18-02-001;Hernia diafragmática por vía abdominal o cualquiera otra hernia con uso de prótesis (no incluye el valor de la prótesis);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802002;SI;4;18-02-002;Hernia incisional o evisceración post-op. sin resección intestinal;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802003;SI;4;18-02-003;Hernia inguinal, crural, umbilical, de la línea blanca o similares, recidivada o no, simple o estrangulada s/resección intest.c/u;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802004;SI;4;18-02-004;Laparotomía exploradora, c/s liberación de adherencias, c/s drenaje, c/s biopsias como proc. aut. o como resultado de una herida penetrante abdominal no complicada o de un hemoperitoneo postoperatorio o como tratamiento de una peritonitis (laparostomía contenida -máximo cuatro-, resuturas, etc.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802005;SI;4;18-02-005;"Onfalocele (hasta 5 cms.); trat. quir.";Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802006;SI;4;18-02-006;"Onfalocele (más de 5 cms.); trat. quir.";Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802007;SI;4;18-02-007;Peritonitis difusa aguda, trat. quir. (proc. aut.) ;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802008;SI;4;18-02-008;Tumor y/o quiste peritoneal (parietal);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802009;SI;4;18-02-009;Tumor y/o quiste retroperitoneal;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802010;SI;4;18-02-010;Antrectomía y vagotomía troncular o selectiva (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802011;SI;4;18-02-011;Desgastrectomía y neoanastomosis, c/s vaguectomía;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802012;SI;4;18-02-012;Gastroenteroanastomosis, cualquier técnica. (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802013;SI;4;18-02-013;Gastrosquisis;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802014;SI;4;18-02-014;Gastrotomía y/o gastrostomía (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802015;SI;4;18-02-015;Perforación gástrica aguda, trat. quir. (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802016;SI;4;18-02-016;Piloroplastía (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802017;SI;4;18-02-017;Gastrectomía subtotal con disección ganglionar;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802018;SI;4;18-02-018;Gastrectomía subtotal sin disección ganglionar;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802019;SI;4;18-02-019;Dumping y/o síndrome asa aferente, trat. quir.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802021;SI;4;18-02-021;Gastrectomía sub-total proximal con esófago-gastro-anastomosis u otra derivación;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802022;SI;4;18-02-022;Gastrectomía total;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802023;SI;4;18-02-023;Gastrectomía total o sub-total ampliada (incluye esplenectomía y pancreatectomía corporocaudal y disección ganglionar);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802024;SI;4;18-02-024;Gastropexia y/u otra cirugía antirreflujo, c/s vagotomía;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802025;SI;4;18-02-025;Vagotomía selectiva y superselectiva c/s dren. gástrico, c/s piloroplastía (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802026;SI;4;18-02-026;Drenaje de colecciones líquidas hepáticas;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802027;SI;4;18-02-027;Colangioenteroanastomosis intrahepática;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802028;SI;4;18-02-028;Colecistectomía c/s colangiografía operatoria;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802029;SI;4;18-02-029;Colecistectomía y coledocostomía (sonda T y colangiografía postoperatoria) c/s colangiografía operatoria;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802030;SI;4;18-02-030;Colecistogastroanastomosis o colecistoenteroanastomosis;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802031;SI;4;18-02-031;Colecistostomía (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802032;SI;4;18-02-032;Colédoco o hepatoenteroanastomosis;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802033;SI;4;18-02-033;Coledocostomía supraduodenal o hepaticostomía (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802034;SI;4;18-02-034;Colocación de válvula peritoneoyugular derivativa de ascitis;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802035;SI;4;18-02-035;Desconexión ácigoportal con transección esofágica;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802036;SI;4;18-02-036;Desconexión ácigoportal sin transección esofágica;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802037;SI;4;18-02-037;Drenaje vía biliar transhepático;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802038;SI;4;18-02-038;Esfinteroplastía transduodenal, (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802039;SI;4;18-02-039;Hepatectomía segmentaria (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802040;SI;4;18-02-040;Herida traumática de hígado y/o vía biliar, trat. quir.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802041;SI;4;18-02-041;Lobectomía hepática (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802042;SI;4;18-02-042;Quiste hidatídico, único o múltiple, y/o cistoyeyunoanastomosis, trat. quir.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802043;SI;4;18-02-043;Abscesos, quistes, pseudoquistes o similares de páncreas, trat. quir.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802044;SI;4;18-02-044;Heridas, traumatismos de páncreas, trat.quir.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802045;SI;4;18-02-045;Pancreatectomía parcial;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802046;SI;4;18-02-046;Pancreatectomía total c/s esplenectomía;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802047;SI;4;18-02-047;Pancreatoduodenectomía;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802048;SI;4;18-02-048;Secuestrectomía en pancreatitis aguda;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802049;SI;4;18-02-049;Autoimplante de bazo (incluye esplenectomía);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802050;SI;4;18-02-050;Esplenectomía total o parcial (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802051;SI;4;18-02-051;Operación de etapificación (incluye esplenectomía, biopsias hepáticas, de ganglios abdominales y de cresta ilíaca);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802052;SI;4;18-02-052;Sutura esplénica (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802053;SI;4;18-02-053;Apendicectomía y/o dren. absceso apendicular (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802054;SI;4;18-02-054;Cierre de colostomía (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802055;SI;4;18-02-055;Colostomía (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802056;SI;4;18-02-056;Colostomía, complicaciones tardías, trat. quir.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802057;SI;4;18-02-057;Divertículo de Meckel, trat. quir.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802058;SI;4;18-02-058;Entero-enteroanastomosis o enterocoloanastomosis (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802059;SI;4;18-02-059;Enterotomía o enterostomía (yeyunostomía u otra) (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802060;SI;4;18-02-060;Ileostomía terminal o en asa (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802061;SI;4;18-02-061;Invaginación intestinal, trat. quir.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802062;SI;4;18-02-062;Persistencia conducto onfalomesentérico, trat. quir.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802063;SI;4;18-02-063;Quiste uraco, trat. quir.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802065;SI;4;18-02-065;Oclusión intestinal con resección;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802066;SI;4;18-02-066;Oclusión intestinal sin resección;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802067;SI;4;18-02-067;Colectomía parcial o hemicolectomía;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802068;SI;4;18-02-068;Colectomía total abdominal;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802069;SI;4;18-02-069;Descenso de colon c/conservación del esfínter, incluye resección de colon;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802070;SI;4;18-02-070;Hartmann, operación de (o similar);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802071;SI;4;18-02-071;Perforación y/o herida de intestino, única o múltiple, trat. quir. (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802072;SI;4;18-02-072;Quiste y/o tumor del mesenterio y/o epiplones, único y/o múltiple, trat. quir.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802073;SI;4;18-02-073;Reconstitución  tránsito post operación de Hartmann o sim.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802074;SI;4;18-02-074;Resección de intestino y enteroanastomosis (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802075;SI;4;18-02-075;Resección intestinal masiva por trombosis mesentérica u otra etiología;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802076;SI;4;18-02-076;Duplicación intestinal, trat. quir.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802077;SI;4;18-02-077;Mal rotación intestinal, trat. quir.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802079;SI;4;18-02-079;Gastrectomía total con ostomías proximal y distal;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802080;SI;4;18-02-080;Reconstitución  de tránsito en 2° tiempo de operación código 18-02-079;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802081;SI;4;18-02-081;Colecistectomía por videolaparoscopía, proc. completo;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802082;SI;4;18-02-082;Resección intestinal con ostomías proximal y distal;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802100;SI;4;18-02-100;Trasplante hepático;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802101;SI;4;18-02-101;Hernia diafragmática por vía abdominal o cualquiera otra hernia con uso de prótesis (incluye el valor de la prótesis);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1802148;SI;4;18-02-148;Yeyunopancreatostomía;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803001;SI;4;18-03-001;Absceso ano rectal complejo, tratamiento quirúrgico;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803002;SI;4;18-03-002;Absceso anorrectal simple, trat. quir.;Cirugía Digestiva;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1803003;SI;4;18-03-003;Absceso sacrocoxígeo, drenaje;Cirugía Digestiva;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1803004;SI;4;18-03-004;Biopsia quirúrgica rectal (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803006;SI;4;18-03-006;Cuerpo extraño rectal, extracción por vía abdominal;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803007;SI;4;18-03-007;Cuerpo extraño rectal, extracción por vía anal;Cirugía Digestiva;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1803008;SI;4;18-03-008;Desgarros y heridas anorrectales con compromiso del esfínter;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803009;SI;4;18-03-009;Desgarros y heridas anorrectales sin compromiso del esfínter;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803010;SI;4;18-03-010;Esfinterotomía (proc. aut.);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803011;SI;4;18-03-011;Estenosis anal, plastía;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803012;SI;4;18-03-012;Estenosis rectal, plastía;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803013;SI;4;18-03-013;Fecaloma, trat. quir.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803014;SI;4;18-03-014;Fístula rectovesical, trat.quir.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803015;SI;4;18-03-015;Fístula rectovaginal, rectouretral o uretrovaginal, trat.quir.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803016;SI;4;18-03-016;Fístula anorrectal, trat.quir.de cualquier tipo;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803017;SI;4;18-03-017;Fisura anal, repar. quir.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803018;SI;4;18-03-018;Hemorroidectomía (incluye otras operaciones complementarias en canal anal);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803019;SI;4;18-03-019;Hemorroides, trombectomía (proc. aut.);Cirugía Digestiva;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1803020;SI;4;18-03-020;Imperforación anal, reconstitución tránsito por vía abdómino-perineal;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803021;SI;4;18-03-021;Imperforación anal, reconstitución tránsito por vía perineal;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803023;SI;4;18-03-023;Incontinencia anal, trat.quir. con cerclaje;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803024;SI;4;18-03-024;Incontinencia anal, trat.quir. con plastía muscular;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803025;SI;4;18-03-025;Pólipo rectal, trat.quir. por vía abdominal;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803026;SI;4;18-03-026;Pólipo rectal, trat.quir. por vía anal;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803027;SI;4;18-03-027;Prolapso rectal, trat.quir. por vía abdominal;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803028;SI;4;18-03-028;Prolapso rectal, trat.quir. por vía anal;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803029;SI;4;18-03-029;Panproctocolectomía (2 equipos);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803030;SI;4;18-03-030;Prurito anal, trat. quir. por denervación;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803031;SI;4;18-03-031;Quiste sacrocoxígeo, trat. quir.;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803032;SI;4;18-03-032;Resección abdómino-perineal de ano y recto (2 equipos);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803033;SI;4;18-03-033;Resección abdómino-perineal de ano y recto ampliada (2 equipos) (incluye genitales femeninos);Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803034;SI;4;18-03-034;Resección anterior de recto;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803035;SI;4;18-03-035;Resección perineal de ano y recto;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1803038;SI;4;18-03-038;Condilomas anales, trat. quir. ;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902002;SI;4;19-02-002;Arterias renales, operaciones sobre (proc. aut.);Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902003;SI;4;19-02-003;Auto o heterotrasplante riñón;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902004;SI;4;19-02-004;Cirugía de banco, (proc. completo) (micro-extracorpórea), autotrasplante;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902005;SI;4;19-02-005;Litiasis renal, trat. quir. percutáneo c/s ultrasonido (incluye todo el procedimiento);Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902006;SI;4;19-02-006;Litiasis renal o ureteral  por cirugía abierta o laparoscópica, por pielotomía o nefrotomía mínima o anatrófica.;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902008;SI;4;19-02-008;Lumbotomía exploradora c/s dren., c/s biopsia (proc. aut.);Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902009;SI;4;19-02-009;Nefrectomía parcial cualquier vía y técnica. Incluye disección ganglionar etapificadora o reductiva;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902010;SI;4;19-02-010;Nefrectomía radical por cáncer renal, traumatismo renal, vía abierta, laparoscópica o robótica, incluye disección ganglionar etapificadora o reductiva;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902011;SI;4;19-02-011;Nefrectomía por patología benigna o malformación o trasplante.;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902012;SI;4;19-02-012;Drenaje percutáneo o endoscópico de hidronefrosis.  (proc.autónomo);Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902013;SI;4;19-02-013;Pielotomía exploradora y/o terapéutica (incluye la  pielostomía y/o pieloplastía);Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902015;SI;4;19-02-015;Suprarrenalectomía unilateral;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902016;SI;4;19-02-016;Anastomosis de los uréteres;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902017;SI;4;19-02-017;Fístula urétero-vaginal, trat. quir.;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902018;SI;4;19-02-018;Nefroureterectomía en patología tumoral o malformación, cualquier vía o técnica.;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902019;SI;4;19-02-019;Ureterectomía;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902020;SI;4;19-02-020;Urétero-litotomía abierta;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902021;SI;4;19-02-021;Urétero o nefro-litotomía endoscópica c/ureteroscopia rígida o flexible, con o sin fragmentación;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902022;SI;4;19-02-022;Ureterectomía, ureteroplastía, ureterorrafia, ureterolisis, transureteroanastomosis, cualquier vía o técnica. ;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902023;SI;4;19-02-023;Ureterorrafia y/o ureterolisis c/u;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902024;SI;4;19-02-024;Ureterostomía bilateral: vesical, cutánea o intestinal;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902025;SI;4;19-02-025;Ureterostomía unilateral: vesical, cutánea o intestinal;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902027;SI;4;19-02-027;Cistectomía parcial y/o trat. quir. de divertículo vesical;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902028;SI;4;19-02-028;Cistectomía radical, cualquier vía o técnica, incluye linfadenectomía ampliada.;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902029;SI;4;19-02-029;Cistoplastía, proc. completo;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902030;SI;4;19-02-030;Reparación vesical por trauma o daño de cualquier tipo.;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902031;SI;4;19-02-031;Cistostomía, extracción de litiasis o cuerpo extraño, instalación de catéter suprapúbico, por vía abierta o endoscopica, c/s láser;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902032;SI;4;19-02-032;Extrofia vesical, proc. completo;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902033;SI;4;19-02-033;Fístula vésico-cutánea, y/o vaginal, y/o intest., trat. quir.;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902034;SI;4;19-02-034;Cirugía abierta o endoscópica de lesiones cuello vesical y/o hemovejiga primaria o post cirugía próstata o vejiga;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902035;SI;4;19-02-035;Ligadura de arterias hipogástricas (proc. aut.);Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902036;SI;4;19-02-036;Operación de Bricker;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902037;SI;4;19-02-037;Resección endoscópica de cáncer vesical;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902038;SI;4;19-02-038;Reservorio continente intestinal externo o interno;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902040;SI;4;19-02-040;Extirpación divertículo o quiste para-uretral, cualquier vía;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902041;SI;4;19-02-041;Flegmón urinoso, drenaje y cistostomía;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902043;SI;4;19-02-043;Uretroplastía sin substitución - uretrorrafía;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902044;SI;4;19-02-044;Uretroplastía de substitución, cada tiempo;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902045;SI;4;19-02-045;Incontinencia urinaria de esfuerzo o d.i.e. (disfunción intrínseca del esfínter), cualquier vía única o combinada, con o sin instalación de mallas, elementos protésicos o esfínter artificial.;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902047;SI;4;19-02-047;Meatotomía quirúrgica c/s resección de pólipo o carúncula;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902049;SI;4;19-02-049;Uretrectomía y /o plastía  abierta de uretra posterior por  trauma o, estenosis  o cualquier etiología;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902050;SI;4;19-02-050;Fistulectomía uretral;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902051;SI;4;19-02-051;Uretrostomía;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902052;SI;4;19-02-052;Uretrotomía externa (proc. aut.);Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902053;SI;4;19-02-053;Uretrotomía interna y/o uretrolitotomía (proc. aut.);Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902054;SI;4;19-02-054;Tratamiento quirúrgico de absceso prostático y/o vesículas seminales, cualquier vía o técnica;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902055;SI;4;19-02-055;Adenoma o cáncer prostático, resección endoscópica desobstructiva, cualquier técnica (uni, bipolar, láser u otros);Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902056;SI;4;19-02-056;Adenoma prostático, trat. quir. cualquier vía o técnica abierta;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902057;SI;4;19-02-057;Prostatectomía radical por cáncer prostático, vía abierta, laparoscópica o robótica, incluye linfadenectomía si corresponde;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902059;SI;4;19-02-059;Biopsia quirúrgica de testículo y/o aspiración epididimaria.;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902060;SI;4;19-02-060;Descenso testicular con o sin hernia, cualquier tiempo, cualquier técnica;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902061;SI;4;19-02-061;Descenso testículo inguinal c/s hernioplastía;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902062;SI;4;19-02-062;Escroto, plastía de, proc. completo;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902063;SI;4;19-02-063;Hidatidectomía unilat. c/s eversión de la vaginal (proc. aut.);Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902064;SI;4;19-02-064;Hidrocele y/o hematocele, incluye quistes cordón y/o epidídimo y/o hidatidectomías y/o cirugía intravaginal del mismo lado ;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902065;SI;4;19-02-065;Orquidectomía unilateral;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902066;SI;4;19-02-066;Orquidopexia unilateral;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902067;SI;4;19-02-067;Prótesis testicular, (proc. aut.);Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902068;SI;4;19-02-068;Orquidectomía ampliada por cáncer testicular;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902069;SI;4;19-02-069;Disección ganglionar lumboaórtica por cáncer testicular, cualquier vía o técnica, uni o bilateral o modificada.;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902070;SI;4;19-02-070;Anastomosis deferentes o epidídimo-deferencial;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902071;SI;4;19-02-071;Cirugía del epidídimo y cordón (proc.aut), incluye cirugía intravaginal y/o varicocele mismo lado;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902072;SI;4;19-02-072;Plastía epidídimo-deferente (operación de Martín o sim.);Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902073;SI;4;19-02-073;"Quistes del cordón, y/o epidídimo, extirpación; epididimotomía diagnóstica y/o terapéutica (proc. aut.)";Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902074;SI;4;19-02-074;Exploración escroto agudo. Incluye hematocele por trauma, destorsión y fijación testículo, hidatidectomía  y eversión bilateral si corresponde ;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902075;SI;4;19-02-075;Varicocele unilateral y/o denervación cordón espermático (incluye quistes, hidátides e hidrocele mismo lado);Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902076;SI;4;19-02-076;Vasectomía bilateral, (proc. aut.) (la vasectomía como tiempo previo a una resección de próstata esta incluida en la prostatectomía);Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902078;SI;4;19-02-078;Amputación parcial del pene (proc. aut.);Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902079;SI;4;19-02-079;Amputación total del pene, proc. completo;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902080;SI;4;19-02-080;Biopsia de pene (proc. aut.);Urología y Nefrología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1902081;SI;4;19-02-081;Cirugía del priapismo cualquier vía o técnica;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902082;SI;4;19-02-082;Circuncisión (incluye sección de frenillo, y/o de sinequias bálano-prepuciales, y/o incisión dorsal c/s meatotomía);Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902083;SI;4;19-02-083;Cirugía traumatismo peneano o curvaturas  adquiridas de la albugínea;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902084;SI;4;19-02-084;Meatotomía hombre y/o sección frenillo y/o incisión dorsal, (proc. aut.);Urología y Nefrología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1902085;SI;4;19-02-085;Implantación prótesis peneana cualquier tipo o vía (no incluye prótesis);Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1902090;SI;4;19-02-090;Tratamiento integral litiasis urinaria por vía litotripsia extracorpórea;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2002001;SI;4;20-02-001;Absceso y/o hematoma de mama, trat.quir.;Ginecología y Obstetricia;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2002002;SI;4;20-02-002;Mastectomía parcial (cuadrantectomía o similar) o total s/vaciamiento ganglionar;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2002003;SI;4;20-02-003;Mastectomía radical o tumorectomía c/vaciamiento ganglionar o mastectomía total c/vaciamiento ganglionar;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2002005;SI;4;20-02-005;Tumor benigno y/o quiste y/o mama supernumeraria y/o aberrante o politelia, o biopsia quirúrgica extemporánea, trat. quir. (proc. aut);Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003001;SI;4;20-03-001;Ooforectomía parcial o total, uni o bilateral (proc. aut.);Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003002;SI;4;20-03-002;Anexectomía y/o vac. de absceso tubo-ovárico, uni o bilateral.;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003003;SI;4;20-03-003;Embarazo tubario, trat. quir.;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003004;SI;4;20-03-004;Ligadura o sección uni o bilateral de las trompas (Madlener, Pomeroy, o similares) (proc. aut.);Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003005;SI;4;20-03-005;Salpingectomía uni o bilateral;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003006;SI;4;20-03-006;Esterilidad tubaria, operación plástica uni o bilateral con microcirugía;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003007;SI;4;20-03-007;Esterilidad tubaria, operación plástica uni o bilateral sin microcirugía;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003008;SI;4;20-03-008;Miomectomía;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003009;SI;4;20-03-009;Histerectomía subtotal por vía abdominal;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003010;SI;4;20-03-010;Histerectomía total o ampliada por vía abdominal;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003011;SI;4;20-03-011;Ligamento ancho: abscesos y/o hematomas y/o flegmones y/o quistomas y/o várices u otros, trat. quir. (proc. aut.);Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003012;SI;4;20-03-012;Conización y/o amputación del cuello uterino, diagnóstica y/o terapéutica  c/s biopsia;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003013;SI;4;20-03-013;Exanteración pelviana anterior y/o posterior;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003014;SI;4;20-03-014;Histerectomía por vía vaginal;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003015;SI;4;20-03-015;Histerectomía radical con disección pelviana completa de territorios ganglionares, incluye ganglios lumboaórticos (operación de Wertheim o similares);Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003016;SI;4;20-03-016;Histerectomía total c/intervención incontinencia urinaria, cualquier técnica;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003017;SI;4;20-03-017;Histeropexia;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003018;SI;4;20-03-018;Plastía uterina (operación de Strassmann o similares);Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003019;SI;4;20-03-019;Polipectomía (uno o más) (proc. aut.);Ginecología y Obstetricia;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2003020;SI;4;20-03-020;Sinequia y/o estenosis cervical, trat. quir.;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003021;SI;4;20-03-021;Colpoceliotomía;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003022;SI;4;20-03-022;Incontinencia urinaria de esfuerzo, trat. quir. por vía vaginal (proc. aut.);Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003023;SI;4;20-03-023;Prolapso anterior y/o posterior con repar., incontinencia urinaria por vía extravaginal o combinada;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003024;SI;4;20-03-024;Prolapso anterior y/o posterior c/s trat. de incontinencia urinaria por vía vaginal, trat. quir.;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003025;SI;4;20-03-025;Quiste y/o desgarro y/o tabique vaginal, trat. quir.;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003026;SI;4;20-03-026;Bartolinitis, vaciamiento y drenaje (proc. aut.);Ginecología y Obstetricia;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2003027;SI;4;20-03-027;Bartolinocistoneostomía o extirp. de la glándula;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003028;SI;4;20-03-028;Vulvectomía radical;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003029;SI;4;20-03-029;Vulvectomía simple;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003030;SI;4;20-03-030;Desgarro cervical trat. quir.;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003031;SI;4;20-03-031;Videolaparoscopía ginecológica exploradora (incluye toma de muestras para biopsias, punción de quistes y liberación de adherencias) (proc. aut.);Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003040;SI;4;20-03-040;Incompetencia cervical trat. quir.;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2003041;SI;4;20-03-041;Extracción de DIU incrustado, por vía abdominal;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2004001;SI;4;20-04-001;Aborto retenido, vaciamiento de (incluye la inducción en los casos que corresponda);Ginecología y Obstetricia;Proc;Antigua;31-12-2008;31-12-2024
+2004002;SI;4;20-04-002;Raspado uterino diagnóstico o terapéutico por metrorragia o por restos de aborto;Ginecología y Obstetricia;Proc;Antigua;31-12-2008;31-12-2024
+2004005;SI;4;20-04-005;Cesárea con histerectomía;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2004006;SI;4;20-04-006;Cesárea c/s salpingoligadura o salpingectomía;Ginecología y Obstetricia;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104001;SI;4;21-04-001;Artroscopía diagnóstica c/s biopsia, c/s sección de bridas, extracción de cuerpo extraño;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104002;SI;4;21-04-002;Exostosis u osteocondroma, trat. quir.;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104003;SI;4;21-04-003;Quistes sinoviales de vainas flexoras, bursas;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104004;SI;4;21-04-004;Tracción halocraneana o estribo-craneana (proc. aut.);Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104005;SI;4;21-04-005;Tracción halocráneo-femoral;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104006;SI;4;21-04-006;Tracción transesquelética o de partes blandas en adultos o en niños (proc. aut.);Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104007;SI;4;21-04-007;Artrodesis de codo o muñeca, c/u;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104008;SI;4;21-04-008;Artrodesis de hombro, cadera,rodilla, tobillo o sacroilíaca, c/u;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104009;SI;4;21-04-009;Artrodesis de mano o pie c/u;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104010;SI;4;21-04-010;Tratamiento completo de fracturas expuestas de brazo, antebrazo, muslo y pierna, c/u;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104011;SI;4;21-04-011;Tratamiento completo de fracturas expuestas de mano o pie, c/u      ;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104012;SI;4;21-04-012;Osteítis, raspado, c/s secuestrectomía;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104013;SI;4;21-04-013;Osteomielitis aguda hematógena, drenaje quirúrgico, c/s dispositivos de osteoclisis;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104014;SI;4;21-04-014;Osteomielitis crónica huesos largos, legrado óseo,  c/s osteosíntesis o aparato de yeso;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104015;SI;4;21-04-015;Artrotomía hombro o cadera c/u;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104016;SI;4;21-04-016;Artrotomía de codo, muñeca, tobillo o temporomandibular, c/u;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104017;SI;4;21-04-017;Pseudoartrosis  infectada huesos largos, trat. quir. cualquier técnica, c/s dispositivo de osteoclisis, c/s osteosíntesis o aparato de yeso;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104018;SI;4;21-04-018;Autotrasplante óseo microquirúrgico;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104019;SI;4;21-04-019;Injerto esponjoso metafisiario;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104020;SI;4;21-04-020;Injertos esponjosos o córtico-esponjosos de cresta ilíaca;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104021;SI;4;21-04-021;Transplante óseo (auto u homotrasplante);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104022;SI;4;21-04-022;Lesiones quísticas con fractura patológica: legrado óseo, c/s relleno injerto esponjoso, c/s osteosíntesis y/o aparato de inmovilización postoperatoria;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104023;SI;4;21-04-023;Lesiones quísticas intraosea: legrado óseo, c/s relleno de injertos;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104024;SI;4;21-04-024;Metástasis ósea c/s fractura patológica, legrado tumoral, relleno cemento quirúrgico y osteosíntesis;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104025;SI;4;21-04-025;Tumor óseo, resección en bloque, c/s osteosíntesis y/o aparato inmovilización postoperatorio;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104026;SI;4;21-04-026;Tumores o quistes o lesiones pseudoquísticas o musculares y/o tendíneas, trat. quir.;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104027;SI;4;21-04-027;Tumores óseos: resección en bloque, epifisiaria c/artrodesis o diafisiaria;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104028;SI;4;21-04-028;Tumores primarios o metastásicos vertebrales: corporectomía, reemplazo por cemento quir. o injerto óseo, c/s osteosíntesis;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104029;SI;4;21-04-029;Sinovectomías quirúrgicas de codo o muñeca o metacarpofalángicas, c/u;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104030;SI;4;21-04-030;Sinovectomías quirúrgicas de rodilla o cadera u hombro, c/u;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104031;SI;4;21-04-031;Epineurorrafia microquirúrgica con magnificación cualquier tronco nervioso (con excepción nervios digitales);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104033;SI;4;21-04-033;Biopsia ósea por punción;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104034;SI;4;21-04-034;Biopsia ósea quirúrgica;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104035;SI;4;21-04-035;Biopsia sinovial o muscular por punción;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104036;SI;4;21-04-036;Biopsia sinovial o muscular quirúrgica;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104037;SI;4;21-04-037;Biopsia vertebral por punción;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104038;SI;4;21-04-038;Regularización de Muñón de Amputación;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104039;SI;4;21-04-039;Osteocondrosis o epifisitis, trat. quir.;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104040;SI;4;21-04-040;Amputación interescápulo-torácica;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104041;SI;4;21-04-041;Desarticulación escápulo-humeral;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104042;SI;4;21-04-042;Endoprótesis total de hombro,(cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104044;SI;4;21-04-044;Fractura cuello humeral, trat. quir.;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104045;SI;4;21-04-045;Fractura de clavícula, osteosíntesis;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104046;SI;4;21-04-046;Fractura escápula, osteosíntesis;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104047;SI;4;21-04-047;Luxación acromio-clavicular o esterno-clavicular, reducción o plastía cápsuloligamentosa y osteosíntesis;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104048;SI;4;21-04-048;Luxación recidivante de hombro, trat. quir.;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104049;SI;4;21-04-049;Luxación traumática de hombro, reducción cruenta;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104050;SI;4;21-04-050;Luxofractura, reducción y osteosíntesis hombro;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104051;SI;4;21-04-051;Ruptura manguito rotadores, trat. quir. c/s acromiectomía;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104052;SI;4;21-04-052;Transposiciones musculares;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104053;SI;4;21-04-053;Amputación brazo;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104054;SI;4;21-04-054;"Fractura supracondílea niño; tracción esquelética, c/s osteosíntesis y aparato de yeso";Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104055;SI;4;21-04-055;Osteosíntesis diafisiaria de húmero (cualquier técnica) ;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104056;SI;4;21-04-056;Osteosíntesis supra o intercondílea (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104057;SI;4;21-04-057;Osteotomía húmero (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104058;SI;4;21-04-058;Pseudoartrosis c/s osteosíntesis c/s yeso húmero;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104059;SI;4;21-04-059;Artroplastía con fascia codo;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104060;SI;4;21-04-060;Cúpula radial, resección;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104061;SI;4;21-04-061;Cúpula radial, (resección con implante de prótesis) artroplastía ;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104062;SI;4;21-04-062;Endoprótesis total de codo, (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104063;SI;4;21-04-063;Epicondilitis, trat. quir. (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104064;SI;4;21-04-064;Luxación de codo, reducción cruenta ;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104065;SI;4;21-04-065;Luxofractura de codo, reducción cruenta c/s resección cúpula radial;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104066;SI;4;21-04-066;Osteosíntesis epitroclea-epicóndilo (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104067;SI;4;21-04-067;Osteosíntesis olécranon u osteosíntesis de cúpula radial (proc. aut.) (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104068;SI;4;21-04-068;Traslocación nervio cubital (proc. aut.);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104069;SI;4;21-04-069;Operación de salvataje radio-procúbito;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104070;SI;4;21-04-070;Amputación antebrazo;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104071;SI;4;21-04-071;Extirpación metáfisis distal del cúbito y artrodesis radiocubital inferior;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104072;SI;4;21-04-072;Luxofracturas (Monteggia-Galeazzi), reducc. y osteosíntesis;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104073;SI;4;21-04-073;Osteosíntesis, fract.cerrada cúbito y/o radio (cualq. tecn.);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104074;SI;4;21-04-074;Osteotomía uno o ambos huesos, c/s osteosíntesis c/s yeso o trat. quir. Enf. de Kienbock;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104075;SI;4;21-04-075;Pseudoartrosis  cúbito y/o radio c/s osteosíntesis c/s yeso;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104076;SI;4;21-04-076;Sinostosis radio-cubital, trat. quir., c/s injerto;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104077;SI;4;21-04-077;Trasplantes músculo-tendinosos antebrazo;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104078;SI;4;21-04-078;Contractura isquem. de Volkmann: descenso muscular, neurolisis;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104079;SI;4;21-04-079;Endoprótesis total de muñeca, (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104080;SI;4;21-04-080;Estiloides cubital, radial, resección de.;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104081;SI;4;21-04-081;Fractura o pseudoartrosis escafoides, trat. quir. cualq. técn.;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104083;SI;4;21-04-083;Luxación radiocarpiana, trat. quir.;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104084;SI;4;21-04-084;Luxación semilunar ,escafoidea, reducción y osteosíntesis semicruenta o cruenta;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104085;SI;4;21-04-085;Osteosíntesis radio, (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104086;SI;4;21-04-086;Tendovaginosis de De Quervain, trat. quir.;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104087;SI;4;21-04-087;Amputación dedos (tres o más);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104088;SI;4;21-04-088;Amputación dedos (uno o dos);Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104089;SI;4;21-04-089;Amputación mano o del pulgar;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104090;SI;4;21-04-090;Amputación pulpejos (plastía Kutler o similares);Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104091;SI;4;21-04-091;Contractura Dupuytren, trat. quir., cada tiempo;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104092;SI;4;21-04-092;Contusión-compresión grave mano, trat. quir. incluye incisiones liberadoras y/o fasciotomía y/o escarectomía y/o injertos piel inmediatos y síntesis percutánea;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104093;SI;4;21-04-093;Dedos en gatillo, trat. quir., cualquier número;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104094;SI;4;21-04-094;Flegmón mano, trat. quir.;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104095;SI;4;21-04-095;Luxofractura metacarpofalángica o interfalángica, trat. quir.;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104096;SI;4;21-04-096;Mano reumática en ráfaga: traslocaciones tendinosas, plastías capsulares, tenotomías, inmovilización postoperatoria;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104097;SI;4;21-04-097;Mano reumática: implant. silastic, cualq. número (proc. aut.);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104098;SI;4;21-04-098;Mutilación grave mano, aseo. quir. completo c/s osteosíntesis, c/s injertos ;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104099;SI;4;21-04-099;Osteosíntesis metacarpianas o de falanges, cualquier técnica;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104100;SI;4;21-04-100;Panadizo, trat. quir.;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104101;SI;4;21-04-101;Pulgarización dedo (índice o anular);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104102;SI;4;21-04-102;Reimplante mano o dedo(s);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104103;SI;4;21-04-103;Reparación flexores: primer tiempo espaciador silastic;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104104;SI;4;21-04-104;Reparación nervio digital con injerto interfascicular: cualquier número;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104105;SI;4;21-04-105;Rupturas cerradas cápsulo-ligament. o tendinosas, trat. quir. mano;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104106;SI;4;21-04-106;"Sutura nervio(s) digital(es); microcirugía";Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104107;SI;4;21-04-107;Tenorrafia extensores mano;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104108;SI;4;21-04-108;Tenorrafia o injertos flexores mano;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104109;SI;4;21-04-109;Tenosinovitis séptica, trat. quir. mano;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104110;SI;4;21-04-110;Trasplante microquirúrgico para pulgar;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104111;SI;4;21-04-111;Transposiciones tendinosas flexoras o extensoras mano;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104112;SI;4;21-04-112;Diastematomielia, resección espolón c/s instrumentación;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104113;SI;4;21-04-113;Escoliosis, trat. quir., cualquier vía de abordaje, e instrumentación de Harrington,  Luque, Dwyer o similares ;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104116;SI;4;21-04-116;Luxaciones, luxofracturas vertebrales (cervical, dorsal, lumbar), reducción cruenta, cualquier vía de abordaje, cualquier número;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104117;SI;4;21-04-117;Osteotomías vertebrales correctoras, c/s instrumentación, c/s injertos óseos, c/s artrodesis;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104118;SI;4;21-04-118;Plastías costales, cualquier número;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104119;SI;4;21-04-119;Reemplazo cuerpo vertebral con artrodesis c/s osteosíntesis c/s instrumentación;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104121;SI;4;21-04-121;Resección del coxis;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104122;SI;4;21-04-122;Osteosíntesis en fractura de arco anterior de pelvis y disyunciones pubianas;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104123;SI;4;21-04-123;Fractura de pelvis, osteosíntesis quir.;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104124;SI;4;21-04-124;Osteotomía pelviana (Salter, Chiari o similares);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104125;SI;4;21-04-125;Triple osteotomía de pelvis;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104126;SI;4;21-04-126;Amputación inter-ilio abdominal;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104127;SI;4;21-04-127;Desarticulación cadera;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104128;SI;4;21-04-128;Endoprótesis parcial de cadera c/s cementación (cualquier técnica) (no incluye prótesis);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104129;SI;4;21-04-129;Endoprótesis total de cadera  (no incluye prótesis);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104130;SI;4;21-04-130;Epifisiolisis lenta o aguda, trat. quir.;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104131;SI;4;21-04-131;Fractura de cuello de fémur, osteosíntesis, cualquier técnica ;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104132;SI;4;21-04-132;Fractura de cuello de fémur, resección epífisis femoral;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104133;SI;4;21-04-133;Luxación traumática de cadera, reducción cruenta;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104134;SI;4;21-04-134;Luxofractura acetabular, trat. quir.;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104135;SI;4;21-04-135;Operación de salvataje cadera, columna o similares;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104136;SI;4;21-04-136;Osteotomías femorales;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104137;SI;4;21-04-137;Reducción cruenta en luxación congénita o traumática de cadera;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104138;SI;4;21-04-138;Reducción cruenta y acetabuloplastía femoral c/s osteotomía femoral;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104139;SI;4;21-04-139;Reducción cruenta y osteotomía femoral;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104140;SI;4;21-04-140;Tenotomía aductores c/s botas, con yugo (proc. aut.);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104141;SI;4;21-04-141;Trocanteroplastías;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104142;SI;4;21-04-142;Amputación muslo;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104143;SI;4;21-04-143;Epifisiodesis (fémur y/o tibia);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104144;SI;4;21-04-144;Osteosíntesis diafisiaria o metafisiaria muslo (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104145;SI;4;21-04-145;Osteotomía correctora muslo;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104146;SI;4;21-04-146;Osteotomía de alargamiento o acortamiento con osteosíntesis inmediata o distracción instrumental progresiva muslo;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104147;SI;4;21-04-147;Osteotomía en rosario con enclavijamiento clavo telescópico;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104148;SI;4;21-04-148;Pseudoartrosis, trat. quir. (cualquier técnica) muslo;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104149;SI;4;21-04-149;Ruptura y/o hernia muscular, trat. quir. muslo;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104150;SI;4;21-04-150;Artrotomía por cuerpos libres, osteocondritis rodilla (proc. aut);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104151;SI;4;21-04-151;Desarticulación rodilla;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104152;SI;4;21-04-152;Disfunción patelo-femoral, realineamiento (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104153;SI;4;21-04-153;Endoprótesis total de rodilla, (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104154;SI;4;21-04-154;Fractura rótula: osteosíntesis o patelectomía parc. o total;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104155;SI;4;21-04-155;Fracturas condíleas o de platillos tibiales, reducción, osteosíntesis  (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104156;SI;4;21-04-156;Inestabilidad crónica de rodilla, reconstrucción cápsuloligamentosa (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104157;SI;4;21-04-157;Luxación o rotura ligamentos, trat. quir. cápsulo-ligamentoso;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104158;SI;4;21-04-158;Meniscectomía quirúrgica, interna y/o externa;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104159;SI;4;21-04-159;Meniscectomía u otras intervenciones por vía artroscópica (incluye artroscopía diagnóstica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104160;SI;4;21-04-160;Quiste poplíteo, trat. quir.;Traumatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+2104161;SI;4;21-04-161;Reconstrucción aparato extensor de rodilla;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104162;SI;4;21-04-162;Reparación quirúrgica ligamentos colaterales y/o cruzados de rodilla;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104163;SI;4;21-04-163;Traslocaciones músculo-tendinosas en rodilla paralítica o espástica;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104164;SI;4;21-04-164;Amputación pierna;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104165;SI;4;21-04-165;Colgajo cruzado de pierna, trat. quir. completo;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104166;SI;4;21-04-166;Fasciotomía por síndrome compartamental;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104167;SI;4;21-04-167;Osteosíntesis tibio-peroné  (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104168;SI;4;21-04-168;Osteotomía correctora de ejes  (cualquier técnica) pierna;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104169;SI;4;21-04-169;Osteotomía de alargamiento o acortamiento con osteosíntesis inmediata o distracción instrumental progresiva pierna;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104170;SI;4;21-04-170;Osteotomía del peroné;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104171;SI;4;21-04-171;Peroné protibia;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104172;SI;4;21-04-172;Pseudoartrosis, c/s osteosíntesis  (cualquier técnica) pierna;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104173;SI;4;21-04-173;Desarticulación tobillo;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104174;SI;4;21-04-174;Endoprótesis total tobillo, (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104175;SI;4;21-04-175;Esguince grave de tobillo, trat. quir. cápsulo-ligamentoso ;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104176;SI;4;21-04-176;Fractura astrágalo y/o calcáneo, osteosíntesis (cualq. técn.);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104177;SI;4;21-04-177;Huesos supernumerarios, extirpación, uno o más, unilateral;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104178;SI;4;21-04-178;Luxación tibio-astrág.-calcán., reducc. cruenta y osteosínt.;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104179;SI;4;21-04-179;Luxofractura tobillo, cualquier tipo, osteosíntesis y reparación cápsulo-ligamentosa;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104180;SI;4;21-04-180;Osteoplastía tibio-calcánea;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104181;SI;4;21-04-181;Ruptura tendón de Aquiles o tibial posterior, tenorrafia primaria y/o transposiciones tendinosas;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104182;SI;4;21-04-182;Ruptura tibial anterior u otros, tenorrafia;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104183;SI;4;21-04-183;Tenorrafia extensores o tenotomía de alargamiento de tendón de Aquiles;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104184;SI;4;21-04-184;Traslocación tendinosa tobillo;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104185;SI;4;21-04-185;Amputación transmetatarsiana;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104186;SI;4;21-04-186;Astrágalo vertical, trat. quir.;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104187;SI;4;21-04-187;Espolón calcáneo, trat. quir.;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104188;SI;4;21-04-188;"Exostosis 5° metatarsiano, (""juanetillo"")  trat. quir.";Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104189;SI;4;21-04-189;Fasciotomía plantar (proc. aut.);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104190;SI;4;21-04-190;Hallux valgus o rígidus, trat.quir. completo (cualquier téc.);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104191;SI;4;21-04-191;Luxaciones, luxofracturas, fracturas, reducción cruenta pie;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104192;SI;4;21-04-192;Mal perforante plantar, trat. quir.;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104193;SI;4;21-04-193;Neuroma de Morton, trat. quir.;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104194;SI;4;21-04-194;Ortejos en garra, trat. quir., cualq. número (cualq. técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104195;SI;4;21-04-195;Ortejos, amputación, uno o más, unilateral;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104196;SI;4;21-04-196;Pie bot u otras malformaciones congénitas, trat. quir. (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104197;SI;4;21-04-197;Pie cavo, trat.quir. (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104198;SI;4;21-04-198;Pie plano, trat. quir. (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104199;SI;4;21-04-199;Pie reumatoideo, trat.quir.completo (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104200;SI;4;21-04-200;Sesamoídeos, extirpación de uno o más, unilateral;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104201;SI;4;21-04-201;Tenorrafia extensores pie;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104202;SI;4;21-04-202;Trasplantes tendinosos pie (cualquier técnica);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104213;SI;4;21-04-213;Escoliosis, trat. quir., cualquier vía de abordaje, con instrumentación (incluye elementos de osteosíntesis);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104228;SI;4;21-04-228;Endoprótesis parcial de cadera c/s cementación (cualquier técnica) (incluye prótesis);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104229;SI;4;21-04-229;Endoprótesis total de cadera (incluye prótesis);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104231;SI;4;21-04-231;Fractura de cuello de fémur, osteosíntesis, cualquier técnica (incluye elementos de osteosíntesis);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104329;PPV;4;21-04-329;Recambio de Endoprótesis total de cadera (PPV);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2106001;SI;4;21-06-001;Retiro de endoprótesis u osteosíntesis internas articulares o de columna vertebral;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2106002;SI;4;21-06-002;Retiro de placas rectas o anguladas;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2106003;SI;4;21-06-003;Retiro de tornillos, clavos, agujas de osteosíntesis o similares;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2107007;SI;4;21-07-007;Tto.funcional c/técnica Sarmiento y similares- Extremidad inferior;Traumatología;Proc;Antigua;31-12-2008;31-12-2024
+2107008;SI;4;21-07-008;Tto.funcional c/técnica Sarmiento y similares- Extremidad superior;Traumatología;Proc;Antigua;31-12-2008;31-12-2024
+1602221;SI;4;16-02-221;Herida cortante o contusa complicada, reparación y sutura (más de 5 cm);Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2050
+1103012;NO;4;11-03-012;Craniectomías c/s remodelación ósea (honorario 2° Cirujano);Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+1103044;NO;4;11-03-044;Estereotaxia y Cirugía Funcional Implantación de isótopos (braquiterapia) (no incluye valor del radiofármaco);Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+1103XXX;NO;4;11-03-XXX;NEUROLOGIA Y NEUROCIRUGIA;Neurocirugía;Cirugía Menor;Antigua;31-12-2008;31-12-2017
+1202XXX;NO;4;12-02-XXX;CIRUGIA OFTALMOLOGICA;Oftalmología;Cirugía Menor;Antigua;31-12-2008;31-12-2017
+1302010;NO;4;13-02-010;Oído medio Petrositis, trat. quir.;Otorrinolaringología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+1302XXX;NO;4;13-02-XXX;CIRUGIA OTORRINOLARINGOLOGICA;Otorrinolaringología;Cirugía Menor;Antigua;31-12-2008;31-12-2017
+1402XXX;NO;4;14-02-XXX;CIRUGIA DE CABEZA Y CUELLO;Cirugía de Cabeza y Cuello;Cirugía Menor;Antigua;31-12-2008;31-12-2017
+1502XXX;NO;4;15-02-XXX;CIRUGIA PLASTICA Y REPARADORA;Plástica y Reparadora;Cirugía Menor;Antigua;31-12-2008;31-12-2017
+1602001;NO;4;16-02-001;Intervenciones quirúrgicas de tegumentos Biopsia de piel y/o mucosa por curetaje o sección tangencial c/s electrocirugía (proc. aut.);Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602002;NO;4;16-02-002;Cuerpo extraño cutáneo, y/o nevus, y/o angioma cutáneo o mucoso, y/o tumor benigno, extirp. de, hasta 5 elementos;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602003;NO;4;16-02-003;Cuerpo extraño cutáneo, y/o nevus, y/o angioma cutáneo o mucoso y/o tumor benigno, extirp. de 6 o más elementos;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602004;NO;4;16-02-004;Epitelioma basocelular o carcinoma espinocelular: cara;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602005;NO;4;16-02-005;Epitelioma basocelular o carcinoma espinocelular: otras localizaciones;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602006;NO;4;16-02-006;Hemangioma cavernoso del niño, trat. quir.;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602007;NO;4;16-02-007;Herida cortante o contusa complicada, reparación y sutura (una o múltiple de más de 5 cms. de largo total y/o que comprometa músculos y/o conductos y/o vasos o similares);Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602008;NO;4;16-02-008;Herida cortante o contusa no complicada, reparación y sutura (una o múltiple hasta 5 cms. de largo total que comprometa sólo la piel);Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602009;NO;4;16-02-009;Hidrosadenitis: vaciamiento;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602010;NO;4;16-02-010;Lesiones supuradas de la piel o subaponeurótica, trat. quir.;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602011;NO;4;16-02-011;Lipoma subcutáneo, trat. quir.;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602012;NO;4;16-02-012;Melanoma: cara;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602013;NO;4;16-02-013;Melanoma: otras localizaciones;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602014;NO;4;16-02-014;Onicectomía c/s plastía de lecho;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602015;NO;4;16-02-015;Intervenciones quirúrgicas de tegumentos Otros tumores malignos: cara;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602016;NO;4;16-02-016;Intervenciones quirúrgicas de tegumentos Otros tumores malignos: otras localizaciones;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602017;NO;4;16-02-017;Pellets subcutáneo por trócar, implante de;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602018;NO;4;16-02-018;Queratosis actínicas;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602019;NO;4;16-02-019;Tumores benignos subcutáneos y/o quistes epidérmicos o mucosos, trat. quir.;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602020;NO;4;16-02-020;Verruga plantar;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602022;NO;4;16-02-022;Herida cortante o contusa no complicada, reparación y sutura (una o múltiple hasta 5 cms. de largo total que comprometa solo la piel);Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602024;NO;4;16-02-024;Extirpación de lesión benigna subepidérmica, incluye Tumor sólido, quiste epidérmico y lipoma por lesión-resto del cuerpo;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602109;NO;4;16-02-109;Intervenciones quirúrgicas de tegumentos Glándulas sudoríparas axilares, extirp.;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1602XXX;NO;4;16-02-XXX;Dermatología y Tegumentos ;Dermatología;Cirugía Menor;Antigua;31-12-2008;31-12-2017
+1703004;NO;4;17-03-004;Fístula arteriovenosa derivación externa;Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+1703059;NO;4;17-03-059;Cirugías cardíacas Sinequias pericárdicas, trat. quir. ( proc. aut.);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+1704044;NO;4;17-04-044;Neumostomía (proc. aut.);Cirugía Cardiovascular;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+1707023;NO;4;17-07-023;Mediastinoscopia c/s biopsia;Cirugía de Tórax;Proc;Antigua;31-12-2008;31-12-2024
+1707034;NO;4;17-07-034;Cuerpo extraño de bronquio, extracción por vía endoscópica (incluye la endoscopia);Cirugía de Tórax;Proc;Antigua;31-12-2008;31-12-2024
+170XXXX;NO;4;17-0X-XXX;CIRUGIA CARDIOVASCULAR;Cirugía Cardiovascular;Cirugía Menor;Antigua;31-12-2008;31-12-2017
+1802020;NO;4;18-02-020;Gastrectomía sub-total con vagotomía;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+1803005;NO;4;18-03-005;Criptectomía y/o papilectomía (cualquier número, proc. aut.);Cirugía Digestiva;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+1803022;NO;4;18-03-022;Imperforación anal, reconstitución transito por via sagital posterior;Cirugía Digestiva;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+180XXXX;NO;4;18-0X-XXX;GASTROENTEROLOGIA;Cirugía Digestiva;Cirugía Menor;Antigua;31-12-2008;31-12-2017
+1902001;NO;4;19-02-001;Cirugía Riñón Absceso perinefrítico, vaciamiento;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+1902014;NO;4;19-02-014;Cirugía Suprarrenales Suprarrenalectomía bilateral;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+1902042;NO;4;19-02-042;Glándulas de Cowper, lesiones de las, trat. quir.;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+1902046;NO;4;19-02-046;Meatotomía mujer;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+1902048;NO;4;19-02-048;Pólipo meato, electrocoagulación;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+1902058;NO;4;19-02-058;Vesiculostomía diagnóstica y/o terapéutica;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+1902077;NO;4;19-02-077;Epispadias, trat. quir.;Urología y Nefrología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+1902XXX;NO;4;19-02-XXX;UROLOGIA Y NEFROLOGIA;Urología y Nefrología;Cirugía Menor;Antigua;31-12-2008;31-12-2017
+200XXXX;NO;4;20-0X-XXX;GINECOLOGIA Y OBSTETRICIA;Ginecología y Obstetricia;Cirugía Menor;Antigua;31-12-2008;31-12-2017
+2104043;NO;4;21-04-043;Fijación de escápula;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+2104082;NO;4;21-04-082;Implante silastic o similares (escafoides, semilunar);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+2104114;NO;4;21-04-114;Espondilodiscitis vertebral (TBC u otra), trat. quir. del foco, c/s artrodesis;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+2104115;NO;4;21-04-115;Fractura apófisis espinosa, trat. quir.;Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+2104120;NO;4;21-04-120;Resección arco neural (operación de Gill o similares);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+2703001;NO;4;27-03-001;Cirugía de enfermedad periodontal (por grupo);Odontología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+2703002;NO;4;27-03-002;Corticotomía;Odontología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+2703003;NO;4;27-03-003;Disyunción palatina quirúrgica;Odontología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+2703004;NO;4;27-03-004;Extirpación de pseudoquistes, quistes y tumores;Odontología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+2703005;NO;4;27-03-005;Glosectomías;Odontología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+2703006;NO;4;27-03-006;Implante endodóntico intraóseo;Odontología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+2703007;NO;4;27-03-007;Implantes subperiósticos;Odontología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+2703008;NO;4;27-03-008;Inclusiones dentarias (extracción de 3° Molar);Odontología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+2703009;NO;4;27-03-009;Injertos en boca;Odontología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+2703010;NO;4;27-03-010;Intervenciones quirúrgicas en el seno maxilar;Odontología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+2703011;NO;4;27-03-011;Plastía de fístula salival;Odontología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+2703012;NO;4;27-03-012;Preparación quirúrgica de los maxilares con fines protésicos;Odontología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+2703013;NO;4;27-03-013;Profundización de vestíbulo o reconstrucción de rebordes, con o sin injerto;Odontología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+2703014;NO;4;27-03-014;Reimplante y trasplante dentario;Odontología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+2703015;NO;4;27-03-015;Remoción de cuerpo extraño y secuestrectomía;Odontología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+2703016;NO;4;27-03-016;Sutura completa de herida mayor;Odontología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+2703017;NO;4;27-03-017;Sutura completa de herida menor;Odontología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+2703018;NO;4;27-03-018;Sutura simple de herida;Odontología;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+2703019;NO;4;27-03-019;Tratamiento quirúrgico fracturas maxilar superior;Odontología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+2703020;NO;4;27-03-020;Tratamiento quirúrgico de fracturas en maxilar inferior;Odontología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+2703021;NO;4;27-03-021;Tratamiento de traumatismo dento alveolar simple;Odontología;Proc;Antigua;31-12-2008;31-12-2024
+2703022;NO;4;27-03-022;Tratamiento de traumatismo dento alveolar complejo;Odontología;Proc;Antigua;31-12-2008;31-12-2024
+2703023;NO;4;27-03-023;Implante endo-oseo oseointegrable;Odontología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+2703024;NO;4;27-03-024;Pilar Protésico sobre Implantes;Odontología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+2703XXX;NO;4;27-03-XXX;ODONTOLOGIA;Odontología;Cirugía Menor;Antigua;31-12-2008;31-12-2017
+7003001;NO;4;70-03-001;Operaciones sobre el sistema arterial Embolectomía y/o trombectomía, unilateral, miembro superior o inferior (proc. aut.);Cardiovascular;Cirugía Menor;Antigua;31-12-2008;31-12-2024
+2103313;NO;4;21-03-313;Intervención quirúrgica intergral Escoliosis Neuromuscular;Odontología;Cirugía Mayor;Antigua;31-12-2008;31-12-2024
+1103127;PPV;4;11-03-127;Aneurisma De Alta Complejidad (PPV);Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103120;PPV;4;11-03-120;Tumores Y/O Quistes Intracraneanos Alta Complejidad (PPV);Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+2104313;PPV;4;21-04-313;Intervencion Quirurgica Integral Escoliosis Neuromuscular (PPV);Traumatología;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103100;PPV;4;11-03-100;Coils Alta Complejidad (PPV);Neurocirugía;Cirugía Mayor;Antigua;31-12-2008;31-12-2050
+1103070;SI;4;11-03-070;Biopsia de nervio periférico;Neurocirugía;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1103071;SI;4;11-03-071;Retiro de material de osteosíntesis o distractores en cirugía de craneosinostosis;Neurocirugía;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1103072;SI;4;11-03-072;Denervación facetaria o ramo medial columna;Neurocirugía;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1103073;SI;4;11-03-073;Artroplastia de columna ;Neurocirugía;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1103074;SI;4;11-03-074;Aseo quirúrgico de columna vertebral;Neurocirugía;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1103075;SI;4;11-03-075;Laminoplastía cervical;Neurocirugía;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1103076;SI;4;11-03-076;Guía estereotáxica para realización de cirugía o procedimiento neuroquirúrgico intracranéano ;Neurocirugía;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1103077;SI;4;11-03-077;Neurotomía periférica selectiva para tratamiento de espasticidad;Neurocirugía;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1103078;SI;4;11-03-078;Cementación vertebral cervical, dorsal o lumbar hasta 3 niveles;Neurocirugía;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1103079;SI;4;11-03-079;Cementación vertebral cervical, dorsal o lumbar mas de 3 niveles;Neurocirugía;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1103080;SI;4;11-03-080;Fusión intersomatica cervical;Neurocirugía;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1103081;SI;4;11-03-081;Fusión intersomática dorsal y lumbar corta;Neurocirugía;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1103082;SI;4;11-03-082;Fusión intersomática dorsal y lumbar larga;Neurocirugía;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1103083;SI;4;11-03-083;Liberación quirúrgica de nervio periférico en el Síndrome del Túnel Carpiano téc. WALANT (anestesia local sin torniquete);Neurocirugía;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+1202079;SI;4;12-02-079;Facoemulsificación;Oftalmología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1202080;SI;4;12-02-080;Tratamiento quirúrgico ptosis de la ceja;Oftalmología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1202081;SI;4;12-02-081;Evisceración del globo ocular;Oftalmología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1202083;SI;4;12-02-083;Tratamiento Trasplante de Córnea;Oftalmología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302001;SI;4;13-02-001;Absceso y/o hematomas oído externo, trat. quir.;Oftalmología;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+1302027;SI;4;13-02-027;Drenaje de absceso o flegmón de vestíbulo bucal;Otorrinolaringología;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+1302074;SI;4;13-02-074;Intervención quirúrgica implante coclear;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302075;SI;4;13-02-075;Fractura laríngea, reducción abierta c/s microplacas;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302076;SI;4;13-02-076;Punción timpánica para inyección de medicamentos;Otorrinolaringología;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+1302077;SI;4;13-02-077;Implante activo de oído medio;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302078;SI;4;13-02-078;Tumor de conducto auditivo externo, extirpación con reparación (injerto) del conducto;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302079;SI;4;13-02-079;Aticotomía (excluye timpanoplastia funcional);Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302080;SI;4;13-02-080;Plastía o dilatación por vía endoscópica trompa de Eustaquio;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302081;SI;4;13-02-081;Meatoplastía en oído radicalizado;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302082;SI;4;13-02-082;Reparación de brecha osteomeníngea por vía transtemporal;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302083;SI;4;13-02-083;Resección subtotal del hueso temporal (incluye tegmen, laberinto y punta de peñasco);Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302084;SI;4;13-02-084;Resección total del hueso temporal (abordaje combinado orl y neurocirujano);Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302085;SI;4;13-02-085;Timpanectomía con o sin tubos de ventilación;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302086;SI;4;13-02-086;Timpanoplastía funcional con reconstrucción de cadena osicular (excluye miringoplastía);Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302087;SI;4;13-02-087;Timpanotomía exploradora;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302088;SI;4;13-02-088;Tiroplastia 1-4;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302089;SI;4;13-02-089;Toma de injerto cartilago tragal;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302090;SI;4;13-02-090;Toma de injerto fascia temporal;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302091;SI;4;13-02-091;Tumor glómico petro-tímpano-mástoídeo, tratamiento quirúrgico;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302092;SI;4;13-02-092;Cirugía de fosa pterigo palatina;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302093;SI;4;13-02-093;Reparación de válvula nasal;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302094;SI;4;13-02-094;Resección de tumor de base de cráneo anterior con reparación de duramadre (colgajo pediculado de haddad o similar);Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302095;SI;4;13-02-095;Resección lateral del hueso temporal (incluye mástoides y conducto auditivo externo en forma circular);Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302096;SI;4;13-02-096;Tumor benigno nasosinusal y/o rinofaríngeo, resección por vía endoscópica (excluye fibroangioma nasofaríngeo);Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302097;SI;4;13-02-097;Tumor de espacio parafaríngeo, extirpación;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302098;SI;4;13-02-098;Tumor maligno nasosinusal y/o rinofaríngeo, tratamiento quirúrgico por vía endoscópica;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302099;SI;4;13-02-099;Sinuplastía seno frontal con balón por endoscopía u otra técnica;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302100;SI;4;13-02-100;Sinuplastía seno maxilar con balón por endoscopía u otra técnica;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302101;SI;4;13-02-101;Sinuplastía seno esfenoidal con balón por endoscopia u otra técnica;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302102;SI;4;13-02-102;Dacriocistocele reseccion vía nasal;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302103;SI;4;13-02-103;Abducción de aritenoides, aritenoidopexia;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302104;SI;4;13-02-104;Cordectomía, sinequia y otras malformaciones, tratatamiento quirúrgico por endoscópica (incluye laser);Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302105;SI;4;13-02-105;Subluxación articulación cricotiroídea;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302106;SI;4;13-02-106;Laringectomía parcial endoscópica con láser, incluye cordectomía ampliada (carcinoma supraglótico);Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302107;SI;4;13-02-107;Laringoplastía por laringomalacia;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302108;SI;4;13-02-108;Inyección de cuerda vocal vía endoscópica;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1302109;SI;4;13-02-109;Inyección de cuerda vocal vía externa;Otorrinolaringología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1502067;SI;4;15-02-067;Toma de injerto de cuero cabelludo;Plástica y Reparadora;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+1502068;SI;4;15-02-068;Expansor de piel (dos o más) primer tiempo;Plástica y Reparadora;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1502069;SI;4;15-02-069;Expansor de piel (dos o más) segundo tiempo retiro;Plástica y Reparadora;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1502070;SI;4;15-02-070;Expansor de piel (único) primer tiempo;Plástica y Reparadora;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1502071;SI;4;15-02-071;Expansor de piel (único) segundo tiempo o retiro;Plástica y Reparadora;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1602240;SI;4;16-02-240;Curación por Médico, Quemadura o Similar  menor al 5% superficie corporal en pabellón;Dermatología;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+1602241;SI;4;16-02-241;Curación por Médico, Quemadura o Similar  5 a 10% superficie corporal en pabellón;Dermatología;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+1602242;SI;4;16-02-242;Curación por Médico, Quemadura o Similar mayor al 10 %  superficie corporal en pabellón;Dermatología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1703023;SI;4;17-03-023;Denudación venosa (proc. aut.);Cirugía Cardiovascular;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+1703064;SI;4;17-03-064;Implante de prótesis para hemodiálisis;Cirugía Cardiovascular;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+1703065;SI;4;17-03-065;Transposición basílica o similar;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1703066;SI;4;17-03-066;Instalación de catéter venoso de larga duración tunelizado (incluye cateter);Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1703067;SI;4;17-03-067;Simpatectomía cervico-torácica toracoscopia;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704065;SI;4;17-04-065;Mediastinoscopía y/o videomediastinoscopía c/s biopsia;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704066;SI;4;17-04-066;Tumores o quistes de mediastino (anterior o posterior) tratamiento quirúrgico c/s disección ganglionar por videotoracoscopia;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704067;SI;4;17-04-067;Cirugía del diafragma con cirugía de vísceras abdominales o torácicas por vía toracoscopia;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704068;SI;4;17-04-068;Heridas traumáticas, trat. quir. por vía videotoracoscopia;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704069;SI;4;17-04-069;Cirugía de tumores o malformaciones diafragmaticos por videotoracoscopia;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704070;SI;4;17-04-070;Biopsia pleural por videotoracoscopia;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704071;SI;4;17-04-071;Cuerpo extraño pleural, por videotoracoscopia;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704072;SI;4;17-04-072;Decorticación pleuropulmonar (pleurectomía parcial o total) por videotoracoscopia;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704073;SI;4;17-04-073;Absceso pulmonar, drenaje por videotoracoscopia;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704074;SI;4;17-04-074;Cirugía de quiste hidatídico c/s resección pulmonar por vía videotoracoscopia;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704075;SI;4;17-04-075;Metástasis unilateral, trat. quir. por videotoracoscopia;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704076;SI;4;17-04-076;Atresia esofágica con fístula traqueoesofágica por toracoscopia;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704077;SI;4;17-04-077;Atresia esofágica sin fístula traqueoesofágica por toracoscopia;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704078;SI;4;17-04-078;Atresia esofágica sin fístula traqueoesofágica. Anastomosis;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1703071;SI;4;17-03-071;Aneurisma torácico con compromiso de arco aórtico tratamiento endovascular;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1703072;SI;4;17-03-072;Implante de desfribilador con resincronizador VVI (incluye dispositivo);Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1703073;SI;4;17-03-073;Implante de desfribilador con resincronizador DDD  (incluye dispositivo);Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704080;SI;4;17-04-080;Videotoracoscopía exploradora ;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704081;SI;4;17-04-081;Conducto torácico, ligadura por vía videotoracoscopica;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704082;SI;4;17-04-082;Frenoparalisis tratatamiento quirúrgico laparoscópico;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704083;SI;4;17-04-083;Frenoparalisis tratamiento quirúrgico por vía videotoracoscopica;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704084;SI;4;17-04-084;Hernioplastía diafragmática por vía torácica c/s prótesis por vía videotoracoscopica ;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704085;SI;4;17-04-085;Pleurodesis por vía videotoracoscopica;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704086;SI;4;17-04-086;Tumores pleurales, por vía videotoracoscopica;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704087;SI;4;17-04-087;Cirugía del mesotelioma maligno;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704088;SI;4;17-04-088;Fibrinolisis pleural por pleurotomía;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704089;SI;4;17-04-089;Resección segmentaria atipica por vía videotoracoscopica;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704090;SI;4;17-04-090;Heridas de pulmón, trat. quir. por vía videotoracoscopica;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704091;SI;4;17-04-091;Lobectomía o bilobectomía por vía videotoracoscopica;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704092;SI;4;17-04-092;Neumonectomía por vía videotoracoscopica;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704093;SI;4;17-04-093;Resecciones segmentarias anatómica por vía videotoracoscopica;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704094;SI;4;17-04-094;Extracción cuerpo extraño esofágico por vía videotoracoscopica;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704095;SI;4;17-04-095;Resección de tumor esofagico benignos por vía videotoracoscopica;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704096;SI;4;17-04-096;Resección de diverticulos esofágicos por vía videotoracoscopica;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704097;SI;4;17-04-097;Sutura herida o perforación esófago torácico por vía videotoracoscopica;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1703068;SI;4;17-03-068;Resección ganglios mediastínicos por toracotomía;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1703069;SI;4;17-03-069;Resección ganglios mediastínicos por vía videotoracoscopica;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1703070;SI;4;17-03-070;Vaciamiento mediastínico ántero-superior;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1704079;SI;4;17-04-079;Cirugía del opérculo torácico por vía videotoracoscopica;Cirugía Cardiovascular;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802083;SI;4;18-02-083;Cirugía de la estenosis hipertrófica del píloro. Abierta;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802084;SI;4;18-02-084;Cirugía de la estenosis hipertrófica del píloro. Laparoscopia;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802085;SI;4;18-02-085;Laparotomía exploradora, instalación de VAC (por procedimiento);Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802086;SI;4;18-02-086;Cirugía antirreflujo más gastrostomía;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802087;SI;4;18-02-087;Cirugía antirreflujo más gastrostomia vía laparoscopia;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802158;SI;4;18-02-158;Cirugía bariátrica By Pass Gástrico por laparoscopia ;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802159;SI;4;18-02-159;Cirugía bariátrica Manga Gástrica por laparoscopia;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802088;SI;4;18-02-088;Cirugía de la atresia de vía biliar;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802089;SI;4;18-02-089;Cirugía de la atresia de vía biliar por vía laparoscopia;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802090;SI;4;18-02-090;Atresia o estenosis duodenal, páncreas anular, reparación quirúrgica. Abierta;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802091;SI;4;18-02-091;Atresia o estenosis duodenal, páncreas anular, reparación quirúrgica laparoscopia;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802092;SI;4;18-02-092;Esplenectomía por vía laparoscopia;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802093;SI;4;18-02-093;Cirugía de la enterocolitis neonatal con resección intestinal;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802094;SI;4;18-02-094;Cirugía de la enterocolitis neonatal con resección intestinal laparoscopia;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802095;SI;4;18-02-095;Cirugía de la enterocolitis neonatal con resección múltiple;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802096;SI;4;18-02-096;Cirugía de la enterocolitis neonatal con resección múltiple laparoscopia;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802097;SI;4;18-02-097;Cirugía de la enterocolitis neonatal sin resección intestinal;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802098;SI;4;18-02-098;Cirugía de la enterocolitis neonatal sin resección intestinal laparoscopia;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802099;SI;4;18-02-099;Reconstitución de transito post enterocolitis neonatal con una entero-entero anastomosis;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802106;SI;4;18-02-106;Reconstitución de transito post enterocolitis neonatal con múltiples entero-entero anastomosis;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802102;SI;4;18-02-102;Atresia o estenosis yeyuno-ileal, reparación primaria abierta;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802103;SI;4;18-02-103;Atresia o estenosis yeyuno-ileal, reparación primaria laparoscopia;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802104;SI;4;18-02-104;Atresia o estenosis yeyuno-ileal, resección y ostomías abierta;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802105;SI;4;18-02-105;Atresia o estenosis yeyuno-ileal, resección y ostomías laparoscopia;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802149;SI;4;18-02-149;By pass gástrico por cirugía abierta;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802150;SI;4;18-02-150;By pass gástrico por laparoscopía;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802151;SI;4;18-02-151;Cirugía del quiste de colédoco;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1802152;SI;4;18-02-152;Cirugía del quiste de colédoco laparoscópico;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1803039;SI;4;18-03-039;Cirugía de la cloaca, primer tiempo de derivación;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1803040;SI;4;18-03-040;Cirugía de la cloaca, reparación definitiva;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1803041;SI;4;18-03-041;Cirugía reparadora en Enfermedad de Hirschsprung vía abdomino-perineal;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1803042;SI;4;18-03-042;Cirugía reparadora en Enfermedad de Hirschsprung vía endoanal;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1902093;SI;4;19-02-093;Ureterostomía unilateral: vesical, cutáneo o intestinal por vía de abordaje laparoscopia;Urología y Nefrología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1902091;SI;4;19-02-091;Reparación vesical por trauma o daño de cualquier tipo. Por vía de abordaje laparoscópica;Urología y Nefrología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+1902092;SI;4;19-02-092;Inyección ureteral o vesical de medicamentos o sustancias vía endoscópica (no incluye fármaco);Urología y Nefrología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2002006;SI;4;20-02-006;Biopsia linfonodo centinela;Ginecología y Obstetricia;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2003042;SI;4;20-03-042;Linfadenectomía pélvica bilateral laparoscopia ;Ginecología y Obstetricia;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2003043;SI;4;20-03-043;Traquelectomía radical ;Ginecología y Obstetricia;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2003044;SI;4;20-03-044;Linfadenectomía pelvica bilateral abierta;Ginecología y Obstetricia;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2003045;SI;4;20-03-045;Traquelectomía radical laparoscópica ;Ginecología y Obstetricia;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2003046;SI;4;20-03-046;Traquelectomía simple por vía vaginal;Ginecología y Obstetricia;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2004013;SI;4;20-04-013;Cirugía quiste o tumor benigno del ovario abierta, neonatal;Ginecología y Obstetricia;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2004014;SI;4;20-04-014;Cirugía quiste o tumor benigno del ovario laparoscópico, neonatal;Ginecología y Obstetricia;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2004015;SI;4;20-04-015;Tratamiento quirúrgico abierto del quiste paraovárico o del ligamento ancho, neonatal;Ginecología y Obstetricia;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2004016;SI;4;20-04-016;Tratamiento quirúrgico laparoscópico del quiste paraovárico o del ligamento ancho, laparoscópico, neonatal;Ginecología y Obstetricia;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2004017;SI;4;20-04-017;Tratamiento quirúrgico de himen imperforado, paciente pediátrico;Ginecología y Obstetricia;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2104203;SI;4;21-04-203;Tratamiento quir., dedos en gatillo, cualquier número téc. WALANT (anestesia local sin torniquete);Traumatología;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+2104232;SI;4;21-04-232;Punción discal diagnóstica o terapéutica;Traumatología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2104233;SI;4;21-04-233;Biopsia vertebral abierta;Traumatología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2104234;SI;4;21-04-234;Resección parcial de sacro distal y coxis;Traumatología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2104235;SI;4;21-04-235;Resección parcial de sacro proximal;Traumatología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2104236;SI;4;21-04-236;Teratoma sacrococcigeo;Traumatología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2104237;SI;4;21-04-237;Teratoma sacrococcigeo intra y extrapelviano;Traumatología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2705001;SI;4;27-05-001;Cirugía bucal;Odontología;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+2705002;SI;4;27-05-002;Cirugía de enfermedad periodontal (por grupo);Odontología;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+2705003;SI;4;27-05-003;Corticotomía;Odontología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2705004;SI;4;27-05-004;Disyunción palatina quirúrgica;Odontología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2705005;SI;4;27-05-005;Extirpación de pseudoquistes, quistes y tumores;Odontología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2705006;SI;4;27-05-006;Glosectomías;Odontología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2705007;SI;4;27-05-007;Implante endodóntico intraóseo;Odontología;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+2705008;SI;4;27-05-008;Implantes subperiósticos;Odontología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2705009;SI;4;27-05-009;Exodoncia de dientes retenidos;Odontología;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+2705010;SI;4;27-05-010;Exodoncia de tercer molar con osteotomía ;Odontología;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+2705011;SI;4;27-05-011;Injertos en boca;Odontología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2705012;SI;4;27-05-012;Elevación de piso del seno maxilar;Odontología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2705013;SI;4;27-05-013;Plastía de fístula salival;Odontología;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+2705014;SI;4;27-05-014;Preparación quirúrgica de los maxilares con fines protésicos;Odontología;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+2705015;SI;4;27-05-015;Profundización de vestíbulo o reconstrucción de rebordes, con o sin injerto;Odontología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2705016;SI;4;27-05-016;Reimplante y trasplante dentario;Odontología;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+2705017;SI;4;27-05-017;Remoción de cuerpo extraño y secuestrectomía;Odontología;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+2705018;SI;4;27-05-018;Sutura completa de herida mayor;Odontología;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+2705019;SI;4;27-05-019;Sutura completa de herida menor;Odontología;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+2705020;SI;4;27-05-020;Sutura simple de herida;Odontología;Cirugía Menor;Nueva;01-01-2021;31-12-2050
+2705021;SI;4;27-05-021;Tratamiento quirúrgico fracturas maxilar superior;Odontología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2705022;SI;4;27-05-022;Tratamiento quirúrgico de fracturas en maxilar inferior;Odontología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2705025;SI;4;27-05-025;Implante oseointegrado;Odontología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+2705026;SI;4;27-05-026;Pilar Protésico sobre Implantes;Odontología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+01012553;REM BS;4;238506;Sutura intraoral ;Odontología;Cirugía Mayor;Pendiente;01-01-2021;31-12-2050
+01012554;REM BS;4;238871;Tratamiento quirúrgico pseudoquiste y quiste odontológico ;Odontología;Cirugía Mayor;Pendiente;01-01-2021;31-12-2050
+01012555;REM BS;4;239236;Tratamiento quirúrgico tumor odontológico ;Odontología;Cirugía Mayor;Pendiente;01-01-2021;31-12-2050
+5099022;REM BS;4;50-99-022;Frenectomia ;Odontología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+5099023;REM BS;4;50-99-023;Fenestracion;Odontología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+5099024;REM BS;4;50-99-024;Drenaje Abceso intra-extroral;Odontología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+5099025;REM BS;4;50-99-025;Cirugía preprotesica ;Odontología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+5099056;REM BS;4;50-99-056;Desobturacion de conductos ;Odontología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+01012561;REM BS;4;241428;Cirugía ortognática;Odontología;Cirugía Mayor;Pendiente;01-01-2021;31-12-2050
+01012426;REM BS;4;192120;Sinoviortesis en paciente hemofílico ;Traumatología;Cirugía Mayor;Pendiente;01-01-2021;31-12-2050
+01012427;REM BS;4;192485;Otras cirugías periarticulares hemofilicos ;Traumatología;Cirugía Mayor;Pendiente;01-01-2021;31-12-2050
+01012428;REM BS;4;192850;Amputaciones pie diabético;Traumatología;Cirugía Mayor;Pendiente;01-01-2021;31-12-2050
+01012429;REM BS;4;193216;Amputación de ortejo(s) por pie diabético ;Traumatología;Cirugía Mayor;Pendiente;01-01-2021;31-12-2050
+01012430;REM BS;4;193581;Amputación de pie completo por pie diabético ;Traumatología;Cirugía Mayor;Pendiente;01-01-2021;31-12-2050
+5099191;REM BS;4;50-99-191;Extirpación de Pterigión con injerto corneal;Oftalmología;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+5099006;REM BS;4;50-99-006;Cirugía bariátrica con banda gástrica ajustable (Banding);Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+5099007;REM BS;4;50-99-007;Cirugía bariátrica con Balón Intragástrico;Cirugía Digestiva;Cirugía Mayor;Nueva;01-01-2021;31-12-2050
+01011754;REM BS;4;01-01-1754;Instalación de ECMO adulto (cirugía);Cardiovascular;Cirugía Mayor;Pendiente;01-01-2021;31-12-2050
+01011755;REM BS;4;01-01-1755;Instalación de ECMO Pediátrico (cirugía);Cardiovascular;Cirugía Mayor;Pendiente;01-01-2021;31-12-2050
+01011757;REM BS;4;10-11-757;Implantación Resincronizador (No Incluye Electrodos);Cardiovascular;Cirugía Mayor;Pendiente;01-01-2021;31-12-2050
+01011760;REM BS;4;01-01-1760;Implante marcapaso DDD con resincronización cardiaca;Cardiovascular;Cirugía Mayor;Pendiente;01-01-2021;31-12-2050
+01011761;REM BS;4;01-01-1761;Implante marcapaso VVI con resincronisador cardiaco;Cardiovascular;Cirugía Mayor;Pendiente;01-01-2021;31-12-2050
+01011762;REM BS;4;01-01-1762;Recambio Desfibrilador Cardiaco Bicameral;Cardiovascular;Cirugía Mayor;Pendiente;01-01-2021;31-12-2050
+01011763;REM BS;4;01-01-1763;Reposicion electrodo Auricular ;Cardiovascular;Cirugía Mayor;Pendiente;01-01-2021;31-12-2050
+01011764;REM BS;4;01-01-1764;Reposiciones parciales equipo marcapaso ;Cardiovascular;Cirugía Mayor;Pendiente;01-01-2021;31-12-2050
+01011983;REM BS;4;30317;Cierre de fistula de esófago-colon-gástrica  cirugía;Cirugía Abdominal;Cirugía Mayor;Pendiente;01-01-2021;31-12-2050

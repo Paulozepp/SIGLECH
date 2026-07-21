@@ -1,0 +1,74 @@
+erDiagram
+    %% Modelo relacional — Listas de Espera SIGTE x Dimensiones
+    %% Servicio de Salud Chiloe · corte 15-07-2026
+    %% Generado por 08_Modelo_Relacional_LE.py
+
+    DEMANDA_TOTAL_CNE  }o--|| MAESTRO_PACIENTES : "RUN"
+    DEMANDA_TOTAL_CNE  }o--|| PRESTACIONES_CNE_IQ : "PRESTA_MIN"
+    DEMANDA_TOTAL_CNE  }o--|| MANTENEDOR_ESTABLECIMIENTO : "ESTAB_ORIG / ESTAB_DEST / E_OTOR_AT"
+    DEMANDA_TOTAL_CNE  }o--|| CAUSALES_SALIDAS : "C_SALIDA"
+    DEMANDA_TOTAL_CNE  }o--|| TIPO_LISTA : "TIPO_PREST"
+    DEMANDA_TOTAL_CNE  }o--o| CIE10 : "CIE10_HOMOLOGADO (derivada)"
+
+    DEMANDA_TOTAL_IQ   }o--|| MAESTRO_PACIENTES : "RUN"
+    DEMANDA_TOTAL_IQ   }o--|| PRESTACIONES_CNE_IQ : "PRESTA_MIN"
+    DEMANDA_TOTAL_IQ   }o--|| MANTENEDOR_ESTABLECIMIENTO : "ESTAB_*"
+    DEMANDA_TOTAL_IQ   }o--|| CAUSALES_SALIDAS : "C_SALIDA"
+    DEMANDA_TOTAL_IQ   }o--|| TIPO_LISTA : "TIPO_PREST"
+    DEMANDA_TOTAL_IQ   }o--o| CIE10 : "CIE10_HOMOLOGADO (derivada)"
+
+    DEMANDA_TOTAL_PROC }o--|| MAESTRO_PRESTACION : "PRESTA_MIN (CNE_IQ no cubre procedimientos)"
+    DEMANDA_TOTAL_PROC }o--|| MAESTRO_PACIENTES : "RUN"
+    DEMANDA_TOTAL_PROC }o--|| MANTENEDOR_ESTABLECIMIENTO : "ESTAB_*"
+    DEMANDA_TOTAL_PROC }o--|| CAUSALES_SALIDAS : "C_SALIDA"
+    DEMANDA_TOTAL_PROC }o--|| TIPO_LISTA : "TIPO_PREST"
+    DEMANDA_TOTAL_PROC }o--o| CIE10 : "CIE10_HOMOLOGADO (derivada)"
+
+    DEMANDA_TOTAL_CNE {
+        int SIGTE_ID PK "unico por interconsulta"
+        int RUN FK
+        string PRESTA_MIN FK
+        string ESTAB_ORIG FK
+        string ESTAB_DEST FK
+        string E_OTOR_AT FK "85% con dato"
+        int C_SALIDA FK "vacio = vigente"
+        int TIPO_PREST FK "1"
+        string CIE10_HOMOLOGADO FK "derivada, 99%"
+        date F_ENTRADA
+        date F_SALIDA
+    }
+    MAESTRO_PACIENTES {
+        int RUN PK
+        string TELEFONO_RECIENTE
+        string EMAILS
+    }
+    PRESTACIONES_CNE_IQ {
+        string CODIGO PK "Propuesta de Codigo / Codigo SIGTE"
+        string NOMBRE
+        string ESPECIALIDAD
+    }
+    MAESTRO_PRESTACION {
+        string CODIGO PK
+        string PRESTACION
+        string ESPECIALIDAD
+        string TIPO_DE_LISTA
+    }
+    MANTENEDOR_ESTABLECIMIENTO {
+        string CODIGO_NUEVO PK "6 digitos"
+        string NOMBRE
+        string NIVEL_ATENCION "usar esta, no la DEIS"
+        int SS_CODIGO "33 = Chiloe"
+    }
+    CAUSALES_SALIDAS {
+        int CAUSAL PK
+        string NOMBRE
+        string TIPO "Atencion 1,16,17,19"
+    }
+    TIPO_LISTA {
+        int TIPO PK "1 CNE / 3 PROC / 4 IQ"
+        string DESCRIPCION
+    }
+    CIE10 {
+        string CODIGO PK
+        string DESCRIPCION
+    }

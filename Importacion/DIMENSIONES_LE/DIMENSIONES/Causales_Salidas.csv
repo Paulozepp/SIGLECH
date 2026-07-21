@@ -1,0 +1,23 @@
+﻿Causales;Nombre de Causal;Tipo de Causal;Tipos de Causal 2;Excluir del Numerador
+0;Ges ;Médica;Administrativas;1
+1;Atención realizada;Médica;Atención;1
+2;Procedimiento informado;Médica;Administrativas;1
+3;Indicación médica para reevaluación;Médica;Administrativas;1
+4;Atención otorgada en el extra-sistema;Administrativas;Administrativas;1
+5;Cambio de asegurador;Administrativas;Administrativas;2
+6;Renuncia o rechazo voluntario del usuario;Administrativas;Administrativas;1
+7;Recuperación espontánea;Administrativas;Administrativas;1
+8;Dos inasistencias;Administrativas;Administrativas;2
+9;Fallecimiento;Administrativas;Administrativas;2
+10;Solicitud de indicación duplicada;Administrativas;Administrativas;1
+11;Contacto no corresponde;Administrativas;Administrativas;2
+12;No corresponde realizar cirugía;Médica;Administrativas;1
+13;Traslado coordinado;Administrativas;Administrativas;1
+14;No pertinencia;Administrativas;Administrativas;1
+15;Error de Registro;Administrativas;Administrativas;1
+16;Atención por Resolutividad;Médica;Atención;1
+17;Atención por Telemedicina;Médica;Atención;1
+18;Modificación de la condición clínico-diagnóstica;Médica;Administrativas;1
+19;Hospital Digital;Médica;Atención;1
+99;Técnico Administrativo Nivel Central;Administrativas;Administrativas;1
+20;Postergación;Administrativas;Administrativas;1

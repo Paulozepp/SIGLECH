@@ -1,0 +1,93 @@
+erDiagram
+    %% Modelo relacional — Listas de Espera SIGTE x Dimensiones
+    %% Servicio de Salud Chiloe · corte 15-07-2026
+    %% ROLE-PLAYING: DIM_ESTABLECIMIENTO_ORIGEN / _DESTINO / _OTORGANTE son la MISMA
+    %% fuente (Mantenedor_ Establecimiento.xlsx) cargada 3 veces, una por rol.
+
+    DEMANDA_TOTAL_CNE  }o--|| MAESTRO_PACIENTES : "RUN"
+    DEMANDA_TOTAL_CNE  }o--|| PRESTACIONES_CNE_IQ : "PRESTA_MIN"
+    DEMANDA_TOTAL_CNE  }o--|| DIM_ESTABLECIMIENTO_ORIGEN : "ESTAB_ORIG (quien deriva)"
+    DEMANDA_TOTAL_CNE  }o--|| DIM_ESTABLECIMIENTO_DESTINO : "ESTAB_DEST (quien resuelve)"
+    DEMANDA_TOTAL_CNE  }o--o| DIM_ESTABLECIMIENTO_OTORGANTE : "E_OTOR_AT (quien atendio)"
+    DEMANDA_TOTAL_CNE  }o--o| CAUSALES_SALIDAS : "C_SALIDA (vacio = vigente)"
+    DEMANDA_TOTAL_CNE  }o--|| TIPO_LISTA : "TIPO_PREST"
+    DEMANDA_TOTAL_CNE  }o--o| CIE10 : "CIE10_HOMOLOGADO (derivada)"
+
+    DEMANDA_TOTAL_IQ   }o--|| MAESTRO_PACIENTES : "RUN"
+    DEMANDA_TOTAL_IQ   }o--|| PRESTACIONES_CNE_IQ : "PRESTA_MIN"
+    DEMANDA_TOTAL_IQ   }o--|| DIM_ESTABLECIMIENTO_ORIGEN : "ESTAB_ORIG"
+    DEMANDA_TOTAL_IQ   }o--|| DIM_ESTABLECIMIENTO_DESTINO : "ESTAB_DEST"
+    DEMANDA_TOTAL_IQ   }o--o| DIM_ESTABLECIMIENTO_OTORGANTE : "E_OTOR_AT"
+    DEMANDA_TOTAL_IQ   }o--o| CAUSALES_SALIDAS : "C_SALIDA"
+    DEMANDA_TOTAL_IQ   }o--|| TIPO_LISTA : "TIPO_PREST"
+    DEMANDA_TOTAL_IQ   }o--o| CIE10 : "CIE10_HOMOLOGADO (derivada)"
+
+    DEMANDA_TOTAL_PROC }o--|| MAESTRO_PRESTACION : "PRESTA_MIN (CNE_IQ no cubre procedimientos)"
+    DEMANDA_TOTAL_PROC }o--|| MAESTRO_PACIENTES : "RUN"
+    DEMANDA_TOTAL_PROC }o--|| DIM_ESTABLECIMIENTO_ORIGEN : "ESTAB_ORIG"
+    DEMANDA_TOTAL_PROC }o--|| DIM_ESTABLECIMIENTO_DESTINO : "ESTAB_DEST"
+    DEMANDA_TOTAL_PROC }o--o| DIM_ESTABLECIMIENTO_OTORGANTE : "E_OTOR_AT"
+    DEMANDA_TOTAL_PROC }o--o| CAUSALES_SALIDAS : "C_SALIDA"
+    DEMANDA_TOTAL_PROC }o--|| TIPO_LISTA : "TIPO_PREST"
+    DEMANDA_TOTAL_PROC }o--o| CIE10 : "CIE10_HOMOLOGADO (derivada)"
+
+    DEMANDA_TOTAL_CNE {
+        int SIGTE_ID PK "unico por interconsulta"
+        int RUN FK
+        string PRESTA_MIN FK
+        string ESTAB_ORIG FK "100% match"
+        string ESTAB_DEST FK "100% match"
+        string E_OTOR_AT FK "85% con dato · ~120 fallan por formato"
+        int C_SALIDA FK "vacio = vigente"
+        int TIPO_PREST FK "1"
+        string CIE10_HOMOLOGADO FK "derivada · 99%"
+        date F_ENTRADA
+        date F_SALIDA
+    }
+    MAESTRO_PACIENTES {
+        int RUN PK
+        string TELEFONO_RECIENTE
+        string EMAILS
+    }
+    PRESTACIONES_CNE_IQ {
+        string CODIGO PK "Propuesta de Codigo (CNE) / Codigo SIGTE (IQ)"
+        string NOMBRE
+        string ESPECIALIDAD
+    }
+    MAESTRO_PRESTACION {
+        string CODIGO PK
+        string PRESTACION
+        string ESPECIALIDAD
+        string TIPO_DE_LISTA
+    }
+    DIM_ESTABLECIMIENTO_ORIGEN {
+        string CODIGO_NUEVO PK "6 digitos"
+        string NOMBRE
+        string NIVEL_ATENCION "usar esta, no la DEIS"
+        int SS_CODIGO "33 = Chiloe"
+    }
+    DIM_ESTABLECIMIENTO_DESTINO {
+        string CODIGO_NUEVO PK "misma fuente, otro rol"
+        string NOMBRE
+        string NIVEL_ATENCION
+        int SS_CODIGO "33 = red · otro = macrored"
+    }
+    DIM_ESTABLECIMIENTO_OTORGANTE {
+        string CODIGO_NUEVO PK "misma fuente, otro rol"
+        string NOMBRE
+        string NIVEL_ATENCION
+        int SS_CODIGO
+    }
+    CAUSALES_SALIDAS {
+        int CAUSAL PK
+        string NOMBRE
+        string TIPO "Atencion 1,16,17,19 · 20 = postergacion"
+    }
+    TIPO_LISTA {
+        int TIPO PK "1 CNE / 3 PROC / 4 IQ"
+        string DESCRIPCION
+    }
+    CIE10 {
+        string CODIGO PK
+        string DESCRIPCION
+    }
