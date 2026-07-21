@@ -14,11 +14,11 @@
  * Respuesta: 202 Accepted con ID de importación
  */
 
-require_once __DIR__ . '/../../config.php';
-require_once __DIR__ . '/../../db.php';
-require_once __DIR__ . '/../v1/_auth.php';
-require_once __DIR__ . '/../v1/_respuesta.php';
-require_once __DIR__ . '/../../lib/CsvParser.php';
+require_once __DIR__ . '/../../../config.php';
+require_once __DIR__ . '/../../../db.php';
+require_once __DIR__ . '/../_auth.php';
+require_once __DIR__ . '/../_respuesta.php';
+require_once __DIR__ . '/../../../lib/CsvParser.php';
 
 // Verificar método HTTP
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {

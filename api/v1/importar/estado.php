@@ -11,10 +11,10 @@
  * Respuesta: Información de estado y progreso
  */
 
-require_once __DIR__ . '/../../config.php';
-require_once __DIR__ . '/../../db.php';
-require_once __DIR__ . '/../v1/_auth.php';
-require_once __DIR__ . '/../v1/_respuesta.php';
+require_once __DIR__ . '/../../../config.php';
+require_once __DIR__ . '/../../../db.php';
+require_once __DIR__ . '/../_auth.php';
+require_once __DIR__ . '/../_respuesta.php';
 
 // Verificar método HTTP
 if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
