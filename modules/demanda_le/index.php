@@ -78,33 +78,41 @@ $especialidadesDisponibles = $pdo->query("
 ")->fetchAll(PDO::FETCH_COLUMN);
 
 // --- Resultados filtrados + paginación ---
-$sqlCountBase = "SELECT COUNT(*) FROM {$tabla}";
-$sqlCountFull = $whereSql ? "{$sqlCountBase} {$whereSql}" : $sqlCountBase;
-
-if ($whereSql && !empty($params)) {
-    $stmtTotal = $pdo->prepare($sqlCountFull);
+// Usar query directo para COUNT (sin prepared statements para evitar problemas PDO)
+if (!empty($where)) {
+    $sqlCount = "SELECT COUNT(*) FROM {$tabla} WHERE " . implode(' AND ', $where);
+    $stmtTotal = $pdo->prepare($sqlCount);
     $stmtTotal->execute($params);
 } else {
-    $stmtTotal = $pdo->query($sqlCountFull);
+    $sqlCount = "SELECT COUNT(*) FROM {$tabla}";
+    $stmtTotal = $pdo->query($sqlCount);
 }
 $totalFiltrado = (int)$stmtTotal->fetchColumn();
 $totalPaginas  = max(1, (int)ceil($totalFiltrado / $porPagina));
 
 // --- Seleccionar registros con filtros ---
-$sqlBase = "
-    SELECT id, RUN, DV, NOMBRES, PRIMER_APELLIDO, SEGUNDO_APELLIDO,
-           ESPECIALIDAD_ESTANDAR, ESTADO, NOMBRE_ORIG, NOMBRE_DEST,
-           F_ENTRADA, DIAS_ESPERA, SIGTE_ID
-    FROM {$tabla}";
-
-$sql = $whereSql ? "{$sqlBase} {$whereSql}" : $sqlBase;
-$sql .= " ORDER BY F_ENTRADA DESC LIMIT {$porPagina} OFFSET {$offset}";
-
-if ($whereSql && !empty($params)) {
+if (!empty($where)) {
+    $sql = "
+        SELECT id, RUN, DV, NOMBRES, PRIMER_APELLIDO, SEGUNDO_APELLIDO,
+               ESPECIALIDAD_ESTANDAR, ESTADO, NOMBRE_ORIG, NOMBRE_DEST,
+               F_ENTRADA, DIAS_ESPERA, SIGTE_ID
+        FROM {$tabla}
+        WHERE " . implode(' AND ', $where) . "
+        ORDER BY F_ENTRADA DESC
+        LIMIT {$porPagina} OFFSET {$offset}
+    ";
     $stmt = $pdo->prepare($sql);
     $stmt->execute($params);
     $filas = $stmt->fetchAll();
 } else {
+    $sql = "
+        SELECT id, RUN, DV, NOMBRES, PRIMER_APELLIDO, SEGUNDO_APELLIDO,
+               ESPECIALIDAD_ESTANDAR, ESTADO, NOMBRE_ORIG, NOMBRE_DEST,
+               F_ENTRADA, DIAS_ESPERA, SIGTE_ID
+        FROM {$tabla}
+        ORDER BY F_ENTRADA DESC
+        LIMIT {$porPagina} OFFSET {$offset}
+    ";
     $filas = $pdo->query($sql)->fetchAll();
 }
 
