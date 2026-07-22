@@ -34,7 +34,7 @@ $cliente = verificarTokenAPI();
 verificarPermiso($cliente, 'lectura');
 
 try {
-    $pdo = getConexion();
+    $pdo = getConexionSiglech();
 
     // Parámetros
     $tipo = $_GET['tipo'] ?? null;
@@ -45,7 +45,7 @@ try {
     $dias_max = isset($_GET['dias_espera_max']) ? intval($_GET['dias_espera_max']) : null;
 
     $pagina = max(1, intval($_GET['pagina'] ?? 1));
-    $por_pagina = min(1000, max(10, intval($_GET['por_pagina'] ?? 100)));
+    $por_pagina = min(1000, max(1, intval($_GET['por_pagina'] ?? 100)));
     $ordenar_por = $_GET['ordenar_por'] ?? 'F_ENTRADA DESC';
 
     // Validar ordenamiento
@@ -73,8 +73,16 @@ try {
     }
 
     if ($prioridad) {
-        $conditions[] = "PRIORIDAD_LE = ?";
-        $params[] = $prioridad;
+        // Las tablas demanda_* no tienen PRIORIDAD_LE, calcular basado en DIAS_ESPERA
+        if ($prioridad === 'CRÍTICA') {
+            $conditions[] = "DIAS_ESPERA >= 180";
+        } elseif ($prioridad === 'ALTA') {
+            $conditions[] = "DIAS_ESPERA >= 90 AND DIAS_ESPERA < 180";
+        } elseif ($prioridad === 'MEDIA') {
+            $conditions[] = "DIAS_ESPERA >= 30 AND DIAS_ESPERA < 90";
+        } elseif ($prioridad === 'BAJA') {
+            $conditions[] = "DIAS_ESPERA < 30";
+        }
     }
 
     if ($dias_min !== null) {
@@ -111,7 +119,12 @@ try {
                 ESPECIALIDAD_ESTANDAR as especialidad,
                 ESTAB_ORIG as est_origen, ESTAB_DEST as est_destino,
                 DIAS_ESPERA as dias_espera, F_ENTRADA as fecha_ingreso,
-                PRIORIDAD_LE as prioridad, ESTADO,
+                CASE
+                    WHEN DIAS_ESPERA >= 180 THEN 'CRÍTICA'
+                    WHEN DIAS_ESPERA >= 90 THEN 'ALTA'
+                    WHEN DIAS_ESPERA >= 30 THEN 'MEDIA'
+                    ELSE 'BAJA'
+                END as prioridad, ESTADO,
                 CIE10_HOMOLOGADO as cie10
             FROM $tabla
             $where_sql
@@ -122,15 +135,21 @@ try {
         // UNION de todas las tablas
         $sql_union = "
             (SELECT id, SIGTE_ID as folio, 'CNE' as tipo, RUN, CONCAT(PRIMER_APELLIDO, ' ', SEGUNDO_APELLIDO, ', ', NOMBRES) as paciente,
-                    ESPECIALIDAD_ESTANDAR, ESTAB_ORIG, ESTAB_DEST, DIAS_ESPERA, F_ENTRADA, PRIORIDAD_LE, ESTADO, CIE10_HOMOLOGADO
+                    ESPECIALIDAD_ESTANDAR, ESTAB_ORIG, ESTAB_DEST, DIAS_ESPERA, F_ENTRADA,
+                    CASE WHEN DIAS_ESPERA >= 180 THEN 'CRÍTICA' WHEN DIAS_ESPERA >= 90 THEN 'ALTA' WHEN DIAS_ESPERA >= 30 THEN 'MEDIA' ELSE 'BAJA' END as prioridad,
+                    ESTADO, CIE10_HOMOLOGADO
              FROM demanda_cne WHERE ESTADO = 'VIGENTE' AND F_SALIDA IS NULL)
             UNION ALL
             (SELECT id, SIGTE_ID, 'IQ', RUN, CONCAT(PRIMER_APELLIDO, ' ', SEGUNDO_APELLIDO, ', ', NOMBRES),
-                    ESPECIALIDAD_ESTANDAR, ESTAB_ORIG, ESTAB_DEST, DIAS_ESPERA, F_ENTRADA, PRIORIDAD_LE, ESTADO, CIE10_HOMOLOGADO
+                    ESPECIALIDAD_ESTANDAR, ESTAB_ORIG, ESTAB_DEST, DIAS_ESPERA, F_ENTRADA,
+                    CASE WHEN DIAS_ESPERA >= 180 THEN 'CRÍTICA' WHEN DIAS_ESPERA >= 90 THEN 'ALTA' WHEN DIAS_ESPERA >= 30 THEN 'MEDIA' ELSE 'BAJA' END,
+                    ESTADO, CIE10_HOMOLOGADO
              FROM demanda_iq WHERE ESTADO = 'VIGENTE' AND F_SALIDA IS NULL)
             UNION ALL
             (SELECT id, SIGTE_ID, 'PROC', RUN, CONCAT(PRIMER_APELLIDO, ' ', SEGUNDO_APELLIDO, ', ', NOMBRES),
-                    ESPECIALIDAD_ESTANDAR, ESTAB_ORIG, ESTAB_DEST, DIAS_ESPERA, F_ENTRADA, PRIORIDAD_LE, ESTADO, CIE10_HOMOLOGADO
+                    ESPECIALIDAD_ESTANDAR, ESTAB_ORIG, ESTAB_DEST, DIAS_ESPERA, F_ENTRADA,
+                    CASE WHEN DIAS_ESPERA >= 180 THEN 'CRÍTICA' WHEN DIAS_ESPERA >= 90 THEN 'ALTA' WHEN DIAS_ESPERA >= 30 THEN 'MEDIA' ELSE 'BAJA' END,
+                    ESTADO, CIE10_HOMOLOGADO
              FROM demanda_proc WHERE ESTADO = 'VIGENTE' AND F_SALIDA IS NULL)
         ";
 

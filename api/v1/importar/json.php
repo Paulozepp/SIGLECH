@@ -96,11 +96,11 @@ try {
     $errores = [];
 
     $stmt_insert = $pdo->prepare("
-        INSERT IGNORE INTO $tabla_destino (
+        INSERT INTO $tabla_destino (
             _id, RUN, PRIMER_APELLIDO, SEGUNDO_APELLIDO, NOMBRES,
             ESTAB_ORIG, ESTAB_DEST, ESPECIALIDAD_ESTANDAR, PRESTA_MIN,
-            F_INGRE, F_SALIDA, ESTADO, PRIORIDAD_LE, DIAS_ESPERA, CIE10_HOMOLOGADO
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            F_ENTRADA, F_SALIDA, ESTADO, DIAS_ESPERA, CIE10_HOMOLOGADO
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     ");
 
     foreach ($datos as $indice => $registro) {
@@ -124,7 +124,6 @@ try {
                 $registro['fecha_ingreso'] ?? null,
                 $registro['fecha_salida'] ?? null,
                 $registro['estado'] ?? 'VIGENTE',
-                $registro['prioridad'] ?? null,
                 $registro['dias_espera'] ?? null,
                 $registro['cie10'] ?? null
             ]);

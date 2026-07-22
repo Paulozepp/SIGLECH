@@ -14,6 +14,13 @@ require_once __DIR__ . '/../../db.php';
 function verificarTokenAPI(): array {
     $header = $_SERVER['HTTP_AUTHORIZATION'] ?? '';
 
+    // Fallback para XAMPP/Apache cuando mod_rewrite interfiere
+    // getallheaders() es más confiable cuando $_SERVER no trae el Authorization
+    if (!$header && function_exists('getallheaders')) {
+        $headers = getallheaders();
+        $header = $headers['Authorization'] ?? $headers['authorization'] ?? '';
+    }
+
     if (!preg_match('/Bearer\s+([a-f0-9]+)/', $header, $matches)) {
         http_response_code(401);
         header('Content-Type: application/json');

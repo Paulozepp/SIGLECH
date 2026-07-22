@@ -28,7 +28,7 @@ $cliente = verificarTokenAPI();
 verificarPermiso($cliente, 'lectura');
 
 try {
-    $pdo = getConexion();
+    $pdo = getConexionSiglech();
 
     // Parámetros
     $tipo = $_GET['tipo'] ?? 'todos';
