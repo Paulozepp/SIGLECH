@@ -170,38 +170,45 @@ layoutHeader('Demanda LE - ' . $info['label'], $user, 'demanda_le');
 
 <!-- Filtros -->
 <div class="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-6 border border-slate-200 dark:border-slate-700 mb-6">
-    <form method="get" class="grid grid-cols-1 md:grid-cols-4 gap-4">
+    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-4">🔍 Filtros de Búsqueda</h3>
+    <form method="get" class="space-y-4">
         <input type="hidden" name="tipo" value="<?= htmlspecialchars($tipo) ?>">
-        <div>
-            <label class="block text-sm text-slate-600 dark:text-slate-400 mb-1">Buscar (RUN o nombre)</label>
-            <input type="text" name="buscar" value="<?= htmlspecialchars($buscar) ?>" placeholder="12345678-9 o Nombre"
-                   class="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-600 dark:bg-slate-700 dark:text-white text-sm">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div>
+                <label class="block text-sm font-medium text-slate-600 dark:text-slate-400 mb-2">Buscar (RUN o nombre)</label>
+                <input type="text" name="buscar" value="<?= htmlspecialchars($buscar) ?>" placeholder="12345678-9 o Nombre"
+                       class="w-full px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 dark:bg-slate-700 dark:text-white text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-slate-600 dark:text-slate-400 mb-2">Folio SIGTE</label>
+                <input type="text" name="sigte_id" value="<?= htmlspecialchars($sigteId) ?>" placeholder="ID SIGTE"
+                       class="w-full px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 dark:bg-slate-700 dark:text-white text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-slate-600 dark:text-slate-400 mb-2">Estado</label>
+                <select name="estado" class="w-full px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 dark:bg-slate-700 dark:text-white text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                    <option value="">Todos</option>
+                    <option value="VIGENTE" <?= $estado === 'VIGENTE' ? 'selected' : '' ?>>Vigente</option>
+                    <option value="EGRESADO" <?= $estado === 'EGRESADO' ? 'selected' : '' ?>>Egresado</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-slate-600 dark:text-slate-400 mb-2">Especialidad</label>
+                <select name="especialidad" class="w-full px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 dark:bg-slate-700 dark:text-white text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                    <option value="">Todas</option>
+                    <?php foreach ($especialidadesDisponibles as $esp): ?>
+                        <option value="<?= htmlspecialchars($esp) ?>" <?= $especialidad === $esp ? 'selected' : '' ?>><?= htmlspecialchars($esp) ?></option>
+                    <?php endforeach; ?>
+                </select>
+            </div>
         </div>
-        <div>
-            <label class="block text-sm text-slate-600 dark:text-slate-400 mb-1">Folio SIGTE</label>
-            <input type="text" name="sigte_id" value="<?= htmlspecialchars($sigteId) ?>" placeholder="ID SIGTE"
-                   class="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-600 dark:bg-slate-700 dark:text-white text-sm">
-        </div>
-        <div>
-            <label class="block text-sm text-slate-600 dark:text-slate-400 mb-1">Estado</label>
-            <select name="estado" class="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-600 dark:bg-slate-700 dark:text-white text-sm">
-                <option value="">Todos</option>
-                <option value="VIGENTE" <?= $estado === 'VIGENTE' ? 'selected' : '' ?>>Vigente</option>
-                <option value="EGRESADO" <?= $estado === 'EGRESADO' ? 'selected' : '' ?>>Egresado</option>
-            </select>
-        </div>
-        <div>
-            <label class="block text-sm text-slate-600 dark:text-slate-400 mb-1">Especialidad</label>
-            <select name="especialidad" class="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-600 dark:bg-slate-700 dark:text-white text-sm">
-                <option value="">Todas</option>
-                <?php foreach ($especialidadesDisponibles as $esp): ?>
-                    <option value="<?= htmlspecialchars($esp) ?>" <?= $especialidad === $esp ? 'selected' : '' ?>><?= htmlspecialchars($esp) ?></option>
-                <?php endforeach; ?>
-            </select>
-        </div>
-        <div class="md:col-span-4 flex gap-2">
-            <button type="submit" class="px-4 py-2 bg-brand-600 hover:bg-brand-700 text-white rounded-lg text-sm transition">Filtrar</button>
-            <a href="<?= htmlspecialchars(demandaLeTabUrl($tipo)) ?>" class="px-4 py-2 bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-lg text-sm transition">Limpiar</a>
+        <div class="flex gap-3 pt-4 border-t border-slate-200 dark:border-slate-700">
+            <button type="submit" class="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold transition flex items-center gap-2">
+                🔎 Aplicar Filtros
+            </button>
+            <a href="<?= htmlspecialchars(demandaLeTabUrl($tipo)) ?>" class="px-6 py-2 bg-slate-300 hover:bg-slate-400 dark:bg-slate-600 dark:hover:bg-slate-700 text-slate-900 dark:text-white rounded-lg font-semibold transition flex items-center gap-2">
+                🔄 Limpiar
+            </a>
         </div>
     </form>
 </div>

@@ -161,7 +161,7 @@ class SICOCHClient {
      * Verifica conexión con SICOCH
      */
     public function testConexion(): bool {
-        $result = $this->get("/api/health");
+        $result = $this->get("/api/health.php");
         return $result !== null && isset($result['status']) && $result['status'] === 'ok';
     }
 }

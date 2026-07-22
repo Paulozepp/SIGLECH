@@ -25,39 +25,89 @@ $tipos = [
     'PROC' => ['tabla' => 'demanda_proc', 'nombre' => 'Procedimientos', 'icono' => '⚕️', 'color' => 'amber'],
 ];
 
+// Parámetros de filtro
+$buscar = trim($_GET['buscar'] ?? '');
+$folio = trim($_GET['folio'] ?? '');
+$estado = trim($_GET['estado'] ?? '');
+$especialidad = trim($_GET['especialidad'] ?? '');
+
 $estadisticas = [];
+$hay_filtros = !empty($buscar) || !empty($folio) || !empty($estado) || !empty($especialidad);
 
 foreach ($tipos as $tipo => $info) {
+    // Si hay filtro de especialidad y no coincide, saltar
+    if (!empty($especialidad) && $especialidad !== $tipo) {
+        $estadisticas[$tipo] = [
+            'total' => 0,
+            'vigentes' => 0,
+            'dias_promedio' => 0,
+            'dias_maximo' => 0,
+            'establecimientos' => [],
+            'prioridades' => [],
+            'ultimos' => []
+        ];
+        continue;
+    }
+
     $tabla = $info['tabla'];
 
+    // Construir condiciones WHERE según filtros
+    $where = "1=1";
+    $params = [];
+
+    if (!empty($estado)) {
+        $where .= " AND ESTADO = ?";
+        $params[] = $estado;
+    }
+
+    if (!empty($buscar)) {
+        $where .= " AND (RUN LIKE ? OR NOMBRES LIKE ?)";
+        $buscar_param = '%' . str_replace(['-', '.'], '', $buscar) . '%';
+        $params[] = $buscar_param;
+        $params[] = '%' . $buscar . '%';
+    }
+
+    if (!empty($folio)) {
+        $where .= " AND SIGTE_ID LIKE ?";
+        $params[] = '%' . $folio . '%';
+    }
+
     // Total de registros
-    $stmt = $pdo->query("SELECT COUNT(*) as total FROM $tabla");
+    $sql_total = "SELECT COUNT(*) as total FROM $tabla WHERE $where";
+    $stmt = $pdo->prepare($sql_total);
+    $stmt->execute($params);
     $total = $stmt->fetch(PDO::FETCH_ASSOC)['total'];
 
     // Vigentes (ESTADO = 'VIGENTE' y F_SALIDA IS NULL)
-    $stmt = $pdo->query("SELECT COUNT(*) as vigentes FROM $tabla WHERE ESTADO = 'VIGENTE' AND F_SALIDA IS NULL");
+    $sql_vigentes = "SELECT COUNT(*) as vigentes FROM $tabla WHERE $where AND ESTADO = 'VIGENTE' AND F_SALIDA IS NULL";
+    $stmt = $pdo->prepare($sql_vigentes);
+    $stmt->execute($params);
     $vigentes = $stmt->fetch(PDO::FETCH_ASSOC)['vigentes'];
 
     // Dias de espera: promedio y máximo
-    $stmt = $pdo->query("SELECT AVG(DIAS_ESPERA) as promedio, MAX(DIAS_ESPERA) as maximo FROM $tabla WHERE ESTADO = 'VIGENTE' AND F_SALIDA IS NULL");
+    $sql_dias = "SELECT AVG(DIAS_ESPERA) as promedio, MAX(DIAS_ESPERA) as maximo FROM $tabla WHERE $where AND ESTADO = 'VIGENTE' AND F_SALIDA IS NULL";
+    $stmt = $pdo->prepare($sql_dias);
+    $stmt->execute($params);
     $dias = $stmt->fetch(PDO::FETCH_ASSOC);
     $dias_promedio = round($dias['promedio'] ?? 0);
     $dias_maximo = $dias['maximo'] ?? 0;
 
     // Por establecimiento destino (top 5)
-    $stmt = $pdo->query("
+    $sql_est = "
         SELECT de.nombre as establecimiento, COUNT(*) as cantidad
         FROM $tabla le
         LEFT JOIN dim_establecimiento de ON le.ESTAB_DEST = de.id
-        WHERE le.ESTADO = 'VIGENTE' AND le.F_SALIDA IS NULL
+        WHERE $where AND le.ESTADO = 'VIGENTE' AND le.F_SALIDA IS NULL
         GROUP BY le.ESTAB_DEST
         ORDER BY cantidad DESC
         LIMIT 5
-    ");
+    ";
+    $stmt = $pdo->prepare($sql_est);
+    $stmt->execute($params);
     $establecimientos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     // Prioridades (si existen)
-    $stmt = $pdo->query("
+    $sql_pri = "
         SELECT
             CASE
                 WHEN DIAS_ESPERA >= 180 THEN 'CRÍTICA (>180 días)'
@@ -67,14 +117,16 @@ foreach ($tipos as $tipo => $info) {
             END as prioridad,
             COUNT(*) as cantidad
         FROM $tabla
-        WHERE ESTADO = 'VIGENTE' AND F_SALIDA IS NULL
+        WHERE $where AND ESTADO = 'VIGENTE' AND F_SALIDA IS NULL
         GROUP BY prioridad
         ORDER BY cantidad DESC
-    ");
+    ";
+    $stmt = $pdo->prepare($sql_pri);
+    $stmt->execute($params);
     $prioridades = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     // Últimos registros
-    $stmt = $pdo->query("
+    $sql_ult = "
         SELECT
             SIGTE_ID as folio,
             CONCAT(PRIMER_APELLIDO, ', ', NOMBRES) as paciente,
@@ -83,10 +135,12 @@ foreach ($tipos as $tipo => $info) {
             DIAS_ESPERA as dias_espera,
             PRESTA_EST as prestacion
         FROM $tabla
-        WHERE ESTADO = 'VIGENTE' AND F_SALIDA IS NULL
+        WHERE $where AND ESTADO = 'VIGENTE' AND F_SALIDA IS NULL
         ORDER BY F_ENTRADA DESC
         LIMIT 10
-    ");
+    ";
+    $stmt = $pdo->prepare($sql_ult);
+    $stmt->execute($params);
     $ultimos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     $estadisticas[$tipo] = [
@@ -106,6 +160,77 @@ layoutHeader('Listas de Espera SIGLECH', $user, 'listas');
 <div class="mb-8">
     <h2 class="text-4xl font-bold text-slate-900 dark:text-white mb-2">📋 Listas de Espera SIGLECH</h2>
     <p class="text-slate-600 dark:text-slate-400">Análisis integral de CNE, IQ y PROC - Demanda Vigente</p>
+</div>
+
+<!-- Filtros de Búsqueda -->
+<div class="bg-white dark:bg-slate-800 rounded-xl shadow-lg p-6 border border-slate-200 dark:border-slate-700 mb-8">
+    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-4">🔍 Filtros de Búsqueda</h3>
+    <form method="GET" class="space-y-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <!-- Búsqueda por RUN o Nombre -->
+            <div>
+                <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
+                    Buscar (RUN o nombre)
+                </label>
+                <input
+                    type="text"
+                    name="buscar"
+                    placeholder="12345678-9 o Nombre"
+                    value="<?= htmlspecialchars($_GET['buscar'] ?? '') ?>"
+                    class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-700 text-slate-900 dark:text-white placeholder-slate-400 focus:ring-2 focus:ring-blue-500 outline-none"
+                >
+            </div>
+
+            <!-- Folio SIGTE -->
+            <div>
+                <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
+                    Folio SIGTE
+                </label>
+                <input
+                    type="text"
+                    name="folio"
+                    placeholder="ID SIGTE"
+                    value="<?= htmlspecialchars($_GET['folio'] ?? '') ?>"
+                    class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-700 text-slate-900 dark:text-white placeholder-slate-400 focus:ring-2 focus:ring-blue-500 outline-none"
+                >
+            </div>
+
+            <!-- Estado -->
+            <div>
+                <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
+                    Estado
+                </label>
+                <select name="estado" class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:ring-2 focus:ring-blue-500 outline-none">
+                    <option value="">Todos</option>
+                    <option value="VIGENTE" <?= ($_GET['estado'] ?? '') === 'VIGENTE' ? 'selected' : '' ?>>VIGENTE</option>
+                    <option value="EGRESADO" <?= ($_GET['estado'] ?? '') === 'EGRESADO' ? 'selected' : '' ?>>EGRESADO</option>
+                </select>
+            </div>
+
+            <!-- Especialidad -->
+            <div>
+                <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
+                    Especialidad
+                </label>
+                <select name="especialidad" class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-700 text-slate-900 dark:text-white focus:ring-2 focus:ring-blue-500 outline-none">
+                    <option value="">Todas</option>
+                    <option value="CNE" <?= ($_GET['especialidad'] ?? '') === 'CNE' ? 'selected' : '' ?>>Consulta Nueva Especialidad</option>
+                    <option value="IQ" <?= ($_GET['especialidad'] ?? '') === 'IQ' ? 'selected' : '' ?>>Intervención Quirúrgica</option>
+                    <option value="PROC" <?= ($_GET['especialidad'] ?? '') === 'PROC' ? 'selected' : '' ?>>Procedimientos</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Botones de acción -->
+        <div class="flex gap-3 pt-4 border-t border-slate-200 dark:border-slate-700">
+            <button type="submit" class="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold transition">
+                🔎 Aplicar Filtros
+            </button>
+            <a href="?" class="px-6 py-2 bg-slate-300 hover:bg-slate-400 dark:bg-slate-600 dark:hover:bg-slate-700 text-slate-900 dark:text-white rounded-lg font-semibold transition">
+                🔄 Limpiar
+            </a>
+        </div>
+    </form>
 </div>
 
 <!-- Tarjetas principales de los 3 tipos -->

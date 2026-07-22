@@ -62,7 +62,7 @@ function requiereLogin(): array {
     iniciarSesion();
 
     if (empty($_SESSION['usuario_id'])) {
-        header('Location: /SIGLECH//SIGLECH/login.php');
+        header('Location: /SIGLECH/login.php');
         exit;
     }
 
@@ -80,7 +80,7 @@ function requiereLogin(): array {
 
     if (!$usuario) {
         cerrarSesion();
-        header('Location: /SIGLECH//SIGLECH/login.php');
+        header('Location: /SIGLECH/login.php');
         exit;
     }
 

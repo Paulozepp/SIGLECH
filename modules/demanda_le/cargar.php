@@ -182,35 +182,111 @@ layoutHeader('Demanda LE - Cargar CSV', $user, 'demanda_le');
 </div>
 <?php endif; ?>
 
-<div class="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-6 border border-slate-200 dark:border-slate-700 max-w-2xl">
-    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Cargar CSV incremental</h3>
-    <p class="text-sm text-slate-600 dark:text-slate-400 mb-6">
-        Solo se insertan las filas nuevas (identificadas por su columna <code class="bg-slate-100 dark:bg-slate-700 px-1.5 py-0.5 rounded">_id</code>).
-        Las filas ya cargadas anteriormente se omiten automáticamente, por lo que puedes volver a subir el mismo archivo o una versión actualizada sin generar duplicados.
-    </p>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <!-- Instrucciones -->
+    <div class="lg:col-span-2 bg-white dark:bg-slate-800 rounded-lg shadow-lg p-6 border border-slate-200 dark:border-slate-700">
+        <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-4">📋 Cargar CSV incremental</h3>
 
-    <form method="post" enctype="multipart/form-data" class="space-y-4">
-        <input type="hidden" name="csrf_token" value="<?= htmlspecialchars(csrfToken()) ?>">
-
-        <div>
-            <label class="block text-sm text-slate-600 dark:text-slate-400 mb-1">Tipo de lista</label>
-            <select name="tipo" required class="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-600 dark:bg-slate-700 dark:text-white text-sm">
-                <?php foreach (DEMANDA_LE_TABLAS as $codigo => $t): ?>
-                    <option value="<?= htmlspecialchars($codigo) ?>"><?= $t['icono'] ?> <?= htmlspecialchars($t['label']) ?> — <?= htmlspecialchars($t['nombre']) ?></option>
-                <?php endforeach; ?>
-            </select>
+        <div class="mb-6">
+            <h4 class="text-sm font-semibold text-slate-900 dark:text-white mb-2">¿Cómo funciona?</h4>
+            <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-2">
+                <li class="flex gap-2">
+                    <span class="text-brand-600 font-bold min-w-5">1.</span>
+                    <span>Descarga la plantilla CSV para el tipo de lista que necesitas (CNE, IQ o PROC)</span>
+                </li>
+                <li class="flex gap-2">
+                    <span class="text-brand-600 font-bold min-w-5">2.</span>
+                    <span>Completa los datos. La columna <code class="bg-slate-100 dark:bg-slate-700 px-1.5 py-0.5 rounded text-xs">_id</code> es el identificador único</span>
+                </li>
+                <li class="flex gap-2">
+                    <span class="text-brand-600 font-bold min-w-5">3.</span>
+                    <span>Sube el archivo aquí. Solo se insertan filas con <code class="bg-slate-100 dark:bg-slate-700 px-1.5 py-0.5 rounded text-xs">_id</code> nuevas</span>
+                </li>
+                <li class="flex gap-2">
+                    <span class="text-brand-600 font-bold min-w-5">4.</span>
+                    <span>Las filas duplicadas se omiten automáticamente (sin generar errores)</span>
+                </li>
+            </ul>
         </div>
 
-        <div>
-            <label class="block text-sm text-slate-600 dark:text-slate-400 mb-1">Archivo CSV</label>
-            <input type="file" name="csv" accept=".csv" required
-                   class="w-full text-sm text-slate-600 dark:text-slate-400 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-brand-600 file:text-white hover:file:bg-brand-700">
+        <div class="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg p-4 mb-6">
+            <p class="text-sm text-blue-900 dark:text-blue-100">
+                <strong>💡 Consejo:</strong> Puedes subir el mismo archivo varias veces sin riesgo de duplicados. Solo se procesarán los registros nuevos.
+            </p>
         </div>
 
-        <button type="submit" class="px-6 py-2 bg-brand-600 hover:bg-brand-700 text-white rounded-lg text-sm font-medium transition">
-            📤 Procesar carga
-        </button>
-    </form>
+        <form method="post" enctype="multipart/form-data" class="space-y-4">
+            <input type="hidden" name="csrf_token" value="<?= htmlspecialchars(csrfToken()) ?>">
+
+            <div>
+                <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Tipo de lista *</label>
+                <select name="tipo" required id="tipoSelect" class="w-full px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-600 dark:bg-slate-700 dark:text-white text-sm">
+                    <?php foreach (DEMANDA_LE_TABLAS as $codigo => $t): ?>
+                        <option value="<?= htmlspecialchars($codigo) ?>"><?= $t['icono'] ?> <?= htmlspecialchars($t['label']) ?> — <?= htmlspecialchars($t['nombre']) ?></option>
+                    <?php endforeach; ?>
+                </select>
+            </div>
+
+            <div>
+                <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Archivo CSV *</label>
+                <input type="file" name="csv" accept=".csv" required
+                       class="w-full text-sm text-slate-600 dark:text-slate-400 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-brand-600 file:text-white hover:file:bg-brand-700">
+                <p class="text-xs text-slate-500 dark:text-slate-400 mt-2">
+                    Formato: CSV con separador por coma o punto y coma. Máximo 100 MB.
+                </p>
+            </div>
+
+            <div class="flex gap-3 pt-4">
+                <button type="submit" class="px-6 py-2 bg-brand-600 hover:bg-brand-700 text-white rounded-lg text-sm font-medium transition">
+                    📤 Procesar carga
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Panel de Descargas -->
+    <div class="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-6 border border-slate-200 dark:border-slate-700">
+        <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-4">📥 Descargar Plantillas</h3>
+
+        <p class="text-sm text-slate-600 dark:text-slate-400 mb-6">
+            Descarga la plantilla para tu tipo de lista. Incluye dos ejemplos para referencia.
+        </p>
+
+        <div class="space-y-3">
+            <?php foreach (DEMANDA_LE_TABLAS as $codigo => $t): ?>
+                <a href="descargar-template.php?tipo=<?= htmlspecialchars($codigo) ?>"
+                   class="flex items-center gap-3 px-4 py-3 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 rounded-lg transition border border-slate-200 dark:border-slate-600">
+                    <span class="text-xl"><?= $t['icono'] ?></span>
+                    <div>
+                        <p class="font-medium text-slate-900 dark:text-white text-sm"><?= htmlspecialchars($t['label']) ?></p>
+                        <p class="text-xs text-slate-600 dark:text-slate-400"><?= htmlspecialchars($t['nombre']) ?></p>
+                    </div>
+                    <span class="ml-auto text-slate-400 dark:text-slate-500">⬇️</span>
+                </a>
+            <?php endforeach; ?>
+        </div>
+
+        <div class="mt-6 pt-6 border-t border-slate-200 dark:border-slate-700">
+            <h4 class="text-sm font-semibold text-slate-900 dark:text-white mb-3">📊 Columnas Requeridas</h4>
+            <p class="text-xs text-slate-600 dark:text-slate-400 mb-3">
+                Total de columnas: <strong><?= count(DEMANDA_LE_COLUMNAS) ?></strong>
+            </p>
+            <div class="bg-slate-50 dark:bg-slate-900/30 rounded-lg p-3 max-h-40 overflow-y-auto">
+                <ul class="text-xs text-slate-600 dark:text-slate-400 space-y-1">
+                    <?php foreach (DEMANDA_LE_COLUMNAS as $col): ?>
+                        <li class="font-mono">• <?= htmlspecialchars($col) ?></li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+
+            <div class="mt-6 pt-6 border-t border-slate-200 dark:border-slate-700">
+                <a href="README_TEMPLATE.md" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 rounded-lg text-xs font-medium text-slate-900 dark:text-white transition">
+                    📖 Ver documentación completa
+                    <span class="text-slate-400">↗</span>
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
 
 <?php layoutFooter(); ?>

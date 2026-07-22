@@ -117,13 +117,11 @@ define('CATEGORIAS_LISTAS', [
     ],
 ]);
 
-// ESTADOS DE INTERCONSULTAS
+// ESTADOS DE INTERCONSULTAS (demanda_cne/iq/proc tables)
+// Nota: Los datos reales solo contienen estos dos estados
 define('ESTADOS_INTERCONSULTA', [
-    'PENDIENTE' => 'Pendiente',
-    'EN_GESTION' => 'En Gestión',
-    'CITADA' => 'Citada',
-    'ATENDIDA' => 'Atendida',
-    'CERRADA' => 'Cerrada',
+    'VIGENTE' => 'En Espera',
+    'EGRESADO' => 'Atendido/Egresado',
 ]);
 
 // PRIORIDADES

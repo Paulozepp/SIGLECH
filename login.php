@@ -10,11 +10,17 @@ require_once __DIR__ . '/db.php';
 
 // Si ya está autenticado, redirigir al dashboard
 if (!empty($_SESSION['usuario_id'])) {
-    header('Location: /SIGLECH//SIGLECH/index.php');
+    header('Location: /SIGLECH/index.php');
     exit;
 }
 
 $error = '';
+$success = '';
+
+// Verificar si viene de un logout
+if (isset($_GET['loggedout'])) {
+    $success = 'Sesión cerrada exitosamente';
+}
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $usuario = trim($_POST['usuario'] ?? '');
@@ -114,6 +120,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             class="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-700 text-slate-900 dark:text-white placeholder-slate-400 focus:ring-2 focus:ring-brand-500 focus:border-transparent outline-none"
                         >
                     </div>
+
+                    <!-- Mensaje de Éxito -->
+                    <?php if ($success): ?>
+                        <div class="bg-green-50 dark:bg-green-900/30 border border-green-200 dark:border-green-800 text-green-800 dark:text-green-200 px-4 py-3 rounded-lg text-sm">
+                            ✅ <?= htmlspecialchars($success) ?>
+                        </div>
+                    <?php endif; ?>
 
                     <!-- Error -->
                     <?php if ($error): ?>
