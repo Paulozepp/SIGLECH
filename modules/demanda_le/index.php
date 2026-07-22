@@ -30,23 +30,22 @@ $porPagina   = REGISTROS_POR_PAGINA;
 $offset      = ($pagina - 1) * $porPagina;
 
 $where  = [];
-$params = [];
 
 if ($buscar !== '') {
-    $where[] = '(RUN LIKE :buscar OR NOMBRES LIKE :buscar OR PRIMER_APELLIDO LIKE :buscar OR SEGUNDO_APELLIDO LIKE :buscar)';
-    $params['buscar'] = '%' . $buscar . '%';
+    $buscar_quoted = $pdo->quote('%' . $buscar . '%');
+    $where[] = "(RUN LIKE {$buscar_quoted} OR NOMBRES LIKE {$buscar_quoted} OR PRIMER_APELLIDO LIKE {$buscar_quoted} OR SEGUNDO_APELLIDO LIKE {$buscar_quoted})";
 }
 if ($estado !== '') {
-    $where[] = 'ESTADO = :estado';
-    $params['estado'] = $estado;
+    $estado_quoted = $pdo->quote($estado);
+    $where[] = "ESTADO = {$estado_quoted}";
 }
 if ($especialidad !== '') {
-    $where[] = 'ESPECIALIDAD_ESTANDAR = :especialidad';
-    $params['especialidad'] = $especialidad;
+    $especialidad_quoted = $pdo->quote($especialidad);
+    $where[] = "ESPECIALIDAD_ESTANDAR = {$especialidad_quoted}";
 }
 if ($sigteId !== '') {
-    $where[] = 'SIGTE_ID LIKE :sigte_id';
-    $params['sigte_id'] = '%' . $sigteId . '%';
+    $sigteId_quoted = $pdo->quote('%' . $sigteId . '%');
+    $where[] = "SIGTE_ID LIKE {$sigteId_quoted}";
 }
 
 $whereSql = $where ? ('WHERE ' . implode(' AND ', $where)) : '';
@@ -78,43 +77,23 @@ $especialidadesDisponibles = $pdo->query("
 ")->fetchAll(PDO::FETCH_COLUMN);
 
 // --- Resultados filtrados + paginación ---
-// Usar query directo para COUNT (sin prepared statements para evitar problemas PDO)
-if (!empty($where)) {
-    $sqlCount = "SELECT COUNT(*) FROM {$tabla} WHERE " . implode(' AND ', $where);
-    $stmtTotal = $pdo->prepare($sqlCount);
-    $stmtTotal->execute($params);
-} else {
-    $sqlCount = "SELECT COUNT(*) FROM {$tabla}";
-    $stmtTotal = $pdo->query($sqlCount);
-}
+// Usar query directo (valores ya están quoted con $pdo->quote())
+$sqlCount = "SELECT COUNT(*) FROM {$tabla}" . ($whereSql ? " {$whereSql}" : "");
+$stmtTotal = $pdo->query($sqlCount);
 $totalFiltrado = (int)$stmtTotal->fetchColumn();
 $totalPaginas  = max(1, (int)ceil($totalFiltrado / $porPagina));
 
 // --- Seleccionar registros con filtros ---
-if (!empty($where)) {
-    $sql = "
-        SELECT id, RUN, DV, NOMBRES, PRIMER_APELLIDO, SEGUNDO_APELLIDO,
-               ESPECIALIDAD_ESTANDAR, ESTADO, NOMBRE_ORIG, NOMBRE_DEST,
-               F_ENTRADA, DIAS_ESPERA, SIGTE_ID
-        FROM {$tabla}
-        WHERE " . implode(' AND ', $where) . "
-        ORDER BY F_ENTRADA DESC
-        LIMIT {$porPagina} OFFSET {$offset}
-    ";
-    $stmt = $pdo->prepare($sql);
-    $stmt->execute($params);
-    $filas = $stmt->fetchAll();
-} else {
-    $sql = "
-        SELECT id, RUN, DV, NOMBRES, PRIMER_APELLIDO, SEGUNDO_APELLIDO,
-               ESPECIALIDAD_ESTANDAR, ESTADO, NOMBRE_ORIG, NOMBRE_DEST,
-               F_ENTRADA, DIAS_ESPERA, SIGTE_ID
-        FROM {$tabla}
-        ORDER BY F_ENTRADA DESC
-        LIMIT {$porPagina} OFFSET {$offset}
-    ";
-    $filas = $pdo->query($sql)->fetchAll();
-}
+$sql = "
+    SELECT id, RUN, DV, NOMBRES, PRIMER_APELLIDO, SEGUNDO_APELLIDO,
+           ESPECIALIDAD_ESTANDAR, ESTADO, NOMBRE_ORIG, NOMBRE_DEST,
+           F_ENTRADA, DIAS_ESPERA, SIGTE_ID
+    FROM {$tabla}
+    " . ($whereSql ? $whereSql : "") . "
+    ORDER BY F_ENTRADA DESC
+    LIMIT {$porPagina} OFFSET {$offset}
+";
+$filas = $pdo->query($sql)->fetchAll();
 
 function demandaLeTabUrl(string $tipo, array $extra = []): string {
     $params = array_merge(['tipo' => $tipo], $extra);
