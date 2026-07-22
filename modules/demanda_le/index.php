@@ -78,23 +78,35 @@ $especialidadesDisponibles = $pdo->query("
 ")->fetchAll(PDO::FETCH_COLUMN);
 
 // --- Resultados filtrados + paginación ---
-$stmtTotal = $pdo->prepare("SELECT COUNT(*) FROM {$tabla} {$whereSql}");
-$stmtTotal->execute($params);
+$sqlCountBase = "SELECT COUNT(*) FROM {$tabla}";
+$sqlCountFull = $whereSql ? "{$sqlCountBase} {$whereSql}" : $sqlCountBase;
+
+if ($whereSql && !empty($params)) {
+    $stmtTotal = $pdo->prepare($sqlCountFull);
+    $stmtTotal->execute($params);
+} else {
+    $stmtTotal = $pdo->query($sqlCountFull);
+}
 $totalFiltrado = (int)$stmtTotal->fetchColumn();
 $totalPaginas  = max(1, (int)ceil($totalFiltrado / $porPagina));
 
-$sql = "
+// --- Seleccionar registros con filtros ---
+$sqlBase = "
     SELECT id, RUN, DV, NOMBRES, PRIMER_APELLIDO, SEGUNDO_APELLIDO,
            ESPECIALIDAD_ESTANDAR, ESTADO, NOMBRE_ORIG, NOMBRE_DEST,
            F_ENTRADA, DIAS_ESPERA, SIGTE_ID
-    FROM {$tabla}
-    {$whereSql}
-    ORDER BY F_ENTRADA DESC
-    LIMIT {$porPagina} OFFSET {$offset}
-";
-$stmt = $pdo->prepare($sql);
-$stmt->execute($params);
-$filas = $stmt->fetchAll();
+    FROM {$tabla}";
+
+$sql = $whereSql ? "{$sqlBase} {$whereSql}" : $sqlBase;
+$sql .= " ORDER BY F_ENTRADA DESC LIMIT {$porPagina} OFFSET {$offset}";
+
+if ($whereSql && !empty($params)) {
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute($params);
+    $filas = $stmt->fetchAll();
+} else {
+    $filas = $pdo->query($sql)->fetchAll();
+}
 
 function demandaLeTabUrl(string $tipo, array $extra = []): string {
     $params = array_merge(['tipo' => $tipo], $extra);
