@@ -1,0 +1,34 @@
+{
+  "nombre": "Integración Python",
+  "slug": "integracion_python",
+  "descripcion": "Monitor de datos recibidos desde Navegador de Paciente",
+  "icono": "🐍",
+  "url": "/SIGLECH/modules/integracion_python/",
+  "permisos_requeridos": ["gestor", "admin"],
+  "version": "1.0.0",
+  "activo": true,
+  "integraciones": [
+    {
+      "nombre": "Navegador de Paciente",
+      "tipo": "python",
+      "endpoint": "/api/v1/importar/json",
+      "metodo": "POST",
+      "estado": "activo"
+    }
+  ],
+  "estadisticas": {
+    "tipo_documento": "importaciones",
+    "filtro": "metodo = 'json'",
+    "campos": [
+      "tipo",
+      "total_registros",
+      "estado",
+      "fecha_creacion"
+    ]
+  },
+  "menu": {
+    "orden": 8,
+    "grupo": "integraciones",
+    "visible": true
+  }
+}
